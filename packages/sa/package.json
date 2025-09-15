@@ -1,0 +1,40 @@
+{
+  "name": "@wxstack/sa",
+  "version": "0.1.0",
+  "description": "wxstack sa",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "auth/",
+    "lib/",
+    "middleware/",
+    "request/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "echo \"no build\"",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxstack/wxstack.git",
+    "directory": "packages/sa"
+  },
+  "bugs": {
+    "url": "https://github.com/wxstack/wxstack/issues"
+  },
+  "homepage": "https://github.com/wxstack/wxstack#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
