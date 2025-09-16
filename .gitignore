@@ -1,6 +1,7 @@
 /.idea
 /node_modules
 /packages/oa/node_modules
-/docs/.vitepress
+/docs/.vitepress/dist
+/docs/.vitepress/cache
 /docs/.wrangler
 /docs/node_modules
