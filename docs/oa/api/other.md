@@ -7,255 +7,395 @@ outline: deep
 
 > 订阅号/服务号通用
 
-## 快速上手
-
-```ts
-import { createClient } from '@wxstack/oa';
-
-const client = createClient({
-  appId: 'wx_your_appid',
-  appSecret: 'your_secret'
-});
-
-// 订阅号/服务号均可用。
-```
-
 ## 方法
 
 ### addVoiceToRecoForText()
 提交语音用于识别（异步）
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_addvoicetorecofortext.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_addvoicetorecofortext.html)
 
-签名：`addVoiceToRecoForText(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{voice_id:string, lang:string, format?:string, voice_url?:string, file_id?:string, voice_data?:string, rate?:number}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+addVoiceToRecoForText(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{voice_id:string, lang:string, format?:string, voice_url?:string, file_id?:string, voice_data?:string, rate?:number}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.addVoiceToRecoForText(client, payload);
+await client.addVoiceToRecoForText(payload);
 ```
 
 ### bankcardOcr()
 银行卡 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_bankcardocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_bankcardocr.html)
 
-签名：`bankcardOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+bankcardOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.bankcardOcr(client, payload);
+await client.bankcardOcr(payload);
 ```
 
 ### bizLicenseOcr()
 营业执照 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_bizlicenseocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_bizlicenseocr.html)
 
-签名：`bizLicenseOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+bizLicenseOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.bizLicenseOcr(client, payload);
+await client.bizLicenseOcr(payload);
 ```
 
 ### commOcr()
 通用印刷体 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_commocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_commocr.html)
 
-签名：`commOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+commOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.commOcr(client, payload);
+await client.commOcr(payload);
 ```
 
 ### drivingLicenseOcr()
 驾驶证 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_drivinglicenseocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_drivinglicenseocr.html)
 
-签名：`drivingLicenseOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+drivingLicenseOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.drivingLicenseOcr(client, payload);
+await client.drivingLicenseOcr(payload);
 ```
 
 ### drivingOcr()
 行驶证 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_drivingocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_drivingocr.html)
 
-签名：`drivingOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+drivingOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.drivingOcr(client, payload);
+await client.drivingOcr(payload);
 ```
 
 ### getTicket()
 获取 API ticket（jsapi 或 wx_card）
-文档: https://developers.weixin.qq.com/doc/service/api/webdev/jssdk/api_getticket.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/webdev/jssdk/api_getticket.html)
 
-签名：`getTicket(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{type:'jsapi'|'wx_card'}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string, ticket:string, expires_in:number}>`
+#### 签名
+```ts
+getTicket(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{type:'jsapi'\|'wx_card'}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string, ticket:string, expires_in:number}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getTicket(client, params);
+await client.getTicket(params);
 ```
 
 ### idcardOcr()
 身份证 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_idcardocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_idcardocr.html)
 
-签名：`idcardOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+idcardOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.idcardOcr(client, payload);
+await client.idcardOcr(payload);
 ```
 
 ### imgAiCrop()
 智能裁剪
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/image/api_imgaicrop.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/image/api_imgaicrop.html)
 
-签名：`imgAiCrop(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+imgAiCrop(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.imgAiCrop(client, payload);
+await client.imgAiCrop(payload);
 ```
 
 ### imgQrcode()
 二维码/条码识别
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/image/api_imgqrcode.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/image/api_imgqrcode.html)
 
-签名：`imgQrcode(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+imgQrcode(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.imgQrcode(client, payload);
+await client.imgQrcode(payload);
 ```
 
 ### menuOcr()
 菜单 OCR
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_menuocr.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ocr/api_menuocr.html)
 
-签名：`menuOcr(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{img_url?:string, img?:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+menuOcr(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{img_url?:string, img?:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.menuOcr(client, payload);
+await client.menuOcr(payload);
 ```
 
 ### queryRecoResultForText()
 查询语音识别结果
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_queryrecoresultfortext.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_queryrecoresultfortext.html)
 
-签名：`queryRecoResultForText(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{voice_id:string, lang:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+queryRecoResultForText(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{voice_id:string, lang:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.queryRecoResultForText(client, payload);
+await client.queryRecoResultForText(payload);
 ```
 
 ### snsAccessToken()
 通过 code 换取网页授权 access_token
-文档: https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsaccesstoken.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsaccesstoken.html)
 
-签名：`snsAccessToken(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{appid:string, secret:string, code:string, grant_type?:'authorization_code'}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+snsAccessToken(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{appid:string, secret:string, code:string, grant_type?:'authorization_code'}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.snsAccessToken(client, params);
+await client.snsAccessToken(params);
 ```
 
 ### snsAuth()
 检验授权凭证（access_token）是否有效
-文档: https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsauth.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsauth.html)
 
-签名：`snsAuth(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{access_token:string, openid:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+snsAuth(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{access_token:string, openid:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.snsAuth(client, params);
+await client.snsAuth(params);
 ```
 
 ### snsRefreshToken()
 刷新网页授权 access_token
-文档: https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsrefreshtoken.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsrefreshtoken.html)
 
-签名：`snsRefreshToken(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{appid:string, refresh_token:string, grant_type?:'refresh_token'}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+snsRefreshToken(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{appid:string, refresh_token:string, grant_type?:'refresh_token'}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.snsRefreshToken(client, params);
+await client.snsRefreshToken(params);
 ```
 
 ### snsUserInfo()
 拉取用户信息（scope\=snsapi_userinfo）
-文档: https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsuserinfo.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/webdev/access/api_snsuserinfo.html)
 
-签名：`snsUserInfo(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{access_token:string, openid:string, lang?:'zh_CN'|'zh_TW'|'en'}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+snsUserInfo(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{access_token:string, openid:string, lang?:'zh_CN'\|'zh_TW'\|'en'}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.snsUserInfo(client, params);
+await client.snsUserInfo(params);
 ```
 
 ### translateContent()
 翻译内容
-文档: https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_translatecontent.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/openpoc/ai/api_translatecontent.html)
 
-签名：`translateContent(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{lfrom:string, lto:string, content:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+translateContent(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{lfrom:string, lto:string, content:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.translateContent(client, payload);
+await client.translateContent(payload);
 ```

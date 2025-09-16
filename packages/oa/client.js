@@ -1468,6 +1468,7 @@ export class SaClient {
      */
     async imgQrcode(payload) { return _imgQrcode(this, payload); }
 
+
     static verifySignature(token, timestamp, nonce, signature) {
         return verifySignature(token, timestamp, nonce, signature);
     }

@@ -15,12 +15,17 @@ const VP_DIR = path.join(SITE_DOCS_DIR, '.vitepress');
 
 // oa 包源码与文档目录
 const OA_PKG_DIR = path.join(ROOT, 'packages', 'oa');
-const OA_ACTIONS_DIR = path.join(OA_PKG_DIR, 'request', 'actions');
+// 兼容两种源码布局
+const ACTIONS_CANDIDATES = [
+    path.join(OA_PKG_DIR, 'request', 'actions'),
+    path.join(OA_PKG_DIR, 'src', 'request', 'actions')
+];
+let OA_ACTIONS_DIR = '';
 const OA_DOCS_DIR = path.join(SITE_DOCS_DIR, 'oa');
 const OA_API_DIR = path.join(OA_DOCS_DIR, 'api');
 const OA_GUIDE_DIR = path.join(OA_DOCS_DIR, 'guide');
 
-// 仅服务号可用模块标签
+// 仅服务号可用模块标签（按模块名）
 const SERVICE_ONLY = new Set(['customer']);
 
 // 小工具
@@ -33,6 +38,18 @@ const writeIfChanged = async (file, content) => {
         if (old === content) return;
     }
     await fs.outputFile(file, content);
+};
+const escapeTableCell = (s = '') => String(s).replace(/\|/g, '\\|').replace(/\n/g, ' ');
+const firstUrl = (s = '') => {
+    const m = s.match(/https?:\/\/[^\s)\]]+/i);
+    return m?.[0] || null;
+};
+const withOfficialDocLink = (desc = '') => {
+    const url = firstUrl(desc);
+    if (!url) return escapeMdAttrBracesInText(desc.trim());
+    const onlyUrl = desc.trim() === url;
+    const replaced = onlyUrl ? `[查看官方文档](${url})` : desc.replace(url, `[查看官方文档](${url})`);
+    return escapeMdAttrBracesInText(replaced.trim());
 };
 
 // 从源码里粗略匹配方法签名
@@ -48,7 +65,11 @@ function guessParamListFromSource(source, methodName) {
     const m = source.match(re);
     const params = m?.[1] ?? m?.[2] ?? m?.[3];
     if (!params) return '...args';
-    const pretty = params.split(',').map((s) => s.trim()).filter(Boolean).join(', ');
+    const pretty = params
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean)
+        .join(', ');
     return pretty || '...args';
 }
 
@@ -119,7 +140,9 @@ async function readActionModule(file) {
         const jsdocParamsSig = buildParamsFromJsDoc(jsdoc);
         const sig = jsdocParamsSig || guessParamListFromSource(source, name) || '...args';
 
-        const description = (jsdoc?.description || '').trim();
+        const rawDesc = (jsdoc?.description || '').trim();
+        const description = withOfficialDocLink(rawDesc);
+
         const params = (jsdoc?.tags || [])
             .filter((t) => t.tag === 'param')
             .map((t) => ({
@@ -127,18 +150,31 @@ async function readActionModule(file) {
                 type: t.type || '',
                 optional: !!t.optional,
                 default: t.default || '',
-                description: (t.description || '').trim()
+                description: escapeMdAttrBracesInText((t.description || '').trim())
             }));
+
         const returnsTag = (jsdoc?.tags || []).find((t) => t.tag === 'returns' || t.tag === 'return');
-        const returns = returnsTag ? { type: returnsTag.type || '', description: (returnsTag.description || '').trim() } : null;
+        const returns = returnsTag
+            ? {
+                type: returnsTag.type || '',
+                description: escapeMdAttrBracesInText((returnsTag.description || '').trim())
+            }
+            : null;
+
         const examples = (jsdoc?.tags || [])
             .filter((t) => t.tag === 'example')
-            .map((t) => (t.source?.[0]?.tokens?.postDescription ? t.source.map((s) => s.source).join('\n') : t.description || ''))
+            .map((t) =>
+                t.source?.[0]?.tokens?.postDescription ? t.source.map((s) => s.source).join('\n') : t.description || ''
+            )
             .map((s) => s.trim())
             .filter(Boolean);
+
         const throws = (jsdoc?.tags || [])
             .filter((t) => t.tag === 'throws' || t.tag === 'exception')
-            .map((t) => ({ type: t.type || '', description: (t.description || '').trim() }));
+            .map((t) => ({
+                type: t.type || '',
+                description: escapeMdAttrBracesInText((t.description || '').trim())
+            }));
 
         return { name, params: sig, doc: { description, params, returns, examples, throws } };
     });
@@ -146,38 +182,44 @@ async function readActionModule(file) {
     return { actionName, methods, serviceOnly: SERVICE_ONLY.has(actionName) };
 }
 
-// 生成某 action 的 Markdown（client.方法）
+// 参数表格
+function renderParamsTable(paramList = []) {
+    if (!paramList.length) return '';
+    const header = '| 参数 | 类型 | 必填 | 默认值 | 说明 |\n|---|---|:---:|---|---|';
+    const rows = paramList.map((p) => {
+        const name = '`' + escapeTableCell(p.name) + '`';
+        const type = p.type ? '`' + escapeTableCell(p.type) + '`' : '`any`';
+        const required = p.optional ? '否' : '是';
+        const def = p.default ? '`' + escapeTableCell(p.default) + '`' : '';
+        const desc = escapeTableCell(p.description || '');
+        return `| ${name} | ${type} | ${required} | ${def} | ${desc} |`;
+    });
+    return [header, ...rows].join('\n');
+}
+
+// 生成某 action 的 Markdown（仅方法列表）
 function renderActionMd(action) {
     const { actionName, methods, serviceOnly } = action;
     const title = `${titleCase(actionName)} API`;
 
-    const importSample = `
-import { createClient } from '@wxstack/oa';
-
-const client = createClient({
-  appId: 'wx_your_appid',
-  appSecret: 'your_secret'
-});
-
-// ${serviceOnly ? '此模块仅服务号可用。' : '订阅号/服务号均可用。'}
-`.trim();
-
     const sections = methods.map((m) => {
-        const callLine = `await client.${m.name}(${m.params});`;
+        // 去掉公开调用不需要的 client 形参
+        const publicParams = (m.params || '').replace(/^\s*client\s*,?\s*/, '').trim();
+        const callLine = `await client.${m.name}(${publicParams});`;
         const doc = m.doc || {};
         const desc = doc.description ? `${doc.description}\n` : '';
 
-        const paramLines = (doc.params || []).map((p) => {
-            const need = p.optional ? '可选' : '必填';
-            const type = p.type ? `\`${p.type}\`` : '`any`';
-            const def = p.default ? `，默认：\`${p.default}\`` : '';
-            const dsc = p.description ? `：${p.description}` : '';
-            return `- \`${p.name}\` (${type}，${need}${def})${dsc}`;
-        });
-        const paramsBlock = paramLines.length ? ['参数：', ...paramLines].join('\n') : '';
+        // 过滤掉 client 行
+        const paramRows = (doc.params || []).filter((p) => p.name !== 'client');
+        const paramsTable = renderParamsTable(paramRows);
 
         const returnsBlock = doc.returns
-            ? `返回值：\`${doc.returns.type || 'any'}\`${doc.returns.description ? ` - ${doc.returns.description}` : ''}`
+            ? [
+                '#### 返回值',
+                '',
+                doc.returns.type ? `类型：\`${doc.returns.type}\`` : '类型：`any`',
+                doc.returns.description ? `\n\n说明：${doc.returns.description}` : ''
+            ].join('\n')
             : '';
 
         const throwsLines = (doc.throws || []).map((t) => {
@@ -185,39 +227,39 @@ const client = createClient({
             const dsc = t.description || '';
             return `- ${type}${type && dsc ? ' - ' : ''}${dsc}`;
         });
-        const throwsBlock = throwsLines.length ? ['可能抛出：', ...throwsLines].join('\n') : '';
+        const throwsBlock = throwsLines.length ? ['#### 可能抛出', '', ...throwsLines].join('\n') : '';
 
         const exampleBlocks =
             doc.examples && doc.examples.length
                 ? doc.examples.map((ex) => codeFence('ts', ex)).join('\n\n')
                 : codeFence('ts', `// 用法示例\n${callLine}`);
 
-        return [
+        const parts = [
             `### ${m.name}()`,
             '',
             desc,
-            `签名：\`${m.name}(${m.params})\``,
+            '#### 签名',
             '',
-            paramsBlock,
-            paramsBlock ? '' : '',
+            codeFence('ts', `${m.name}(${publicParams})`),
+            '',
+            paramsTable ? '#### 参数\n\n' + paramsTable : '',
+            '',
             returnsBlock,
-            returnsBlock ? '' : '',
+            '',
             throwsBlock,
-            throwsBlock ? '' : '',
+            '',
+            '#### 示例',
+            '',
             exampleBlocks
-        ]
-            .filter(Boolean)
-            .join('\n');
+        ];
+
+        return parts.filter(Boolean).join('\n');
     });
 
     const body = [
         `# ${title}`,
         '',
         serviceOnly ? '> 仅服务号可用' : '> 订阅号/服务号通用',
-        '',
-        '## 快速上手',
-        '',
-        codeFence('ts', importSample),
         '',
         '## 方法',
         '',
@@ -229,18 +271,20 @@ const client = createClient({
 
 // 扫描 oa 内的 createClient JSDoc
 async function findCreateClientJsDoc() {
-    const files = await globby(['**/*.{js,mjs,ts,cts,mts}'], { cwd: OA_PKG_DIR, absolute: true, gitignore: true });
+    const files = await globby(['**/*.{js,mjs,ts,cts,mts}'], {
+        cwd: OA_PKG_DIR,
+        absolute: true,
+        gitignore: true
+    });
     for (const file of files) {
         const source = await fs.readFile(file, 'utf8');
-        const idx =
-            source.search(/\bexport\s+function\s+createClient\s*\(/) >= 0
-                ? source.search(/\bexport\s+function\s+createClient\s*\(/)
-                : source.search(/\bfunction\s+createClient\s*\(/) >= 0
-                    ? source.search(/\bfunction\s+createClient\s*\(/)
-                    : source.search(/\bexport\s+const\s+createClient\s*=\s*\(/) >= 0
-                        ? source.search(/\bexport\s+const\s+createClient\s*=\s*\(/)
-                        : source.search(/\bconst\s+createClient\s*=\s*\(/);
-
+        const idxs = [
+            source.search(/\bexport\s+function\s+createClient\s*\(/),
+            source.search(/\bfunction\s+createClient\s*\(/),
+            source.search(/\bexport\s+const\s+createClient\s*=\s*\(/),
+            source.search(/\bconst\s+createClient\s*=\s*\(/)
+        ].filter((i) => i >= 0);
+        const idx = Math.min(...(idxs.length ? idxs : [-1]));
         if (idx < 0) continue;
 
         const start = source.lastIndexOf('/**', idx);
@@ -273,9 +317,29 @@ function renderCreateClientOptions(jsdoc) {
     return [header, ...rows].join('\n');
 }
 
+const escapeMdAttrBracesInText = (text = '') => {
+    if (!text) return '';
+    let out = '';
+    let inCode = false; // 保护反引号中的内容
+    for (let i = 0; i < text.length; i++) {
+        const ch = text[i];
+        if (ch === '`') {
+            inCode = !inCode;
+            out += ch;
+            continue;
+        }
+        if (!inCode && (ch === '{' || ch === '}')) {
+            out += ch === '{' ? '&#123;' : '&#125;';
+        } else {
+            out += ch;
+        }
+    }
+    return out;
+};
+
 // 生成站点总览与 oa 分区
 async function ensureScaffold(createClientJsDoc) {
-    // 站点首页（wxstack）
+    // 站点首页（wxstack，提供明显的 SDK 导航）
     const siteIndex = `---
 title: wxstack
 layout: home
@@ -285,55 +349,64 @@ hero:
   tagline: 覆盖公众号、微信小程序、企业微信、支付等生态能力
   actions:
     - theme: brand
-      text: 查看文档
-      link: /oa/
+      text: 公众号（oa）文档
+      link: /oa/guide/getting-started
     - theme: alt
       text: GitHub
       link: https://github.com/wxstack/wxstack
 features:
-  - title: Monorepo
-    details: 多分包协作，类型与接口统一
-  - title: 生态完备
-    details: 公众号、微信小程序、企业微信、支付、商店等
-  - title: 文档与示例
-    details: 完善的使用文档与代码示例
+  - title: 公众号（oa）
+    details: 订阅号/服务号统一封装与权限守卫
+  - title: 小程序（mp）
+    details: 敬请期待
+  - title: 企业微信（corp）
+    details: 敬请期待
+  - title: 支付（pay）
+    details: 敬请期待
 ---
 `;
     await writeIfChanged(path.join(SITE_DOCS_DIR, 'index.md'), siteIndex);
 
-    // oa 分区首页
-    const oaIndex = `---
-title: wxstack/oa
-layout: home
-hero:
-  name: wxstack/oa
-  text: 微信公众号（订阅号/服务号）统一 SDK
-  tagline: 同一套 API，自动守卫权限差异
-  actions:
-    - theme: brand
-      text: 快速开始
-      link: /oa/guide/getting-started
-    - theme: alt
-      text: API 文档
-      link: /oa/api/
-features:
-  - title: 统一封装
-    details: 订阅号与服务号 API 一体化封装
-  - title: 代码示例
-    details: 每个方法配模板示例，开箱即用
----
-`;
-    await writeIfChanged(path.join(OA_DOCS_DIR, 'index.md'), oaIndex);
+    const installGroup = `::: code-group
+\`\`\`bash [pnpm]
+pnpm add @wxstack/oa
+\`\`\`
 
-    // oa 指南
+\`\`\`bash [npm]
+npm add @wxstack/oa
+\`\`\`
+
+\`\`\`bash [yarn]
+yarn add @wxstack/oa
+\`\`\`
+
+\`\`\`bash [bun]
+bun add @wxstack/oa
+\`\`\`
+
+:::
+`;
+
+    // oa 指南：快速开始（增加 npm/pnpm/yarn 安装示例，保持 appId/appSecret）
     const gettingStarted = `---
 title: 快速开始
 ---
 
 # 快速开始
 
-- 安装：\`npm i @wxstack/oa\`
-- 初始化：
+## 安装
+
+${installGroup}
+
+::: tip 注意
+
+wxstack 是仅 ESM 的软件包。不要使用 \`require()\` 导入它，并确保最新的 \`package.json\` 包含 \`"type": "module"\`
+
+我们推荐使用支持 ESM 的 Node.js 版本（16+）, 并且使用pnpm作为包管理器以获得最佳体验。
+
+:::
+
+## 创建客户端
 
 ${codeFence(
         'ts',
@@ -347,15 +420,15 @@ const client = createClient({
 `.trim()
     )}
 
-- 调用：
+## 测试调用
 
-${codeFence('ts', `await client.functionName(); // 示例`)}
+${codeFence('ts', `await client.ping(); // 示例`)}
 
 ${renderCreateClientOptions(createClientJsDoc)}
 `;
     await writeIfChanged(path.join(OA_GUIDE_DIR, 'getting-started.md'), gettingStarted);
 
-    // oa API 索引（改为 index.md，避免 /oa/api 404）
+    // oa API 索引（必须为 index.md，避免 /oa/api 404）
     const apiIndex = `---
 title: API 索引
 ---
@@ -367,7 +440,7 @@ title: API 索引
     await writeIfChanged(path.join(OA_API_DIR, 'index.md'), apiIndex);
 }
 
-// 生成 VitePress 配置（wxstack 总站点 \+ oa 分区侧边栏）
+// 生成 VitePress 配置（wxstack 总站点，oa 使用单一侧边栏前缀）
 function renderVitepressConfig(sidebarGroups) {
     return `import { defineConfig } from 'vitepress';
 
@@ -377,17 +450,8 @@ export default defineConfig({
   description: 'Node 微信生态开发 SDK 文档',
   themeConfig: {
     nav: [
-      { text: '总览', link: '/' },
-      {
-        text: 'SDK',
-        items: [
-          { text: '公众号（oa）', link: '/oa/' },
-          { text: '小程序（mp）', link: '/mp/' },
-          { text: '企业微信（wecom）', link: '/wecom/' },
-          { text: '微信支付（pay）', link: '/pay/' },
-          { text: '商店（shop）', link: '/shop/' }
-        ]
-      }
+      { text: '首页', link: '/' },
+      { text: '公众号（oa）', link: '/oa/guide/getting-started' }
     ],
     sidebar: ${sidebarGroups},
     socialLinks: [
@@ -399,16 +463,22 @@ export default defineConfig({
 }
 
 async function main() {
-    const exists = await fs.pathExists(OA_ACTIONS_DIR);
-    if (!exists) {
-        console.error(`未找到动作目录：${OA_ACTIONS_DIR}`);
+    // 选择实际存在的 actions 目录
+    for (const p of ACTIONS_CANDIDATES) {
+        if (await fs.pathExists(p)) {
+            OA_ACTIONS_DIR = p;
+            break;
+        }
+    }
+    if (!OA_ACTIONS_DIR) {
+        console.error('未找到动作目录，已尝试以下路径：\n' + ACTIONS_CANDIDATES.map((p) => ' - ' + p).join('\n'));
         process.exit(1);
     }
 
     // 解析 createClient 的 JSDoc
     const createClientJsDoc = await findCreateClientJsDoc();
 
-    // 脚手架：总站与 oa 分区
+    // 脚手架：总站首页、oa 指南与 API 索引
     await ensureScaffold(createClientJsDoc);
 
     // 扫描 oa actions 生成 API 页面
@@ -436,10 +506,18 @@ async function main() {
             link: `/oa/api/${a.actionName}`
         }));
 
-    // 侧边栏：仅配置 oa 路由前缀
+    // 单一侧边栏前缀：/oa/（包含指南与 API）
     const sidebarObj = {
-        '/oa/guide/': [{ text: '指南', items: [{ text: '快速开始', link: '/oa/guide/getting-started' }] }],
-        '/oa/api/': [{ text: 'API', items: [{ text: '索引', link: '/oa/api/' }, ...apiItems] }]
+        '/oa/': [
+            {
+                text: '指南',
+                items: [{ text: '快速开始', link: '/oa/guide/getting-started' }]
+            },
+            {
+                text: 'API',
+                items: [{ text: '索引', link: '/oa/api/' }, ...apiItems]
+            }
+        ]
     };
     const sidebarGroups = JSON.stringify(sidebarObj, null, 2);
 
@@ -457,8 +535,8 @@ async function main() {
     console.log('文档生成完成：');
     console.log(`- oa 模块页面：${actions.length} 个，输出到 'docs/oa/api'`);
     console.log(`- oa 指南：'docs/oa/guide/getting-started.md'`);
-    console.log(`- 站点首页：'docs/index.md'，oa 首页：'docs/oa/index.md'`);
-    console.log(`- 配置：'docs/.vitepress/config.ts'`);
+    console.log(`- 站点首页：'docs/index.md'（含 SDK 导航卡片）`);
+    console.log(`- 配置：'docs/.vitepress/config.ts'（/oa/ 合并侧边栏）`);
 }
 
 main().catch((err) => {

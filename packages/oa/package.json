@@ -24,7 +24,7 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wxstack/wxstack.git",
-    "directory": "packages/sa"
+    "directory": "packages/oa"
   },
   "bugs": {
     "url": "https://github.com/wxstack/wxstack/issues"

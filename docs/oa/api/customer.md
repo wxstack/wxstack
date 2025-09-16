@@ -7,224 +7,334 @@ outline: deep
 
 > 仅服务号可用
 
-## 快速上手
-
-```ts
-import { createClient } from '@wxstack/oa';
-
-const client = createClient({
-  appId: 'wx_your_appid',
-  appSecret: 'your_secret'
-});
-
-// 此模块仅服务号可用。
-```
-
 ## 方法
 
 ### addKfAccount()
 添加客服账号。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_addkfaccount.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_addkfaccount.html)
 
-签名：`addKfAccount(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{kf_account:string, nickname:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+addKfAccount(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{kf_account:string, nickname:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.addKfAccount(client, payload);
+await client.addKfAccount(payload);
 ```
 
 ### closeSession()
 关闭会话。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_closesession.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_closesession.html)
 
-签名：`closeSession(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{kf_account:string, openid:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+closeSession(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{kf_account:string, openid:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.closeSession(client, payload);
+await client.closeSession(payload);
 ```
 
 ### createKfSession()
 创建会话。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_createkfsession.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_createkfsession.html)
 
-签名：`createKfSession(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{kf_account:string, openid:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+createKfSession(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{kf_account:string, openid:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.createKfSession(client, payload);
+await client.createKfSession(payload);
 ```
 
 ### delKfAccount()
 删除客服账号。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_delkfaccount.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_delkfaccount.html)
 
-签名：`delKfAccount(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{kf_account:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+delKfAccount(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{kf_account:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.delKfAccount(client, params);
+await client.delKfAccount(params);
 ```
 
 ### getKfList()
 获取所有客服账号列表。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_getkflist.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_getkflist.html)
 
-签名：`getKfList(client)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-返回值：`Promise<{kf_list:Array<Object>}>`
+#### 签名
+```ts
+getKfList()
+```
+#### 返回值
+
+类型：`Promise<{kf_list:Array<Object>}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getKfList(client);
+await client.getKfList();
 ```
 
 ### getKfSession()
 获取用户会话状态。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getkfsession.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getkfsession.html)
 
-签名：`getKfSession(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{openid:string}`，必填)
-返回值：`Promise<Object>`
+#### 签名
+```ts
+getKfSession(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{openid:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<Object>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getKfSession(client, params);
+await client.getKfSession(params);
 ```
 
 ### getKfSessionList()
 获取客服的会话列表。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getkfsessionlist.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getkfsessionlist.html)
 
-签名：`getKfSessionList(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{kf_account:string}`，必填)
-返回值：`Promise<{sessionlist:Array<Object>}>`
+#### 签名
+```ts
+getKfSessionList(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{kf_account:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{sessionlist:Array<Object>}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getKfSessionList(client, params);
+await client.getKfSessionList(params);
 ```
 
 ### getMsgList()
 获取客服消息记录。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/message/api_getmsglist.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/message/api_getmsglist.html)
 
-签名：`getMsgList(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{starttime:number, endtime:number, msgid:number, number:number}`，必填)：- 时间为秒级 Unix 时间戳
-返回值：`Promise<{recordlist:Array<Object>}>`
+#### 签名
+```ts
+getMsgList(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{starttime:number, endtime:number, msgid:number, number:number}` | 是 |  | - 时间为秒级 Unix 时间戳 |
+#### 返回值
+
+类型：`Promise<{recordlist:Array<Object>}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getMsgList(client, payload);
+await client.getMsgList(payload);
 ```
 
 ### getOnlineKfList()
 获取在线客服列表。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_getonlinekflist.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_getonlinekflist.html)
 
-签名：`getOnlineKfList(client)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-返回值：`Promise<{kf_online_list:Array<Object>}>`
+#### 签名
+```ts
+getOnlineKfList()
+```
+#### 返回值
+
+类型：`Promise<{kf_online_list:Array<Object>}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getOnlineKfList(client);
+await client.getOnlineKfList();
 ```
 
 ### getWaitCase()
 获取待接入会话列表。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getwaitcase.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/messctrl/api_getwaitcase.html)
 
-签名：`getWaitCase(client)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-返回值：`Promise<{count:number, waitcaselist:Array<Object>}>`
+#### 签名
+```ts
+getWaitCase()
+```
+#### 返回值
+
+类型：`Promise<{count:number, waitcaselist:Array<Object>}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.getWaitCase(client);
+await client.getWaitCase();
 ```
 
 ### inviteKfWorker()
 邀请微信号绑定为客服。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_invitekfworker.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_invitekfworker.html)
 
-签名：`inviteKfWorker(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{kf_account:string, invite_wx:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+inviteKfWorker(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{kf_account:string, invite_wx:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.inviteKfWorker(client, payload);
+await client.inviteKfWorker(payload);
 ```
 
 ### sendCustomMessage()
 发送客服消息。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/message/api_sendcustommessage.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/message/api_sendcustommessage.html)
 
-签名：`sendCustomMessage(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`Object`，必填)：- { touser, msgtype, text/image/news/... }
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+sendCustomMessage(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `Object` | 是 |  | - &#123; touser, msgtype, text/image/news/... &#125; |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.sendCustomMessage(client, payload);
+await client.sendCustomMessage(payload);
 ```
 
 ### typing()
 下发客服输入状态。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/message/api_typing.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/message/api_typing.html)
 
-签名：`typing(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{touser:string, command:'Typing'|'CancelTyping'}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+typing(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{touser:string, command:'Typing'\|'CancelTyping'}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.typing(client, payload);
+await client.typing(payload);
 ```
 
 ### updateKfAccount()
 更新客服账号。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_updatekfaccount.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_updatekfaccount.html)
 
-签名：`updateKfAccount(client, payload)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `payload` (`{kf_account:string, nickname:string}`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+updateKfAccount(payload)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `payload` | `{kf_account:string, nickname:string}` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.updateKfAccount(client, payload);
+await client.updateKfAccount(payload);
 ```
 
 ### uploadKfHeadImg()
 上传客服头像。
-文档: https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_uploadkfheadimg.html
+文档: [查看官方文档](https://developers.weixin.qq.com/doc/service/api/customer/servicermanage/api_uploadkfheadimg.html)
 
-签名：`uploadKfHeadImg(client, params)`
-参数：
-- `client` (`import('../../client.js').SaClient`，必填)
-- `params` (`{kf_account:string} & ({filePath:string} | {file:Buffer|import('stream').Readable, filename?:string, contentType?:string})`，必填)
-返回值：`Promise<{errcode:number, errmsg:string}>`
+#### 签名
+```ts
+uploadKfHeadImg(params)
+```
+#### 参数
+
+| 参数 | 类型 | 必填 | 默认值 | 说明 |
+|---|---|:---:|---|---|
+| `params` | `{kf_account:string} & ({filePath:string} \| {file:Buffer\|import('stream').Readable, filename?:string, contentType?:string})` | 是 |  |  |
+#### 返回值
+
+类型：`Promise<{errcode:number, errmsg:string}>`
+
+#### 示例
 ```ts
 // 用法示例
-await client.uploadKfHeadImg(client, params);
+await client.uploadKfHeadImg(params);
 ```
