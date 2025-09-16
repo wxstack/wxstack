@@ -28,3 +28,23 @@ jobs:
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
+
+  publish-npm:
+    if: startsWith(github.event.release.tag_name, 'sa-v')
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: packages/sa
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+          scope: '@wxstack'
+      - run: npm install --ignore-scripts
+      - run: npm test --if-present
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
