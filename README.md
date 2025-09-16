@@ -25,7 +25,12 @@
 
 --- 
 
+### 安装
 
+请根据你需要的包, 输入不同的包名进行安装, 我们推荐使用pnpm安装, 当然您也可以使用npm或yarn
+```bash
+pnpm install  @wxstack/oa
+```
 
 
 
