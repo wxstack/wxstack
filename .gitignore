@@ -2,3 +2,5 @@
 /node_modules
 /packages/oa/node_modules
 /docs/.vitepress
+/docs/.wrangler
+/docs/node_modules
