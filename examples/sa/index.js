@@ -1,4 +1,4 @@
-import {createClient} from "../../packages/sa";
+import {createClient} from "../../packages/oa";
 
 async function main() {
     const client = createClient({

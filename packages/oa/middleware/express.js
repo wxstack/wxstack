@@ -20,7 +20,7 @@ export function createExpressMiddleware(options) {
         client,
         ipWhitelist,
     } = options || {};
-    if (!token) throw new Error('[sa middleware] token is required');
+    if (!token) throw new Error('[oa middleware] token is required');
 
     const checkCallbackIp =
         options?.checkCallbackIp ?? client?.middleware?.checkCallbackIp ?? false;

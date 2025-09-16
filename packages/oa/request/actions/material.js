@@ -1,4 +1,3 @@
-// File: 'packages/sa/request/actions/material.js'
 import fs from 'node:fs';
 import path from 'node:path';
 import FormData from 'form-data';

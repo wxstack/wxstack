@@ -17,10 +17,9 @@
 - `@wxstack/core` - 核心功能 (企业统一管理凭据)
 - `@wxstack/mg` - 小游戏 Mini Game
 - `@wxstack/mp` - 小程序 Mini Program
-- `@wxstack/oa` - 公众号 Official Account
+- `@wxstack/oa` - 公众号 Official Account(包含订阅号和服务号)
 - `@wxstack/op` - 微信开放平台 Open Platform
 - `@wxstack/pay` - 微信支付 WeChat Pay
-- `@wxstack/sa` - 服务号 Service Account
 - `@wxstack/shop` - 微信小店 Shop
 - `@wxstack/wecom` - 企业微信 WeWork
 

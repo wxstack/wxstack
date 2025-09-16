@@ -1,7 +1,7 @@
 {
-  "name": "@wxstack/sa",
+  "name": "@wxstack/oa",
   "version": "0.1.1",
-  "description": "wxstack sa",
+  "description": "wxstack official account sdk",
   "main": "index.js",
   "exports": {
     ".": "./index.js"

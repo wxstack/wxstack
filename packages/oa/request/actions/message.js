@@ -1,5 +1,3 @@
-// javascript
-// file: 'packages/sa/request/actions/message.js'
 import fs from 'node:fs';
 import path from 'node:path';
 import FormData from 'form-data';

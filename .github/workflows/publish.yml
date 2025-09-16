@@ -1,4 +1,4 @@
-name: Publish @wxstack/sa to GitHub Packages on Release
+name: Publish @wxstack/oa to GitHub Packages on Release
 
 on:
   release:
@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   publish-gpr:
-    if: startsWith(github.event.release.tag_name, 'sa-v')
+    if: startsWith(github.event.release.tag_name, 'oa-v')
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: packages/sa
+        working-directory: packages/oa
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,11 +30,11 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.GH_PACKAGES_TOKEN }}
 
   publish-npm:
-    if: startsWith(github.event.release.tag_name, 'sa-v')
+    if: startsWith(github.event.release.tag_name, 'oa-v')
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: packages/sa
+        working-directory: packages/oa
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
