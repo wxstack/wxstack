@@ -355,8 +355,8 @@ ${renderCreateClientOptions(createClientJsDoc)}
 `;
     await writeIfChanged(path.join(OA_GUIDE_DIR, 'getting-started.md'), gettingStarted);
 
-    // oa API 索引
-    const apiReadme = `---
+    // oa API 索引（改为 index.md，避免 /oa/api 404）
+    const apiIndex = `---
 title: API 索引
 ---
 
@@ -364,7 +364,7 @@ title: API 索引
 
 选择左侧模块查看对应方法。
 `;
-    await writeIfChanged(path.join(OA_API_DIR, 'README.md'), apiReadme);
+    await writeIfChanged(path.join(OA_API_DIR, 'index.md'), apiIndex);
 }
 
 // 生成 VitePress 配置（wxstack 总站点 \+ oa 分区侧边栏）
