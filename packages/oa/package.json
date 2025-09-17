@@ -2,6 +2,7 @@
   "name": "@wxstack/oa",
   "version": "0.1.0",
   "description": "wxstack official account sdk",
+  "type": "module",
   "main": "index.js",
   "exports": {
     ".": "./index.js"
