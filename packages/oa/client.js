@@ -185,6 +185,7 @@ export class SaClient {
      * @param {string} [options.tokenKey='access_token']
      * @param {InMemoryTokenStore} [options.store]
      * @param {{checkCallbackIp?: boolean, ipCacheTtlMs?: number}} [options.middleware]
+     * @param {string} options.proxy
      */
     constructor(options = {}) {
         const {
@@ -198,6 +199,7 @@ export class SaClient {
             tokenKey = 'access_token',
             store = new InMemoryTokenStore(),
             middleware = {},
+            proxy = undefined,
         } = options;
 
         if (!appId || !appSecret) {
@@ -210,9 +212,14 @@ export class SaClient {
         this.tokenPlacement = tokenPlacement;
         this.tokenKey = tokenKey;
         this.store = store;
+        this.proxy = proxy;
 
         const baseURL = DOMAINS[domain] || DOMAINS.auto;
-        this.http = createHttpClient({ baseURL, timeout: timeoutMs });
+        const httpOptions = { baseURL, timeout: timeoutMs };
+        if (proxy) {
+            httpOptions.proxy = proxy;
+        }
+        this.http = createHttpClient(httpOptions);
         this.retry = { retries: retry.retries ?? 2, delayMs: retry.delayMs ?? 3000 };
 
         this._tokenFlight = null;

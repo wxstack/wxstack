@@ -1,11 +1,10 @@
 import axios from 'axios';
 import { WxHttpError } from '../lib/errors.js';
 
-export function createHttpClient({ baseURL, timeout }) {
+export function createHttpClient(httpOptions) {
     const instance = axios.create({
-        baseURL,
-        timeout,
         headers: { 'Content-Type': 'application/json' },
+        ...httpOptions
     });
 
     // 统一错误转译

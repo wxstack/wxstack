@@ -1,9 +1,0 @@
-name = "wxstack-docs"
-compatibility_date = "2025-01-01"
-
-[assets]
-directory = ".vitepress/dist"
-
-[build]
-command = "npx vitepress build"
-cwd = "."
