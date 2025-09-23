@@ -185,7 +185,7 @@ export class SaClient {
      * @param {string} [options.tokenKey='access_token']
      * @param {InMemoryTokenStore} [options.store]
      * @param {{checkCallbackIp?: boolean, ipCacheTtlMs?: number}} [options.middleware]
-     * @param {string} options.proxy
+     * @param {string} [options.proxy]
      */
     constructor(options = {}) {
         const {

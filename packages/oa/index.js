@@ -30,6 +30,7 @@ export { DOMAINS } from './request/domains.js';
  * @param {('query'|'header')} [options.tokenPlacement='query']
  * @param {string} [options.tokenKey='access_token']
  * @param {import('./auth/tokenStore.js').InMemoryTokenStore} [options.store]
+ * @param {string} [options.proxy]
  */
 export function createClient(options) {
     return new SaClient(options);

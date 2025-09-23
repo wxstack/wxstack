@@ -64,3 +64,4 @@ await client.ping(); // 示例
 - `tokenPlacement` `('query'|'header')` （可选），默认：`'query'`
 - `tokenKey` `string` （可选），默认：`'access_token'`
 - `store` `import('./auth/tokenStore.js').InMemoryTokenStore` （可选）
+- `proxy` `string` （可选）
