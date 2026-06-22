@@ -1,0 +1,419 @@
+{
+  "uniqueIds": 200,
+  "withPath": 59,
+  "data": [
+    {
+      "id": "90664",
+      "name": "开发前必读",
+      "method": "GET",
+      "path": "/cgi-bin/gettoken",
+      "cat": "gettoken"
+    },
+    {
+      "id": "90487",
+      "name": "简易教程",
+      "method": "POST",
+      "path": "/cgi-bin/message/send",
+      "cat": "message"
+    },
+    {
+      "id": "92520",
+      "name": "获取企业微信接口IP段",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip",
+      "cat": "get_api_domain_ip"
+    },
+    {
+      "id": "91039",
+      "name": "获取access_token",
+      "method": "GET",
+      "path": "/cgi-bin/gettoken",
+      "cat": "gettoken"
+    },
+    {
+      "id": "90930",
+      "name": "回调配置",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip",
+      "cat": "getcallbackip"
+    },
+    {
+      "id": "92521",
+      "name": "获取企业微信回调IP段",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip",
+      "cat": "getcallbackip"
+    },
+    {
+      "id": "101521",
+      "name": "自建应用与智能机器人的对接",
+      "method": "POST",
+      "path": "/cgi-bin/batch/openuserid_to_userid",
+      "cat": "batch"
+    },
+    {
+      "id": "95884",
+      "name": "自建应用与第三方应用的对接",
+      "method": "POST",
+      "path": "/cgi-bin/batch/openuserid_to_userid",
+      "cat": "batch"
+    },
+    {
+      "id": "98729",
+      "name": "tmp_external_userid的转换",
+      "method": "POST",
+      "path": "/cgi-bin/idconvert/convert_tmp_external_userid",
+      "cat": "idconvert"
+    },
+    {
+      "id": "90195",
+      "name": "创建成员",
+      "method": "POST",
+      "path": "/cgi-bin/user/create",
+      "cat": "user"
+    },
+    {
+      "id": "90196",
+      "name": "读取成员",
+      "method": "GET",
+      "path": "/cgi-bin/user/get",
+      "cat": "user"
+    },
+    {
+      "id": "90197",
+      "name": "更新成员",
+      "method": "POST",
+      "path": "/cgi-bin/user/update",
+      "cat": "user"
+    },
+    {
+      "id": "90198",
+      "name": "删除成员",
+      "method": "GET",
+      "path": "/cgi-bin/user/delete",
+      "cat": "user"
+    },
+    {
+      "id": "90199",
+      "name": "批量删除成员",
+      "method": "POST",
+      "path": "/cgi-bin/user/batchdelete",
+      "cat": "user"
+    },
+    {
+      "id": "90200",
+      "name": "获取部门成员",
+      "method": "GET",
+      "path": "/cgi-bin/user/simplelist",
+      "cat": "user"
+    },
+    {
+      "id": "90201",
+      "name": "获取部门成员详情",
+      "method": "GET",
+      "path": "/cgi-bin/user/list",
+      "cat": "user"
+    },
+    {
+      "id": "90202",
+      "name": "userid与openid互换",
+      "method": "POST",
+      "path": "/cgi-bin/user/convert_to_openid",
+      "cat": "user"
+    },
+    {
+      "id": "90203",
+      "name": "登录二次验证",
+      "method": "GET",
+      "path": "/cgi-bin/user/authsucc",
+      "cat": "user"
+    },
+    {
+      "id": "90975",
+      "name": "邀请成员",
+      "method": "POST",
+      "path": "/cgi-bin/batch/invite",
+      "cat": "batch"
+    },
+    {
+      "id": "95402",
+      "name": "手机号获取userid",
+      "method": "POST",
+      "path": "/cgi-bin/user/getuserid",
+      "cat": "user"
+    },
+    {
+      "id": "95895",
+      "name": "邮箱获取userid",
+      "method": "POST",
+      "path": "/cgi-bin/user/get_userid_by_email",
+      "cat": "user"
+    },
+    {
+      "id": "96067",
+      "name": "获取成员ID列表",
+      "method": "POST",
+      "path": "/cgi-bin/user/list_id",
+      "cat": "user"
+    },
+    {
+      "id": "91714",
+      "name": "获取加入企业二维码",
+      "method": "GET",
+      "path": "/cgi-bin/corp/get_join_qrcode",
+      "cat": "corp"
+    },
+    {
+      "id": "90205",
+      "name": "创建部门",
+      "method": "POST",
+      "path": "/cgi-bin/department/create",
+      "cat": "department"
+    },
+    {
+      "id": "90206",
+      "name": "更新部门",
+      "method": "POST",
+      "path": "/cgi-bin/department/update",
+      "cat": "department"
+    },
+    {
+      "id": "90207",
+      "name": "删除部门",
+      "method": "GET",
+      "path": "/cgi-bin/department/delete",
+      "cat": "department"
+    },
+    {
+      "id": "90208",
+      "name": "获取部门列表",
+      "method": "GET",
+      "path": "/cgi-bin/department/list",
+      "cat": "department"
+    },
+    {
+      "id": "95351",
+      "name": "获取单个部门详情",
+      "method": "GET",
+      "path": "/cgi-bin/department/get",
+      "cat": "department"
+    },
+    {
+      "id": "95350",
+      "name": "获取子部门ID列表",
+      "method": "GET",
+      "path": "/cgi-bin/department/simplelist",
+      "cat": "department"
+    },
+    {
+      "id": "90210",
+      "name": "创建标签",
+      "method": "POST",
+      "path": "/cgi-bin/tag/create",
+      "cat": "tag"
+    },
+    {
+      "id": "90211",
+      "name": "更新标签名字",
+      "method": "POST",
+      "path": "/cgi-bin/tag/update",
+      "cat": "tag"
+    },
+    {
+      "id": "90212",
+      "name": "删除标签",
+      "method": "GET",
+      "path": "/cgi-bin/tag/delete",
+      "cat": "tag"
+    },
+    {
+      "id": "90214",
+      "name": "增加标签成员",
+      "method": "POST",
+      "path": "/cgi-bin/tag/addtagusers",
+      "cat": "tag"
+    },
+    {
+      "id": "90213",
+      "name": "获取标签成员",
+      "method": "GET",
+      "path": "/cgi-bin/tag/get",
+      "cat": "tag"
+    },
+    {
+      "id": "90215",
+      "name": "删除标签成员",
+      "method": "POST",
+      "path": "/cgi-bin/tag/deltagusers",
+      "cat": "tag"
+    },
+    {
+      "id": "90216",
+      "name": "获取标签列表",
+      "method": "GET",
+      "path": "/cgi-bin/tag/list",
+      "cat": "tag"
+    },
+    {
+      "id": "90980",
+      "name": "增量更新成员",
+      "method": "POST",
+      "path": "/cgi-bin/batch/syncuser",
+      "cat": "batch"
+    },
+    {
+      "id": "90981",
+      "name": "全量覆盖成员",
+      "method": "POST",
+      "path": "/cgi-bin/batch/replaceuser",
+      "cat": "batch"
+    },
+    {
+      "id": "90982",
+      "name": "全量覆盖部门",
+      "method": "POST",
+      "path": "/cgi-bin/batch/replaceparty",
+      "cat": "batch"
+    },
+    {
+      "id": "90983",
+      "name": "获取异步任务结果",
+      "method": "GET",
+      "path": "/cgi-bin/batch/getresult",
+      "cat": "batch"
+    },
+    {
+      "id": "94849",
+      "name": "导出成员",
+      "method": "POST",
+      "path": "/cgi-bin/export/simple_user",
+      "cat": "export"
+    },
+    {
+      "id": "94851",
+      "name": "导出成员详情",
+      "method": "POST",
+      "path": "/cgi-bin/export/user",
+      "cat": "export"
+    },
+    {
+      "id": "94852",
+      "name": "导出部门",
+      "method": "POST",
+      "path": "/cgi-bin/export/department",
+      "cat": "export"
+    },
+    {
+      "id": "94853",
+      "name": "导出标签成员",
+      "method": "POST",
+      "path": "/cgi-bin/export/taguser",
+      "cat": "export"
+    },
+    {
+      "id": "94854",
+      "name": "获取导出结果",
+      "method": "GET",
+      "path": "/cgi-bin/export/get_result",
+      "cat": "export"
+    },
+    {
+      "id": "91023",
+      "name": "获取访问用户身份",
+      "method": "GET",
+      "path": "/cgi-bin/auth/getuserinfo",
+      "cat": "auth"
+    },
+    {
+      "id": "95833",
+      "name": "获取访问用户敏感信息",
+      "method": "POST",
+      "path": "/cgi-bin/auth/getuserdetail",
+      "cat": "auth"
+    },
+    {
+      "id": "98176",
+      "name": "获取用户登录身份",
+      "method": "GET",
+      "path": "/cgi-bin/auth/getuserinfo",
+      "cat": "auth"
+    },
+    {
+      "id": "99499",
+      "name": "获取用户二次验证信息",
+      "method": "POST",
+      "path": "/cgi-bin/auth/get_tfa_info",
+      "cat": "auth"
+    },
+    {
+      "id": "99521",
+      "name": "登录二次验证",
+      "method": "GET",
+      "path": "/cgi-bin/user/authsucc",
+      "cat": "user"
+    },
+    {
+      "id": "99500",
+      "name": "使用二次验证",
+      "method": "POST",
+      "path": "/cgi-bin/user/tfa_succ",
+      "cat": "user"
+    },
+    {
+      "id": "93403",
+      "name": "获取应用共享信息",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/corp/list_app_share_info",
+      "cat": "corpgroup"
+    },
+    {
+      "id": "93359",
+      "name": "获取下级/下游企业的access_token",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/corp/gettoken",
+      "cat": "corpgroup"
+    },
+    {
+      "id": "93355",
+      "name": "获取下级/下游企业小程序session",
+      "method": "POST",
+      "path": "/cgi-bin/miniprogram/transfer_session",
+      "cat": "miniprogram"
+    },
+    {
+      "id": "95813",
+      "name": "获取应用共享信息",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/corp/list_app_share_info",
+      "cat": "corpgroup"
+    },
+    {
+      "id": "95816",
+      "name": "获取下级/下游企业的access_token",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/corp/gettoken",
+      "cat": "corpgroup"
+    },
+    {
+      "id": "95817",
+      "name": "获取下级/下游企业小程序session",
+      "method": "POST",
+      "path": "/cgi-bin/miniprogram/transfer_session",
+      "cat": "miniprogram"
+    },
+    {
+      "id": "95818",
+      "name": "上下游关联客户信息-已添加客户",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/unionid_to_external_userid",
+      "cat": "corpgroup"
+    },
+    {
+      "id": "97357",
+      "name": "上下游关联客户信息-未添加客户",
+      "method": "POST",
+      "path": "/cgi-bin/corpgroup/unionid_to_pending_id",
+      "cat": "corpgroup"
+    }
+  ]
+}

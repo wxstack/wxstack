@@ -1,0 +1,475 @@
+{
+  "count": 67,
+  "withPath": 49,
+  "data": [
+    {
+      "url": "/doc/channels/",
+      "cat": "",
+      "title": "介绍",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/ChangeLog.html",
+      "cat": "",
+      "title": "接口变更日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/api/basic/api_callbackcheck.html",
+      "cat": "api",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearapiquota.html",
+      "cat": "api",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearquota.html",
+      "cat": "api",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearquotabyappsecret.html",
+      "cat": "api",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getaccesstoken.html",
+      "cat": "api",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getapidomainip.html",
+      "cat": "api",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getapiquota.html",
+      "cat": "api",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getcallbackip.html",
+      "cat": "api",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getridinfo.html",
+      "cat": "api",
+      "title": "查询rid信息",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/rid/get"
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getstableaccesstoken.html",
+      "cat": "api",
+      "title": "获取稳定版接口调用凭据",
+      "method": "POST",
+      "path": "/cgi-bin/stable_token"
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderoverall.html",
+      "cat": "api",
+      "title": "获取电商概览数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/overall/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderproductdata.html",
+      "cat": "api",
+      "title": "获取带货商品数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/product/data/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderproductlist.html",
+      "cat": "api",
+      "title": "获取带货商品列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/product/list/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfindersaleprofiledata.html",
+      "cat": "api",
+      "title": "获取带货人群数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/sale/profile/data/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadscomponentid.html",
+      "cat": "api",
+      "title": "获取留资组件Id列表详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_component_id"
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadscomponentpromoterecord.html",
+      "cat": "api",
+      "title": "获取留资组件直播推广记录信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_component_promote_record"
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsinfobycomponentid.html",
+      "cat": "api",
+      "title": "按时间获取留资信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_info_by_component_id"
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsinfobyrequestid.html",
+      "cat": "api",
+      "title": "按直播场次获取留资信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_info_by_request_id"
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsrequestid.html",
+      "cat": "api",
+      "title": "获取留资request_id列表详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_request_id"
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderattrbyappid.html",
+      "cat": "api",
+      "title": "获取视频号账号信息",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_attr_by_appid"
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderlivedatalist.html",
+      "cat": "api",
+      "title": "获取留资直播数据详情",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_live_data_list"
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderliveleadsdata.html",
+      "cat": "api",
+      "title": "获取账号收集的留资数量",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_live_leads_data"
+    },
+    {
+      "url": "/doc/channels/api/channels/live/api_getfinderlivenoticerecordlist.html",
+      "cat": "api",
+      "title": "视频号获取当前的直播预约记录",
+      "method": "POST",
+      "path": "/channels/ec/finderlive/getfinderlivenoticerecordlist"
+    },
+    {
+      "url": "/doc/channels/api/channels/live/api_getfinderliverecordlist.html",
+      "cat": "api",
+      "title": "视频号获取当前的直播记录",
+      "method": "POST",
+      "path": "/channels/ec/finderlive/getfinderliverecordlist"
+    },
+    {
+      "url": "/doc/channels/api/channels/livedashboard/api_getlivedata.html",
+      "cat": "api",
+      "title": "获取直播大屏数据",
+      "method": "POST",
+      "path": "/channels/livedashboard/getlivedata"
+    },
+    {
+      "url": "/doc/channels/api/channels/livedashboard/api_getlivelist.html",
+      "cat": "api",
+      "title": "获取直播大屏直播列表",
+      "method": "POST",
+      "path": "/channels/livedashboard/getlivelist"
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_addwindowproduct.html",
+      "cat": "api",
+      "title": "上架商品到橱窗",
+      "method": "POST",
+      "path": "/channels/ec/window/product/add"
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_getwindowproduct.html",
+      "cat": "api",
+      "title": "获取橱窗商品详情",
+      "method": "POST",
+      "path": "/channels/ec/window/product/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_getwindowproductlist.html",
+      "cat": "api",
+      "title": "获取已添加到橱窗的商品列表",
+      "method": "POST",
+      "path": "/channels/ec/window/product/list/get"
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_offwindowproduct.html",
+      "cat": "api",
+      "title": "下架橱窗商品",
+      "method": "POST",
+      "path": "/channels/ec/window/product/off"
+    },
+    {
+      "url": "/doc/channels/api/locallife/automatically/api_getaftersaleorder.html",
+      "cat": "api",
+      "title": "获取售后单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getaftersaleorder"
+    },
+    {
+      "url": "/doc/channels/api/locallife/cancel/api_withdrawconsume.html",
+      "cat": "api",
+      "title": "撤销用户已核销团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/voucher/revoke"
+    },
+    {
+      "url": "/doc/channels/api/locallife/funds/api_getfundsflowlist.html",
+      "cat": "api",
+      "title": "获取资金流水列表",
+      "method": "POST",
+      "path": "/channels/ec/funds/getfundsflowlist"
+    },
+    {
+      "url": "/doc/channels/api/locallife/funds/api_getvoucherbilllist.html",
+      "cat": "api",
+      "title": "查询券账单",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get_bill_list"
+    },
+    {
+      "url": "/doc/channels/api/locallife/purchasing/api_getorder.html",
+      "cat": "api",
+      "title": "获取订单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/get"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_addlocalproduct.html",
+      "cat": "api",
+      "title": "添加团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/add"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_cancelauditproduct.html",
+      "cat": "api",
+      "title": "撤回商品审核",
+      "method": "POST",
+      "path": "/channels/ec/product/audit/cancel"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_deleteproduct.html",
+      "cat": "api",
+      "title": "删除商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delete"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_delistingproduct.html",
+      "cat": "api",
+      "title": "下架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delisting"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_getlocalproduct.html",
+      "cat": "api",
+      "title": "查询团购优惠详情",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/get"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_getlocalproductlist.html",
+      "cat": "api",
+      "title": "查询团购优惠列表",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/list/get"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_listingproduct.html",
+      "cat": "api",
+      "title": "上架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/listing"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_updatelocalauditfree.html",
+      "cat": "api",
+      "title": "免审更新团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/auditfree"
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_updatelocalproduct.html",
+      "cat": "api",
+      "title": "更新团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/update"
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_consumevoucher.html",
+      "cat": "api",
+      "title": "核销用户的团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/voucher/consume"
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_findvoucher.html",
+      "cat": "api",
+      "title": "查询用户的团购优惠列表",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get_list"
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_getvoucher.html",
+      "cat": "api",
+      "title": "查询用户的团购优惠详情",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get"
+    },
+    {
+      "url": "/doc/channels/api/locallife/voucher/api_updatestock.html",
+      "cat": "api",
+      "title": "快速更新库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/update"
+    },
+    {
+      "url": "/doc/channels/api/locallife/voucher/api_uploadvouchercode.html",
+      "cat": "api",
+      "title": "上传团购优惠code",
+      "method": "POST",
+      "path": "/channels/ec/voucher/codes/upload"
+    },
+    {
+      "url": "/doc/channels/dev_before/base/UnionID.html",
+      "cat": "dev_before",
+      "title": "UnionID 机制说明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/base/commErrCode.html",
+      "cat": "dev_before",
+      "title": "公共错误码",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/base/ipbaimingdan.html",
+      "cat": "dev_before",
+      "title": "设置 IP 白名单",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/base/message_push.html",
+      "cat": "dev_before",
+      "title": "消息推送",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/Mini_program_writeoff_component_writeoff_users_group_purchase_discounts.html",
+      "cat": "dev_before",
+      "title": "小程序核销组件：核销用户的团购优惠",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/aftersales/CallbackNotification_Must_access_Aftersales_order_update_callback.html",
+      "cat": "dev_before",
+      "title": "售后单更新回调【必须接入】",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/callback_notification.html",
+      "cat": "dev_before",
+      "title": "回调通知地址【必须设置】",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discount_review_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠审核回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discount_update_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠更新回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discounts_on_and_off_the_shelves_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠上下架回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/purchase/Order_payment_success_notification.html",
+      "cat": "dev_before",
+      "title": "订单支付成功通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/purchase/Successful_callback_after_issuing_group_purchase_discount.html",
+      "cat": "dev_before",
+      "title": "发放团购优惠成功回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/stock/Low_inventory_callback.html",
+      "cat": "dev_before",
+      "title": "库存不足回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/core.html",
+      "cat": "dev_before",
+      "title": "核心业务时序图",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/guide.html",
+      "cat": "dev_before",
+      "title": "本地生活接入指引",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/channels/migration.html",
+      "cat": "",
+      "title": "迁移说明",
+      "method": "",
+      "path": ""
+    }
+  ]
+}

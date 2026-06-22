@@ -1,47 +1,45 @@
 {
   "name": "@wxstack/oa",
-  "version": "0.1.1",
-  "description": "wxstack official account sdk",
+  "version": "0.1.0",
+  "description": "微信公众号（订阅号/服务号）服务端 SDK",
   "type": "module",
-  "main": "index.js",
-  "exports": {
-    ".": "./index.js"
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
   },
-  "files": [
-    "index.js",
-    "client.js",
-    "auth/",
-    "lib/",
-    "middleware/",
-    "request/",
-    "README.md",
-    "LICENSE"
-  ],
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    },
+    "./package.json": "./package.json"
+  },
+  "files": ["dist"],
   "scripts": {
-    "build": "echo \"no build\"",
-    "prepublishOnly": "npm run build",
-    "test": "echo \"no tests\""
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "lint:pkg": "publint && attw --pack . --profile node16"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wxstack/wxstack.git",
     "directory": "packages/oa"
   },
-  "bugs": {
-    "url": "https://github.com/wxstack/wxstack/issues"
-  },
   "homepage": "https://github.com/wxstack/wxstack#readme",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "dependencies": {
-    "axios": "^1.12.2",
-    "fast-xml-parser": "^5.2.5",
-    "form-data": "^4.0.4",
-    "raw-body": "^3.0.1"
+    "@wxstack/core": "workspace:*"
   }
 }

@@ -1,0 +1,4917 @@
+{
+  "count": 702,
+  "withPath": 450,
+  "data": [
+    {
+      "url": "/doc/store/leagueheadsupplier/",
+      "cat": "leagueheadsupplier",
+      "title": "联盟带货机构",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/balance/api_getbalance.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取机构账户余额",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/funds/balance/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/balance/api_getfundsflowdetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取资金流水详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/funds/flowdetail/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/balance/api_getfundsflowlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取资金流水列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/funds/flowlist/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_callbackcheck.html",
+      "cat": "leagueheadsupplier",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_clearapiquota.html",
+      "cat": "leagueheadsupplier",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_clearquota.html",
+      "cat": "leagueheadsupplier",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_clearquotabyappsecret.html",
+      "cat": "leagueheadsupplier",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_getaccesstoken.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_getapidomainip.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_getapiquota.html",
+      "cat": "leagueheadsupplier",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_getcallbackip.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/basic/api_getstableaccesstoken.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取稳定版接口调用凭据",
+      "method": "POST",
+      "path": "/cgi-bin/stable_token"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/category/api_getallcategoryfromleague.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取所有类目",
+      "method": "GET",
+      "path": "/channels/ec/category/league/all"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/headsupplier/api_getshop.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作小店详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/shop/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/headsupplier/api_getshoplist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作小店列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/shop/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/headsupplier/api_getshoplocktime.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取店铺自定义的推广锁客时效",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/lockcustomertime/getlocktime"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/headsupplier/api_update_hs_relation.html",
+      "cat": "leagueheadsupplier",
+      "title": "更新机构合作关系",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/headsupplierrelation/update"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_add_secondheadsupplier_item.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构给帮卖机构供货",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/secondheadsupplieritem/add"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_addcooperativeitem.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构添加合作商品",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/cooperativeitem/add"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_addsubitem.html",
+      "cat": "leagueheadsupplier",
+      "title": "配置达人佣金率",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/subitem/add"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_get_secondheadsupplier_itemlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构获取已添加的推广计划",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/secondheadsupplieritem/getlist"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_getcooperativeitemlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作商品列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/cooperativeitem/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_getitempromotiondetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取商品推广参数详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/item/promotiondetail/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_getsubitemlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取机构配置达人佣金计划列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/subitem/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_listselectionproducts.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取机构选品广场商品列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/selectionproducts/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/getshop/api_update_secondheadsupplier_item.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构更新或删除已添加的推广计划",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/secondheadsupplieritem/update"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_addwindow.html",
+      "cat": "leagueheadsupplier",
+      "title": "添加机构商品到橱窗",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/window/add"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_getallwindow.html",
+      "cat": "leagueheadsupplier",
+      "title": "查询橱窗上机构商品列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/window/getall"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_getwindowauth.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取达人橱窗授权链接",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/windowauth/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_getwindowauthstatus.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取达人橱窗授权状态",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/windowauth/status/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_getwindowdetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "查询橱窗上机构商品详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/window/getdetail"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/opentalent/window/api_removewindow.html",
+      "cat": "leagueheadsupplier",
+      "title": "从橱窗移除机构商品",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/window/remove"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/order/api_getorder.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取佣金单详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/order/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/order/api_getorderlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取佣金单列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/order/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_getbindsharerlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取机构绑定的推客信息",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_bind_sharer_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_getbindshoplist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作的小店列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_bind_shop_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_getbindshoppromoterlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作小店的关联账号列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_bind_shop_promoter_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_getbindtalentlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取合作的带货者列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_bind_talent_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_getpromoterregisterandbindstatus.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取推客的注册状态以及和机构的绑定状态",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_promoter_register_and_bind_status"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_mmecpromoter_headsupplier_unbind_promoter.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构解绑推客",
+      "method": "POST",
+      "path": "/channels/ec/promoter/headsupplier_unbind_promoter"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/account/api_setsharercommissioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "设置推客的的分佣类型和比例信息",
+      "method": "POST",
+      "path": "/channels/ec/promoter/set_sharer_commission_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/article/api_getshopmparticlelist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取小店关联账号的文章列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_mp_article_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/article/api_gettalentbizarticlelist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个带货者可推广文章列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_talent_biz_article_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/clue/api_getclue.html",
+      "cat": "leagueheadsupplier",
+      "title": "推客机构获取内容推广的自营商品订单详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/clue/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/clue/api_getcluelist.html",
+      "cat": "leagueheadsupplier",
+      "title": "推客机构获取内容推广的自营商品订单列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/clue/list/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_get_coupon_to_headsupplier.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取分发给其他机构的优惠券",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_coupon_to_headsupplier"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotecooperativecouponlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取定向券ID列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_cooperative_coupon_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotecoupondetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取券ID对应的详情内容",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_coupon_detail"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotecouponpromotersharelink.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个券ID对应的小程序内嵌微信小店优惠券推广参数",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_coupon_promoter_share_link"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotecouponqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个券ID对应的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_coupon_qr_code"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotecouponshortlink.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个券ID对应的推广短链",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_coupon_short_link"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_getpromotepublishcouponlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取公开券ID列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_public_coupon_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/coupon/api_set_coupon_to_headsupplier.html",
+      "cat": "leagueheadsupplier",
+      "title": "分发优惠券给其他机构",
+      "method": "POST",
+      "path": "/channels/ec/promoter/set_coupon_to_headsupplier"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getproductpromotionlinkinfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取推客对某个商品的推广短链",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_product_promotion_link_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getproductpromotionqrcodeinfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取推客对某个商品的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_product_promotion_qrcode_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getpromoteproductdetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取可推广的商品详情",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_promote_product_detail"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getpromoteproductlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取可推广的商品id列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_promote_product_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getpromoterproductsharestats.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取商品推广统计数据",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/promoteraction/getproductsharestats"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getpromotersingleproductpromotioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个推客某个商品的内嵌商品卡片product_promotion_link",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_promoter_single_product_promotion_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_getsharerproductcommissioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取推客的某个商品的推广分佣比例",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_sharer_product_commission_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/getshop/api_setsharerproductcommissioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "设置推客的单个商品的分佣比例信息",
+      "method": "POST",
+      "path": "/channels/ec/promoter/set_sharer_product_commission_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivecommissionproductlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取某个带货者当前直播的带货商品列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_commission_product_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivenoticepromotersharelink.html",
+      "cat": "leagueheadsupplier",
+      "title": "生成某个带货者的用于直播预约的推广参数",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_notice_promoter_share_link"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivenoticerecordlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取带货者的直播预约列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_notice_record_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivenoticerecordqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "为某个推客生成单个直播预约的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_notice_record_qr_code"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivenoticereservationinfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取直播预约的单个推客的推广预约人数",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_notice_reservation_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getlivenoticestats.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取直播预告推广统计数据",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/promoteraction/getlivenoticestats"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getliveprotectionqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取直播大场保护的提报二维码",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/liveprotection/getqrcode"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getliverecordlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取带货者的直播列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_record_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getliverecordqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "为某个推客生成单个直播的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_live_record_qr_code"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getpromoterlivestats.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取直播推广统计数据",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/promoteraction/getlivestats"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshoplivecommissionproductlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取小店关联账号的当前直播的自营商品列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_commission_product_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshoplivenoticepromotersharelink.html",
+      "cat": "leagueheadsupplier",
+      "title": "为推客获取小店关联账号直播预约的推广参数",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_notice_promoter_share_link"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshoplivenoticerecordlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取小店关联账号的预约直播列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_notice_record_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshoplivenoticerecordqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "为推客生成小店关联账号直播预约的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_notice_record_qr_code"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshopliverecordlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取小店关联账号的直播列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_record_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/live/api_getshopliverecordqrcode.html",
+      "cat": "leagueheadsupplier",
+      "title": "为推客生成小店关联账号直播的推广二维码",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_live_record_qr_code"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/video/api_getfeedlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取带货者推广的短视频信息",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_feed_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/video/api_getfeedpromotioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "生成某个带货者的某些短视频内嵌短视频卡片需要的feedtoken",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_feed_promotion_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/video/api_getshopfeedlist.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取小店关联账号的短视频列表",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_feed_list"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/sharer/video/api_getshopfeedpromotioninfo.html",
+      "cat": "leagueheadsupplier",
+      "title": "生成小店关联账号的短视频内嵌小程序推广信息",
+      "method": "POST",
+      "path": "/channels/ec/promoter/get_shop_feed_promotion_info"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/shop/api_getproductdetail.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取商品基础详情",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/productdetail/get"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/shop/api_getsubscribeproduct.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取订阅的商品列表",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/subscription/getsubscribe"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/shop/api_league_get_product_activity_info.html",
+      "cat": "leagueheadsupplier",
+      "title": "获取商品活动补贴信息",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/product/getactivity"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/shop/api_subscribeproduct.html",
+      "cat": "leagueheadsupplier",
+      "title": "商品订阅",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/subscription/subscribe"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/api/shop/api_unsubscribeproduct.html",
+      "cat": "leagueheadsupplier",
+      "title": "取消商品订阅",
+      "method": "POST",
+      "path": "/channels/ec/league/headsupplier/subscription/unsubscribe"
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/API_change_log_callback.html",
+      "cat": "leagueheadsupplier",
+      "title": "API变更日志回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/allback_encoding.html",
+      "cat": "leagueheadsupplier",
+      "title": "回调加解密",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/head_supplier_commission_order_update.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构佣金单变更回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/head_supplier_item_update.html",
+      "cat": "leagueheadsupplier",
+      "title": "机构商品变更通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/head_supplier_subscribe_baseinfo_update.html",
+      "cat": "leagueheadsupplier",
+      "title": "订阅商品基础信息变更通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/head_supplier_subscribe_planinfo_update.html",
+      "cat": "leagueheadsupplier",
+      "title": "订阅商品计划信息变更通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/promoter_bind_event.html",
+      "cat": "leagueheadsupplier",
+      "title": "推客绑定机构的回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/callback/talent_window_cancel_auth_callback.html",
+      "cat": "leagueheadsupplier",
+      "title": "达人橱窗解除授权通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/changelog.html",
+      "cat": "leagueheadsupplier",
+      "title": "接口变更日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/guide/Development_Guide.html",
+      "cat": "leagueheadsupplier",
+      "title": "一、推客小程序基础搭建流程",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/guide/FAQ_QA.html",
+      "cat": "leagueheadsupplier",
+      "title": "Q1：机构注册账户的主体和自有小程序主体不是同一个主体，是否会影响后续的业务或接口使用？",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/guide/Get_the_guide_to_codeveloping_content.html",
+      "cat": "leagueheadsupplier",
+      "title": "一、开发指南",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/leagueheadsupplier/guide/openBusinessView.html",
+      "cat": "leagueheadsupplier",
+      "title": "注册推客以及带货机构绑定推客",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/",
+      "cat": "shop",
+      "title": "微信小店",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_callbackcheck.html",
+      "cat": "shop",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_clearapiquota.html",
+      "cat": "shop",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_clearquota.html",
+      "cat": "shop",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_clearquotabyappsecret.html",
+      "cat": "shop",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getaccesstoken.html",
+      "cat": "shop",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getapidomainip.html",
+      "cat": "shop",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getapiquota.html",
+      "cat": "shop",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getcallbackip.html",
+      "cat": "shop",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getridinfo.html",
+      "cat": "shop",
+      "title": "查询rid信息",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/rid/get"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/common/api_getstableaccesstoken.html",
+      "cat": "shop",
+      "title": "获取稳定版接口调用凭据",
+      "method": "POST",
+      "path": "/cgi-bin/stable_token"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_getdatabymediaid.html",
+      "cat": "shop",
+      "title": "通过mediaid获取数据",
+      "method": "GET",
+      "path": "/channels/ec/basics/media/get"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_img_upload.html",
+      "cat": "shop",
+      "title": "上传图片",
+      "method": "POST",
+      "path": "/shop/ec/basics/img/upload"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_qualificationupload.html",
+      "cat": "shop",
+      "title": "上传资质图片",
+      "method": "POST",
+      "path": "/shop/ec/basics/qualification/upload"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_video_finishupload.html",
+      "cat": "shop",
+      "title": "完成视频上传",
+      "method": "POST",
+      "path": "/shop/ec/basics/video/finishupload"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_video_getplayinfo.html",
+      "cat": "shop",
+      "title": "获取上传后的视频临时URL",
+      "method": "GET",
+      "path": "/shop/ec/basics/video/getplayinfo"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_video_initupload.html",
+      "cat": "shop",
+      "title": "申请上传视频",
+      "method": "POST",
+      "path": "/shop/ec/basics/video/initupload"
+    },
+    {
+      "url": "/doc/store/shop/API/apimgnt/resource/api_video_uploadpart.html",
+      "cat": "shop",
+      "title": "上传视频数据分块",
+      "method": "POST",
+      "path": "/shop/ec/basics/video/uploadpart"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_addbrandlogic.html",
+      "cat": "shop",
+      "title": "新增品牌资质",
+      "method": "POST",
+      "path": "/shop/ec/brand/add"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_cancelauditbrandlogic.html",
+      "cat": "shop",
+      "title": "撤回品牌资质审核",
+      "method": "POST",
+      "path": "/shop/ec/brand/audit/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_deletebrandlogic.html",
+      "cat": "shop",
+      "title": "删除品牌资质",
+      "method": "POST",
+      "path": "/channels/ec/brand/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_getallbrandslogic.html",
+      "cat": "shop",
+      "title": "获取品牌库列表",
+      "method": "POST",
+      "path": "/shop/ec/brand/all"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_getbrandlistlogic.html",
+      "cat": "shop",
+      "title": "获取品牌资质申请列表",
+      "method": "POST",
+      "path": "/channels/ec/brand/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_getbrandlogic.html",
+      "cat": "shop",
+      "title": "获取品牌资质申请详情",
+      "method": "POST",
+      "path": "/channels/ec/brand/get"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_getvalidbrandlistlogic.html",
+      "cat": "shop",
+      "title": "获取生效中的品牌资质列表",
+      "method": "POST",
+      "path": "/channels/ec/brand/valid/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/brand/api_updatebrandlogic.html",
+      "cat": "shop",
+      "title": "更新品牌资质",
+      "method": "POST",
+      "path": "/channels/ec/brand/update"
+    },
+    {
+      "url": "/doc/store/shop/API/category-rule/api_get_category_rule.html",
+      "cat": "shop",
+      "title": "获取保证金类目规则",
+      "method": "POST",
+      "path": "/shop/ec/category/getcategoryrule"
+    },
+    {
+      "url": "/doc/store/shop/API/category-rule/api_get_delivery_method_category_rule.html",
+      "cat": "shop",
+      "title": "获取发货方式类目规则",
+      "method": "POST",
+      "path": "/shop/ec/category/getcategoryrule"
+    },
+    {
+      "url": "/doc/store/shop/API/category-rule/api_getcategoryproductrule.html",
+      "cat": "shop",
+      "title": "获取类目下商品发布规则",
+      "method": "POST",
+      "path": "/shop/ec/category/getcategoryproductrule"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_acceptapply.html",
+      "cat": "shop",
+      "title": "同意售后",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/acceptapply"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_acceptexchangereship.html",
+      "cat": "shop",
+      "title": "换货发货",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/acceptexchangereship"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_applyvirtualtelnum.html",
+      "cat": "shop",
+      "title": "售后单兑换虚拟号",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/applyvirtualtelnum"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_genaftersaleorder.html",
+      "cat": "shop",
+      "title": "代用户发起售后",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/genaftersaleorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_getaftersalelist.html",
+      "cat": "shop",
+      "title": "获取售后单列表",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getaftersalelist"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_getaftersaleorder.html",
+      "cat": "shop",
+      "title": "获取售后单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getaftersaleorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_getaftersalereason.html",
+      "cat": "shop",
+      "title": "获取全量售后原因",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/reason/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_getaftersalerejectreason.html",
+      "cat": "shop",
+      "title": "获取拒绝售后原因",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/rejectreason/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_handlefastexchangereceipt.html",
+      "cat": "shop",
+      "title": "商家处理极速换货用户退货",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/handlefastexchangereceipt"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_merchantupdateaftersale.html",
+      "cat": "shop",
+      "title": "商家协商",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/merchantupdateaftersale"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_mmecapi_getexchangeableskulist.html",
+      "cat": "shop",
+      "title": "查询可换货列表",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getexchangeableskulist"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_refundpricediff.html",
+      "cat": "shop",
+      "title": "代用户发起退差价",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/refundpricediff"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_rejectapply.html",
+      "cat": "shop",
+      "title": "拒绝售后",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/rejectapply"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_rejectexchangereship.html",
+      "cat": "shop",
+      "title": "换货拒绝发货",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/rejectexchangereship"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/aftersale/api_uploadrefundcertificate.html",
+      "cat": "shop",
+      "title": "上传退款凭证",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/uploadrefundcertificate"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/complaint/api_addcomplaintmaterial.html",
+      "cat": "shop",
+      "title": "商家补充纠纷单留言",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/addcomplaintmaterial"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/complaint/api_addcomplaintproof.html",
+      "cat": "shop",
+      "title": "商家举证",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/addcomplaintproof"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/complaint/api_getcomplaintorder.html",
+      "cat": "shop",
+      "title": "获取纠纷单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getcomplaintorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/complaint/api_mmecapi_syncworkorder.html",
+      "cat": "shop",
+      "title": "同步工单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/syncworkorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_getguaranteeorder.html",
+      "cat": "shop",
+      "title": "获取保障单详情",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getguaranteeorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_merchantacceptguarantee.html",
+      "cat": "shop",
+      "title": "商家同意保障单申请",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/merchantacceptguarantee"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_merchantmodifyguarantee.html",
+      "cat": "shop",
+      "title": "商家协商保障单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/merchantmodifyguarantee"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_merchantproofguarantee.html",
+      "cat": "shop",
+      "title": "商家举证保障单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/merchantproofguarantee"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_merchantrefuseguarantee.html",
+      "cat": "shop",
+      "title": "商家拒绝保障单申请",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/merchantrefuseguarantee"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-aftersale/guarantee/api_searchguaranteeorder.html",
+      "cat": "shop",
+      "title": "商家获取保障单列表",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/searchguaranteeorder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_addcategory.html",
+      "cat": "shop",
+      "title": "申请类目",
+      "method": "POST",
+      "path": "/channels/ec/category/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_cancelauditcategory.html",
+      "cat": "shop",
+      "title": "撤销类目审核",
+      "method": "POST",
+      "path": "/shop/ec/category/audit/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getallcategory.html",
+      "cat": "shop",
+      "title": "获取所有类目",
+      "method": "GET",
+      "path": "/shop/ec/category/all"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getbizcatflowdetail.html",
+      "cat": "shop",
+      "title": "获取店铺的类目审核单详情",
+      "method": "POST",
+      "path": "/shop/ec/category/getbizcatflowdetail"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getbizcatflowlist.html",
+      "cat": "shop",
+      "title": "获取店铺的类目审核单列表",
+      "method": "POST",
+      "path": "/shop/ec/category/getbizcatflowlist"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getcategorydetail.html",
+      "cat": "shop",
+      "title": "获取类目信息",
+      "method": "POST",
+      "path": "/shop/ec/category/detail"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getcategoryrelationdetail.html",
+      "cat": "shop",
+      "title": "获取店铺的类目权限详情",
+      "method": "POST",
+      "path": "/shop/ec/category/get_category_relation_detail"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-category/api_getcategoryrelationlist.html",
+      "cat": "shop",
+      "title": "获取店铺的类目权限列表",
+      "method": "POST",
+      "path": "/shop/ec/category/get_category_relation_list"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/address/api_addaddress.html",
+      "cat": "shop",
+      "title": "添加地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/address/api_deleteaddress.html",
+      "cat": "shop",
+      "title": "删除地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/address/api_getaddress.html",
+      "cat": "shop",
+      "title": "获取地址详情",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/address/api_getaddresslist.html",
+      "cat": "shop",
+      "title": "获取地址列表",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/list"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/address/api_updateaddress.html",
+      "cat": "shop",
+      "title": "更新地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/delivery/api_delivery_compensation.html",
+      "cat": "shop",
+      "title": "订单补发货",
+      "method": "POST",
+      "path": "/channels/ec/order/delivery/compensation"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/delivery/api_getdeliverycompanylist.html",
+      "cat": "shop",
+      "title": "获取快递公司列表-旧",
+      "method": "POST",
+      "path": "/channels/ec/order/deliverycompanylist/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/delivery/api_getdeliverycompanylistnew.html",
+      "cat": "shop",
+      "title": "获取快递公司列表",
+      "method": "POST",
+      "path": "/channels/ec/order/deliverycompanylist/new/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/delivery/api_senddelivery.html",
+      "cat": "shop",
+      "title": "订单发货",
+      "method": "POST",
+      "path": "/channels/ec/order/delivery/send"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_addsuborder.html",
+      "cat": "shop",
+      "title": "电子面单子件追加",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/addsuborder"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_batchprintorder.html",
+      "cat": "shop",
+      "title": "批量打印通知",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/batchprint"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_cancelorder.html",
+      "cat": "shop",
+      "title": "电子面单取消下单",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_createorder.html",
+      "cat": "shop",
+      "title": "电子面单取号",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/create"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_createtemplate.html",
+      "cat": "shop",
+      "title": "新增面单模板",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/create"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_deltemplate.html",
+      "cat": "shop",
+      "title": "删除面单模版",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_get_template_config.html",
+      "cat": "shop",
+      "title": "获取面单标准模板",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/config"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_getacct.html",
+      "cat": "shop",
+      "title": "查询开通的电子面单网点/账号信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/account/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_getdeliverylist.html",
+      "cat": "shop",
+      "title": "查询开通的快递公司列表",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/delivery/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_getorder.html",
+      "cat": "shop",
+      "title": "查询面单详情",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_gettemplate.html",
+      "cat": "shop",
+      "title": "获取面单模板信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_gettemplatebyid.html",
+      "cat": "shop",
+      "title": "根据模板ID获取面单模板信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/getbyid"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_precreateorder.html",
+      "cat": "shop",
+      "title": "电子面单预取号",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/precreate"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_printorder.html",
+      "cat": "shop",
+      "title": "打印成功通知",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/print"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_ewaybill_updatetemplate.html",
+      "cat": "shop",
+      "title": "更新面单模版",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/ewaybill/api_get_print_content.html",
+      "cat": "shop",
+      "title": "获取打印报文",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/print/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/merchant/api_addfreighttemplate.html",
+      "cat": "shop",
+      "title": "增加运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/addfreighttemplate"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/merchant/api_getfreighttemplatedetail.html",
+      "cat": "shop",
+      "title": "查询运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/getfreighttemplatedetail"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/merchant/api_getfreighttemplatelist.html",
+      "cat": "shop",
+      "title": "获取运费模板列表",
+      "method": "POST",
+      "path": "/channels/ec/merchant/getfreighttemplatelist"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-delivery/merchant/api_updatefreighttemplate.html",
+      "cat": "shop",
+      "title": "更新运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/updatefreighttemplate"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_acceptorderaddressmodifyapply.html",
+      "cat": "shop",
+      "title": "同意用户修改收货地址申请",
+      "method": "POST",
+      "path": "/channels/ec/order/addressmodify/accept"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_applyrealnumber.html",
+      "cat": "shop",
+      "title": "申请查看订单真实号码",
+      "method": "POST",
+      "path": "/channels/ec/order/realnumber/apply"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_applyvirtualnumberagain.html",
+      "cat": "shop",
+      "title": "订单再次申请虚拟号",
+      "method": "POST",
+      "path": "/channels/ec/order/virtualnumber/applyagain"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_approvepreshipmentchangesku.html",
+      "cat": "shop",
+      "title": "同意待发货前更换sku请求",
+      "method": "POST",
+      "path": "/channels/ec/order/preshipmentchangesku/approve"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_changedeliveryinfo.html",
+      "cat": "shop",
+      "title": "修改物流信息",
+      "method": "POST",
+      "path": "/channels/ec/order/deliveryinfo/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_changemerchantnotes.html",
+      "cat": "shop",
+      "title": "修改订单备注",
+      "method": "POST",
+      "path": "/channels/ec/order/merchantnotes/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_changeorderaddress.html",
+      "cat": "shop",
+      "title": "修改订单地址",
+      "method": "POST",
+      "path": "/channels/ec/order/address/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_changeorderprice.html",
+      "cat": "shop",
+      "title": "修改订单价格",
+      "method": "POST",
+      "path": "/channels/ec/order/price/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_decodesensitiveinfo.html",
+      "cat": "shop",
+      "title": "解密订单中的详细收货信息",
+      "method": "POST",
+      "path": "/channels/ec/order/sensitiveinfo/decode"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_delayvirtualnumber.html",
+      "cat": "shop",
+      "title": "订单虚拟号延期",
+      "method": "POST",
+      "path": "/channels/ec/order/virtualnumber/delay"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_getorder.html",
+      "cat": "shop",
+      "title": "获取订单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_getorderlist.html",
+      "cat": "shop",
+      "title": "获取订单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_getpresentsuborder.html",
+      "cat": "shop",
+      "title": "获取礼物单的子单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/presentsuborder/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_getpreshipmentchangeskuwaithandlelist.html",
+      "cat": "shop",
+      "title": "获取所有待发货前更换sku待处理请求",
+      "method": "POST",
+      "path": "/channels/ec/order/preshipmentchangesku/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_getrealnumberviewaudit.html",
+      "cat": "shop",
+      "title": "查看订单真实号审核状态",
+      "method": "POST",
+      "path": "/channels/ec/order/realnumberviewaudit/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_presentnote.html",
+      "cat": "shop",
+      "title": "礼物订单新增备注信息",
+      "method": "POST",
+      "path": "/channels/ec/order/presentnote/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_privatenumberaddphone.html",
+      "cat": "shop",
+      "title": "添加待认证的手机号",
+      "method": "POST",
+      "path": "/channels/ec/merchant/privatenumber/addphone"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_privatenumbergetshopphone.html",
+      "cat": "shop",
+      "title": "获取小店手机号认证状态",
+      "method": "POST",
+      "path": "/channels/ec/merchant/privatenumber/getphone"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_privatenumbersendverifycode.html",
+      "cat": "shop",
+      "title": "获取短信验证码",
+      "method": "POST",
+      "path": "/channels/ec/merchant/privatenumber/sendverifycode"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_querydeliverynegotiation.html",
+      "cat": "shop",
+      "title": "获取发货协商结果",
+      "method": "POST",
+      "path": "/channels/ec/order/deliverynegotiation/result/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_rejectorderaddressmodifyapply.html",
+      "cat": "shop",
+      "title": "拒绝用户修改收货地址申请",
+      "method": "POST",
+      "path": "/channels/ec/order/addressmodify/reject"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_rejectpreshipmentchangesku.html",
+      "cat": "shop",
+      "title": "拒绝待发货前更换sku请求",
+      "method": "POST",
+      "path": "/channels/ec/order/preshipmentchangesku/reject"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_searchorder.html",
+      "cat": "shop",
+      "title": "订单搜索",
+      "method": "POST",
+      "path": "/channels/ec/order/search"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_submitdeliverynegotiation.html",
+      "cat": "shop",
+      "title": "提交发货协商申请",
+      "method": "POST",
+      "path": "/channels/ec/order/deliverynegotiation/submit"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-order/api_submitfreshinspectinfo.html",
+      "cat": "shop",
+      "title": "上传生鲜质检信息",
+      "method": "POST",
+      "path": "/channels/ec/order/freshinspect/submit"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_addgiftproduct.html",
+      "cat": "shop",
+      "title": "添加非卖商品",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_getgiftproduct.html",
+      "cat": "shop",
+      "title": "获取赠品",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_getgiftproductlist.html",
+      "cat": "shop",
+      "title": "获取赠品列表",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_setproductasgift.html",
+      "cat": "shop",
+      "title": "在售商品转赠品",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/onsale/set"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_updategiftproduct.html",
+      "cat": "shop",
+      "title": "更新非卖商品",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/gift/api_updategiftstock.html",
+      "cat": "shop",
+      "title": "更新赠品库存",
+      "method": "POST",
+      "path": "/channels/ec/product/gift/stock/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/giftactivity/api_addgiftactivity.html",
+      "cat": "shop",
+      "title": "创建赠品活动",
+      "method": "POST",
+      "path": "/channels/ec/product/activity/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/giftactivity/api_deletegiftactivity.html",
+      "cat": "shop",
+      "title": "删除赠品活动",
+      "method": "POST",
+      "path": "/channels/ec/product/activity/del"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/giftactivity/api_stopgiftactivity.html",
+      "cat": "shop",
+      "title": "停止赠品活动",
+      "method": "POST",
+      "path": "/channels/ec/product/activity/stop"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/limiteddiscounttask/api_addlimiteddiscounttask.html",
+      "cat": "shop",
+      "title": "添加限时抢购任务",
+      "method": "POST",
+      "path": "/channels/ec/product/limiteddiscounttask/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/limiteddiscounttask/api_deletelimiteddiscounttask.html",
+      "cat": "shop",
+      "title": "删除限时抢购任务",
+      "method": "POST",
+      "path": "/channels/ec/product/limiteddiscounttask/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/limiteddiscounttask/api_getlimiteddiscounttasklist.html",
+      "cat": "shop",
+      "title": "获取限时抢购任务列表",
+      "method": "POST",
+      "path": "/channels/ec/product/limiteddiscounttask/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/limiteddiscounttask/api_stoplimiteddiscounttask.html",
+      "cat": "shop",
+      "title": "停止限时抢购任务",
+      "method": "POST",
+      "path": "/channels/ec/product/limiteddiscounttask/stop"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/limiteddiscounttask/api_updatelimiteddiscounttask.html",
+      "cat": "shop",
+      "title": "更新限时抢购任务",
+      "method": "POST",
+      "path": "/channels/ec/product/limiteddiscounttask/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_addproduct.html",
+      "cat": "shop",
+      "title": "添加商品",
+      "method": "POST",
+      "path": "/channels/ec/product/add"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_begintimingsale.html",
+      "cat": "shop",
+      "title": "商品立即开售",
+      "method": "POST",
+      "path": "/channels/ec/product/begintimingsale"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_cancelauditproduct.html",
+      "cat": "shop",
+      "title": "撤回商品审核",
+      "method": "POST",
+      "path": "/channels/ec/product/audit/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_canceltimingsale.html",
+      "cat": "shop",
+      "title": "取消商品开售",
+      "method": "POST",
+      "path": "/channels/ec/product/canceltimingsale"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_categoryprecheck.html",
+      "cat": "shop",
+      "title": "发品前校验",
+      "method": "POST",
+      "path": "/channels/ec/product/categoryprecheck"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_deleteproduct.html",
+      "cat": "shop",
+      "title": "删除商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_delistingproduct.html",
+      "cat": "shop",
+      "title": "下架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delisting"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_externalproductmapping.html",
+      "cat": "shop",
+      "title": "站内外商品属性映射",
+      "method": "POST",
+      "path": "/channels/ec/product/externalproductmapping"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_externalproductmappingnew.html",
+      "cat": "shop",
+      "title": "商品属性映射及推荐",
+      "method": "POST",
+      "path": "/channels/ec/product/externalproductmappingnew"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproduct.html",
+      "cat": "shop",
+      "title": "获取商品",
+      "method": "POST",
+      "path": "/channels/ec/product/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproductauditquota.html",
+      "cat": "shop",
+      "title": "获取商品提审限额",
+      "method": "POST",
+      "path": "/channels/ec/product/getauditquota"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproductauditstrategy.html",
+      "cat": "shop",
+      "title": "获取商品上架策略",
+      "method": "POST",
+      "path": "/channels/ec/product/auditstrategy/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproducth5url.html",
+      "cat": "shop",
+      "title": "获取商品H5短链",
+      "method": "POST",
+      "path": "/channels/ec/product/h5url/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproductlist.html",
+      "cat": "shop",
+      "title": "获取商品列表",
+      "method": "POST",
+      "path": "/channels/ec/product/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproductqrcode.html",
+      "cat": "shop",
+      "title": "获取商品二维码",
+      "method": "POST",
+      "path": "/channels/ec/product/qrcode/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproductscheme.html",
+      "cat": "shop",
+      "title": "获取商品Scheme码",
+      "method": "POST",
+      "path": "/channels/ec/product/scheme/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_getproducttaglink.html",
+      "cat": "shop",
+      "title": "获取商品口令",
+      "method": "POST",
+      "path": "/channels/ec/product/taglink/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_listingproduct.html",
+      "cat": "shop",
+      "title": "上架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/listing"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_product_classify.html",
+      "cat": "shop",
+      "title": "类目推荐",
+      "method": "POST",
+      "path": "/channels/ec/product/category/classify"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_productbrandrecommend.html",
+      "cat": "shop",
+      "title": "商品品牌推荐",
+      "method": "POST",
+      "path": "/channels/ec/product/productbrandrecommend"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_setproductauditstrategy.html",
+      "cat": "shop",
+      "title": "设置商品上架策略",
+      "method": "POST",
+      "path": "/channels/ec/product/auditstrategy/set"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_updateproduct.html",
+      "cat": "shop",
+      "title": "更新商品",
+      "method": "POST",
+      "path": "/channels/ec/product/update"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/api_updateproductauditfree.html",
+      "cat": "shop",
+      "title": "免审更新商品",
+      "method": "POST",
+      "path": "/channels/ec/product/auditfree"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/shop/mmecapi_addproductthirdpartysource.html",
+      "cat": "shop",
+      "title": "新增第三方货源信息",
+      "method": "POST",
+      "path": "/channels/ec/product/addproductthirdpartysource"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/stock/api_batchgetstock.html",
+      "cat": "shop",
+      "title": "批量获取库存信息",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/batchget"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/stock/api_getstock.html",
+      "cat": "shop",
+      "title": "获取库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/get"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/stock/api_getstockflow.html",
+      "cat": "shop",
+      "title": "获取库存流水",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/getflow"
+    },
+    {
+      "url": "/doc/store/shop/API/channels-shop-product/stock/api_updatestock.html",
+      "cat": "shop",
+      "title": "快速更新库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/update"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopfinderauthorizationlist.html",
+      "cat": "shop",
+      "title": "获取授权视频号列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/finder/authorization/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopfinderlist.html",
+      "cat": "shop",
+      "title": "获取带货达人列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/finder/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopfinderoverall.html",
+      "cat": "shop",
+      "title": "获取带货数据概览",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/finder/overall/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopfinderproductlist.html",
+      "cat": "shop",
+      "title": "获取带货达人商品列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/finder/product/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopfinderproductoverall.html",
+      "cat": "shop",
+      "title": "获取带货达人详情",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/finder/product/overall/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshoplivelist.html",
+      "cat": "shop",
+      "title": "获取店铺开播列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/live/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopoverall.html",
+      "cat": "shop",
+      "title": "获取电商数据概览",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/overall/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopproductdata.html",
+      "cat": "shop",
+      "title": "获取商品详细信息",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/product/data/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopproductlist.html",
+      "cat": "shop",
+      "title": "获取商品列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/product/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/compass/api_getshopsaleprofiledata.html",
+      "cat": "shop",
+      "title": "获取店铺人群数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/shop/sale/profile/data/get"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_createcoupon.html",
+      "cat": "shop",
+      "title": "创建优惠券",
+      "method": "POST",
+      "path": "/channels/ec/coupon/create"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_getcoupon.html",
+      "cat": "shop",
+      "title": "获取优惠券详情",
+      "method": "POST",
+      "path": "/channels/ec/coupon/get"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_getcouponlist.html",
+      "cat": "shop",
+      "title": "获取优惠券ID列表",
+      "method": "POST",
+      "path": "/channels/ec/coupon/get_list"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_getusercoupon.html",
+      "cat": "shop",
+      "title": "获取用户优惠券详情",
+      "method": "POST",
+      "path": "/channels/ec/coupon/get_user_coupon"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_getusercouponlist.html",
+      "cat": "shop",
+      "title": "获取用户优惠券ID列表",
+      "method": "POST",
+      "path": "/channels/ec/coupon/get_user_coupon_list"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_updatecoupon.html",
+      "cat": "shop",
+      "title": "更新优惠券内容",
+      "method": "POST",
+      "path": "/channels/ec/coupon/update"
+    },
+    {
+      "url": "/doc/store/shop/API/coupon/api_updatecouponstatus.html",
+      "cat": "shop",
+      "title": "更新优惠券状态",
+      "method": "POST",
+      "path": "/channels/ec/coupon/update_status"
+    },
+    {
+      "url": "/doc/store/shop/API/favorite/shopfavorite/api_getfavoritescount.html",
+      "cat": "shop",
+      "title": "获取店铺收藏的人数",
+      "method": "POST",
+      "path": "/channels/ec/favorites/count/get"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/bank/api_ecgetbankbynum.html",
+      "cat": "shop",
+      "title": "根据卡号查银行信息",
+      "method": "POST",
+      "path": "/shop/funds/getbankbynum"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/bank/api_ecgetbanklist.html",
+      "cat": "shop",
+      "title": "搜索银行列表",
+      "method": "POST",
+      "path": "/shop/funds/getbanklist"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/bank/api_ecgetcity.html",
+      "cat": "shop",
+      "title": "查询城市列表",
+      "method": "POST",
+      "path": "/shop/funds/getcity"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/bank/api_ecgetprovince.html",
+      "cat": "shop",
+      "title": "查询大陆银行省份列表",
+      "method": "POST",
+      "path": "/shop/funds/getprovince"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/bank/api_ecgetsubbranch.html",
+      "cat": "shop",
+      "title": "查询支行列表",
+      "method": "POST",
+      "path": "/shop/funds/getsubbranch"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getbalance.html",
+      "cat": "shop",
+      "title": "获取账户余额",
+      "method": "POST",
+      "path": "/channels/ec/funds/getbalance"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getbankacct.html",
+      "cat": "shop",
+      "title": "获取结算账户",
+      "method": "POST",
+      "path": "/channels/ec/funds/getbankacct"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getfundsflowdetail.html",
+      "cat": "shop",
+      "title": "获取资金流水详情",
+      "method": "POST",
+      "path": "/channels/ec/funds/getfundsflowdetail"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getfundsflowlist.html",
+      "cat": "shop",
+      "title": "获取资金流水列表",
+      "method": "POST",
+      "path": "/channels/ec/funds/getfundsflowlist"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getwithdrawdetail.html",
+      "cat": "shop",
+      "title": "获取提现记录",
+      "method": "POST",
+      "path": "/channels/ec/funds/getwithdrawdetail"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_getwithdrawlist.html",
+      "cat": "shop",
+      "title": "获取提现记录列表",
+      "method": "POST",
+      "path": "/channels/ec/funds/getwithdrawlist"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_listorderflow.html",
+      "cat": "shop",
+      "title": "查询订单流水列表",
+      "method": "POST",
+      "path": "/channels/ec/funds/listorderflow"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_setbankacct.html",
+      "cat": "shop",
+      "title": "修改结算账户",
+      "method": "POST",
+      "path": "/channels/ec/funds/setbankacct"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/funds/api_submitwithdraw.html",
+      "cat": "shop",
+      "title": "商户提现",
+      "method": "POST",
+      "path": "/channels/ec/funds/submitwithdraw"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/qrcode/api_eccheckqrcode.html",
+      "cat": "shop",
+      "title": "查询扫码状态",
+      "method": "POST",
+      "path": "/shop/funds/qrcode/check"
+    },
+    {
+      "url": "/doc/store/shop/API/funds/qrcode/api_ecgetqrcode.html",
+      "cat": "shop",
+      "title": "获取二维码",
+      "method": "POST",
+      "path": "/shop/funds/qrcode/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/background/api_cancelbackgroundapply.html",
+      "cat": "shop",
+      "title": "撤销主页背景图申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/background/apply/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/background/api_getbackground.html",
+      "cat": "shop",
+      "title": "查询背景图",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/background/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/background/api_removebackground.html",
+      "cat": "shop",
+      "title": "清空主页背景图并撤销流程中的申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/background/remove"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/background/api_submitbackgroundapply.html",
+      "cat": "shop",
+      "title": "提交背景图申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/background/apply/submit"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/banner/api_cancelbannerapply.html",
+      "cat": "shop",
+      "title": "撤销精选展示位申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/banner/apply/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/banner/api_getbanner.html",
+      "cat": "shop",
+      "title": "查询精选展示位",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/banner/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/banner/api_removebanner.html",
+      "cat": "shop",
+      "title": "清空精选展示位并撤销流程中的申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/banner/remove"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/banner/api_submitbannerapply.html",
+      "cat": "shop",
+      "title": "提交精选展示位申请",
+      "method": "POST",
+      "path": "/channels/ec/basics/homepage/banner/apply/submit"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/shoptype/api_getclassificationproductlist.html",
+      "cat": "shop",
+      "title": "获取分类关联的商品ID列表",
+      "method": "POST",
+      "path": "/channels/ec/store/classification/tree/product/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/shoptype/api_getclassificationtree.html",
+      "cat": "shop",
+      "title": "获取在店铺主页展示的商品分类",
+      "method": "POST",
+      "path": "/channels/ec/store/classification/tree/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/storewindow/api_getstorewindowproductlist.html",
+      "cat": "shop",
+      "title": "获取主页展示商品列表",
+      "method": "POST",
+      "path": "/channels/ec/store/window/product/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/storewindow/api_hidestorewindowproduct.html",
+      "cat": "shop",
+      "title": "隐藏小店主页商品",
+      "method": "POST",
+      "path": "/channels/ec/store/window/product/hide"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/storewindow/api_reorderstorewindowproduct.html",
+      "cat": "shop",
+      "title": "重新排序主页展示商品",
+      "method": "POST",
+      "path": "/channels/ec/store/window/product/reorder"
+    },
+    {
+      "url": "/doc/store/shop/API/homepage/storewindow/api_settopstorewindowproduct.html",
+      "cat": "shop",
+      "title": "置顶小店主页商品",
+      "method": "POST",
+      "path": "/channels/ec/store/window/product/settop"
+    },
+    {
+      "url": "/doc/store/shop/API/kf/api_cosupload.html",
+      "cat": "shop",
+      "title": "上传多媒体资源",
+      "method": "POST",
+      "path": "/channels/ec/commkf/cosupload"
+    },
+    {
+      "url": "/doc/store/shop/API/kf/api_sendmsg.html",
+      "cat": "shop",
+      "title": "发送消息",
+      "method": "POST",
+      "path": "/channels/ec/commkf/sendmsg"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_batchaddheadsupplieritem.html",
+      "cat": "shop",
+      "title": "批量新增联盟机构推广",
+      "method": "POST",
+      "path": "/channels/ec/league/item/headsupplier/batchadd"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_batchadditem.html",
+      "cat": "shop",
+      "title": "批量新增联盟商品",
+      "method": "POST",
+      "path": "/channels/ec/league/item/batchadd"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_getitem.html",
+      "cat": "shop",
+      "title": "获取联盟推广计划详情",
+      "method": "POST",
+      "path": "/channels/ec/league/item/get"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_getitemlist.html",
+      "cat": "shop",
+      "title": "获取联盟商品列表",
+      "method": "POST",
+      "path": "/channels/ec/league/item/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_listspupromotionplans.html",
+      "cat": "shop",
+      "title": "获取商品推广计划列表",
+      "method": "POST",
+      "path": "/channels/ec/league/promotion/plan/list"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_listspupromotiontalents.html",
+      "cat": "shop",
+      "title": "获取商品推广带货者列表",
+      "method": "POST",
+      "path": "/channels/ec/league/promotion/talent/list"
+    },
+    {
+      "url": "/doc/store/shop/API/league/item/api_upditem.html",
+      "cat": "shop",
+      "title": "更新联盟推广计划信息",
+      "method": "POST",
+      "path": "/channels/ec/league/item/upd"
+    },
+    {
+      "url": "/doc/store/shop/API/league/promoter/api_getpromoter.html",
+      "cat": "shop",
+      "title": "获取带货者详情信息",
+      "method": "POST",
+      "path": "/channels/ec/league/promoter/get"
+    },
+    {
+      "url": "/doc/store/shop/API/league/promoter/api_getpromoterlist.html",
+      "cat": "shop",
+      "title": "获取带货者列表",
+      "method": "POST",
+      "path": "/channels/ec/league/promoter/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/league/promoter/api_gettalentproductdata.html",
+      "cat": "shop",
+      "title": "获取带货者商品数据列表",
+      "method": "POST",
+      "path": "/channels/ec/league/talent/getproductdatalist"
+    },
+    {
+      "url": "/doc/store/shop/API/league/promoter/api_updatetalent.html",
+      "cat": "shop",
+      "title": "编辑带货者",
+      "method": "POST",
+      "path": "/channels/ec/league/talent/update"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/basic/api_getdownloadurl.html",
+      "cat": "shop",
+      "title": "获取文件下载链接",
+      "method": "POST",
+      "path": "/channels/ec/open/get_download_url"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/basic/api_uploadec.html",
+      "cat": "shop",
+      "title": "上传资料",
+      "method": "POST",
+      "path": "/channels/ec/open/upload"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_create_present_order.html",
+      "cat": "shop",
+      "title": "创建并发送礼物",
+      "method": "POST",
+      "path": "/channels/ec/order/presentorder/create"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_get_activity.html",
+      "cat": "shop",
+      "title": "查询礼物活动详情",
+      "method": "POST",
+      "path": "/channels/ec/b2c/activity/info/promoter/get"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_get_present.html",
+      "cat": "shop",
+      "title": "查询礼物订单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/present/get"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_get_present_list.html",
+      "cat": "shop",
+      "title": "查询礼物订单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/presentlist/get"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_get_receiver_order_list.html",
+      "cat": "shop",
+      "title": "查询收礼者订单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/receiverorderlist/get"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_list_present_activity.html",
+      "cat": "shop",
+      "title": "查询小店礼物活动列表",
+      "method": "POST",
+      "path": "/channels/ec/b2c/activity/list/promoter/get"
+    },
+    {
+      "url": "/doc/store/shop/API/miniandstore/cooperation_gift/api_set_present_receiver.html",
+      "cat": "shop",
+      "title": "指定礼物收礼者",
+      "method": "POST",
+      "path": "/channels/ec/order/presentorder/receiver/set"
+    },
+    {
+      "url": "/doc/store/shop/API/platformkf/api_getmchticketdetail.html",
+      "cat": "shop",
+      "title": "查询工单详情",
+      "method": "POST",
+      "path": "/channels/ec/platformkf/getmchticketdetail"
+    },
+    {
+      "url": "/doc/store/shop/API/platformkf/api_getmchticketlist.html",
+      "cat": "shop",
+      "title": "获取商家工单列表",
+      "method": "POST",
+      "path": "/channels/ec/platformkf/getmchticketlist"
+    },
+    {
+      "url": "/doc/store/shop/API/platformkf/api_getticketclassconfig.html",
+      "cat": "shop",
+      "title": "查询工单分类配置",
+      "method": "POST",
+      "path": "/channels/ec/platformkf/getticketclassconfig"
+    },
+    {
+      "url": "/doc/store/shop/API/platformkf/api_operatemchticket.html",
+      "cat": "shop",
+      "title": "商户处理商家工单",
+      "method": "POST",
+      "path": "/channels/ec/platformkf/operatemchticket"
+    },
+    {
+      "url": "/doc/store/shop/API/qic/api_getinspectconfig.html",
+      "cat": "shop",
+      "title": "查询质检仓配置",
+      "method": "GET",
+      "path": "/channels/ec/qic/inspect/config/get"
+    },
+    {
+      "url": "/doc/store/shop/API/qic/api_getinspectsubmitconfig.html",
+      "cat": "shop",
+      "title": "查询送检配置模板信息",
+      "method": "GET",
+      "path": "/channels/ec/qic/inspect/submitconfig/get"
+    },
+    {
+      "url": "/doc/store/shop/API/qic/api_printinspectcode.html",
+      "cat": "shop",
+      "title": "打印质检码",
+      "method": "POST",
+      "path": "/channels/ec/qic/inspect/code/print"
+    },
+    {
+      "url": "/doc/store/shop/API/qic/api_registerlogistics.html",
+      "cat": "shop",
+      "title": "自寄快递送检",
+      "method": "POST",
+      "path": "/channels/ec/qic/inspect/register_logistics"
+    },
+    {
+      "url": "/doc/store/shop/API/qic/api_submitinspectinfo.html",
+      "cat": "shop",
+      "title": "绑定送检信息",
+      "method": "POST",
+      "path": "/channels/ec/qic/inspect/submit"
+    },
+    {
+      "url": "/doc/store/shop/API/storemanage/api_getshoph5url.html",
+      "cat": "shop",
+      "title": "获取店铺H5链接",
+      "method": "POST",
+      "path": "/channels/ec/basics/shop/h5url/get"
+    },
+    {
+      "url": "/doc/store/shop/API/storemanage/api_getshopqrcode.html",
+      "cat": "shop",
+      "title": "获取店铺二维码",
+      "method": "POST",
+      "path": "/channels/ec/basics/shop/qrcode/get"
+    },
+    {
+      "url": "/doc/store/shop/API/storemanage/api_getshoptaglink.html",
+      "cat": "shop",
+      "title": "获取店铺口令",
+      "method": "POST",
+      "path": "/channels/ec/basics/shop/taglink/get"
+    },
+    {
+      "url": "/doc/store/shop/API/storemanage/api_mmecapi_basicinfo.html",
+      "cat": "shop",
+      "title": "获取店铺基本信息",
+      "method": "GET",
+      "path": "/channels/ec/basics/info/get"
+    },
+    {
+      "url": "/doc/store/shop/API/subsidy/invoicing/api_query_invoicing_info.html",
+      "cat": "shop",
+      "title": "获取国补订单开票信息",
+      "method": "POST",
+      "path": "/channels/ec/subsidy/query_invoicing_info"
+    },
+    {
+      "url": "/doc/store/shop/API/subsidy/invoicing/api_upload_invoice_file.html",
+      "cat": "shop",
+      "title": "上传国补订单发票文件",
+      "method": "POST",
+      "path": "/channels/ec/subsidy/upload_invoice_file"
+    },
+    {
+      "url": "/doc/store/shop/API/subsidy/invoicing/api_upload_invoice_info.html",
+      "cat": "shop",
+      "title": "上传国补订单发票信息",
+      "method": "POST",
+      "path": "/channels/ec/subsidy/upload_invoice_info"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_get_distribution.html",
+      "cat": "shop",
+      "title": "获取分配方式",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/get_distribute"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_get_product_default_distribution.html",
+      "cat": "shop",
+      "title": "获取商品对应的自动分配供货商",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/get_product_default_distribute"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_get_product_list.html",
+      "cat": "shop",
+      "title": "获取按商品自动分配的商品列表",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/get_product_list"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_set_all_distribution.html",
+      "cat": "shop",
+      "title": "设置全店订单自动分配",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/set_all_distribution"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_set_manually_distribution.html",
+      "cat": "shop",
+      "title": "设置全店订单手动分配",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/set_manually_distribute"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/auto/api_set_product_distribution.html",
+      "cat": "shop",
+      "title": "设置按商品自动分配",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/set_product_distribute"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/order/api_dropship_assign.html",
+      "cat": "shop",
+      "title": "分配订单代发",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/assign"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/order/api_dropship_cancel.html",
+      "cat": "shop",
+      "title": "取消分配代发单",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/cancel"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/order/api_dropship_get.html",
+      "cat": "shop",
+      "title": "查询代发单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/get"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/order/api_dropship_list.html",
+      "cat": "shop",
+      "title": "拉取代发单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/list"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/order/api_dropship_search.html",
+      "cat": "shop",
+      "title": "搜索代发单",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/search"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/relation/api_get_supplier_list.html",
+      "cat": "shop",
+      "title": "获取供货商列表",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/get_supplier_list"
+    },
+    {
+      "url": "/doc/store/shop/API/supplier/relation/api_invite_supplier.html",
+      "cat": "shop",
+      "title": "申请关联供货商",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/invite_supplier"
+    },
+    {
+      "url": "/doc/store/shop/API/supply/api_supplyorder_get.html",
+      "cat": "shop",
+      "title": "查询供货单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/get"
+    },
+    {
+      "url": "/doc/store/shop/API/supply/api_supplyorder_list.html",
+      "cat": "shop",
+      "title": "获取供货单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/list"
+    },
+    {
+      "url": "/doc/store/shop/API/supply/api_supplyorder_search.html",
+      "cat": "shop",
+      "title": "搜索供货单",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/search"
+    },
+    {
+      "url": "/doc/store/shop/API/vip/api_getuserinfo.html",
+      "cat": "shop",
+      "title": "获取用户信息",
+      "method": "POST",
+      "path": "/channels/ec/vip/user/info/get"
+    },
+    {
+      "url": "/doc/store/shop/API/vip/api_getuserlist.html",
+      "cat": "shop",
+      "title": "获取用户列表",
+      "method": "POST",
+      "path": "/channels/ec/vip/user/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/vip/api_getuserscoreflowrecord.html",
+      "cat": "shop",
+      "title": "获取用户积分流水",
+      "method": "POST",
+      "path": "/channels/ec/vip/user/score/flowrecord/get"
+    },
+    {
+      "url": "/doc/store/shop/API/vip/api_getvipuserscore.html",
+      "cat": "shop",
+      "title": "获取用户积分",
+      "method": "POST",
+      "path": "/channels/ec/vip/user/score/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_addcoverlocations.html",
+      "cat": "shop",
+      "title": "批量增加覆盖区域",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/coverlocations/add"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_createwarehouse.html",
+      "cat": "shop",
+      "title": "创建区域仓库",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/create"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_delcoverlocations.html",
+      "cat": "shop",
+      "title": "批量删除覆盖区域",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/coverlocations/del"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_getaddresscode.html",
+      "cat": "shop",
+      "title": "获取地址行政编码",
+      "method": "POST",
+      "path": "/channels/ec/basics/addresscode/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_getaddressprioritysort.html",
+      "cat": "shop",
+      "title": "获取指定地址下区域仓库的优先级",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/address/prioritysort/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_getwarehouse.html",
+      "cat": "shop",
+      "title": "获取区域仓库",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_getwarehouselist.html",
+      "cat": "shop",
+      "title": "查询区域仓库列表",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_getwarehousestock.html",
+      "cat": "shop",
+      "title": "获取区域仓库存数量",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/stock/get"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_setaddressprioritysort.html",
+      "cat": "shop",
+      "title": "设置指定地址下区域仓库的优先级",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/address/prioritysort/set"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_updatewarehousedetail.html",
+      "cat": "shop",
+      "title": "修改区域仓库详情",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/detail/update"
+    },
+    {
+      "url": "/doc/store/shop/API/warehouse/api_updatewarehousestock.html",
+      "cat": "shop",
+      "title": "更新区域仓库存数量",
+      "method": "POST",
+      "path": "/channels/ec/warehouse/stock/update"
+    },
+    {
+      "url": "/doc/store/shop/API/wecom/api_shop_get_wecom_openid.html",
+      "cat": "shop",
+      "title": "获取关联账号企微id",
+      "method": "POST",
+      "path": "/channels/ec/wecom/get_wecom_id"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/shop/api_v3_getwxainfo.html",
+      "cat": "shop",
+      "title": "小店获取关联小程序信息",
+      "method": "POST",
+      "path": "/channels/ec/vip/v3/wxa/info/get"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_adduserinfo.html",
+      "cat": "shop",
+      "title": "新增小程序会员信息",
+      "method": "POST",
+      "path": "/wxa/vip/user/info/add"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_deluserinfo.html",
+      "cat": "shop",
+      "title": "删除小程序会员信息",
+      "method": "POST",
+      "path": "/wxa/vip/user/info/delete"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_getshoplist.html",
+      "cat": "shop",
+      "title": "获取小程序已关联小店列表",
+      "method": "POST",
+      "path": "/wxa/vip/shop/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_getuserinfo.html",
+      "cat": "shop",
+      "title": "获取小程序会员信息",
+      "method": "POST",
+      "path": "/wxa/vip/user/info/get"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_getuserlist.html",
+      "cat": "shop",
+      "title": "获取小程序会员列表",
+      "method": "POST",
+      "path": "/wxa/vip/user/list/get"
+    },
+    {
+      "url": "/doc/store/shop/API/wxamember/wxa/api_v3_wxa_updateuserinfo.html",
+      "cat": "shop",
+      "title": "更新小程序会员信息",
+      "method": "POST",
+      "path": "/wxa/vip/user/info/update"
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Administrative_Measures_for_the_approval_Document_Number_of_veterinary.html",
+      "cat": "shop",
+      "title": "《兽药产品批准文号管理办法》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Animal_Epidemic_Prevention_Certificate.html",
+      "cat": "shop",
+      "title": "《动物防疫条件合格证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Animal_Medical_Treatment_Permit.html",
+      "cat": "shop",
+      "title": "《动物诊疗许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Animal_inspection_certificate.html",
+      "cat": "shop",
+      "title": "《动物检验合格证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Annual_certification_of_the_optometer.html",
+      "cat": "shop",
+      "title": "《验光仪的年度检定证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Approval_Certificate_of_formula_food_for_special_Medical_use.html",
+      "cat": "shop",
+      "title": "《特殊医学用途配方食品批准证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Approval_and_certification_of_radio_transmitting_equipment.html",
+      "cat": "shop",
+      "title": "《无线电发射设备核准认证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Approval_of_sanitary_license_for_products_involving_drinking_water_sanitary_safety.html",
+      "cat": "shop",
+      "title": "《涉及饮用水卫生安全产品卫生许可批件》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Beijing_small_grocery_store_record_card_certificate.html",
+      "cat": "shop",
+      "title": "《北京市小食杂店备案卡/证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Branch_record_registration_certificate.html",
+      "cat": "shop",
+      "title": "《分社备案登记证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Breeding_prove.html",
+      "cat": "shop",
+      "title": "《养殖证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Certificate_of_Quality_rating_of_tourist_attraction.html",
+      "cat": "shop",
+      "title": "《旅游景区质量等级证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Certificate_of_Trademark_change.html",
+      "cat": "shop",
+      "title": "《商标变更证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Certificate_of_organic_product_certification.html",
+      "cat": "shop",
+      "title": "《有机产品认证证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Certificate_of_trademark_renewal.html",
+      "cat": "shop",
+      "title": "《商标续展证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Commercial_housing_pre-sale_permit.html",
+      "cat": "shop",
+      "title": "《商品房预售许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Commercial_housing_sales_license.html",
+      "cat": "shop",
+      "title": "《商品房销售许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Commercial_performance_Permit.html",
+      "cat": "shop",
+      "title": "《营业性演出许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Computer_software_works.html",
+      "cat": "shop",
+      "title": "《计算机软件著作权登记证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Construction_Enterprise_qualification_Certificate.html",
+      "cat": "shop",
+      "title": "《建筑业企业资质证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Cosmetics_Production_License.html",
+      "cat": "shop",
+      "title": "《化妆品生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Crop_seed_production_license.html",
+      "cat": "shop",
+      "title": "《农作物种子生产许可证》/《林木种子生产许可证》/《种子经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Domestic_non-special_purpose_cosmetics_information_filing.html",
+      "cat": "shop",
+      "title": "《国产非特殊用途化妆品信息备案》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Domestic_special_purpose_cosmetics_hygiene_license.html",
+      "cat": "shop",
+      "title": "《国产特殊用途化妆品卫生许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Education_mobile_application_filing.html",
+      "cat": "shop",
+      "title": "《教育移动应用备案》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Engineering_design_and_construction_qualification_corresponding_grade_certificate.html",
+      "cat": "shop",
+      "title": "《工程设计与施工资质相应等级证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Engineering_supervision_qualification_Certificate.html",
+      "cat": "shop",
+      "title": "《工程监理资质证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Enterprise_information_change_record.html",
+      "cat": "shop",
+      "title": "《企业信息变更备案》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Entertainment_Business_License.html",
+      "cat": "shop",
+      "title": "《娱乐经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Entry-exit_inspection_and_quarantine_certificate_or_health_certificate.html",
+      "cat": "shop",
+      "title": "《出入境检验检疫证明或卫生证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Feed_additive_production_license.html",
+      "cat": "shop",
+      "title": "《饲料添加剂生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Feed_production_license.html",
+      "cat": "shop",
+      "title": "《饲料生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Fertilizer_registration_management.html",
+      "cat": "shop",
+      "title": "《肥料登记管理办法》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Filing_of_non-special_purpose_cosmetics.html",
+      "cat": "shop",
+      "title": "《非特殊用途化妆品的备案》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Film_Screening_Permit.html",
+      "cat": "shop",
+      "title": "《电影放映许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Film_distribution_and_operation_License.html",
+      "cat": "shop",
+      "title": "《电影发行经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_Circulation_Permit.html",
+      "cat": "shop",
+      "title": "《食品流通许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_and_drug_distribution_license.html",
+      "cat": "shop",
+      "title": "《食品药品经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_production_and_marketing_registration_certificate.html",
+      "cat": "shop",
+      "title": "《食品生产经营登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_production_license.html",
+      "cat": "shop",
+      "title": "《食品生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_safety_enterprise_standard_record_registration_form.html",
+      "cat": "shop",
+      "title": "《食品安全企业标准备案登记表》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_small_store_food_sales_record_certificate.html",
+      "error": "TypeError: Failed to fetch"
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Food_stall_information_publicity_card.html",
+      "cat": "shop",
+      "title": "《食品摊点信息公示卡》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Halal_food_production_and_operation_qualification.html",
+      "cat": "shop",
+      "title": "《清真食品生产经营资质》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Health_permit.html",
+      "cat": "shop",
+      "title": "《卫生许可证 》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Health_permit_for_public_places.html",
+      "cat": "shop",
+      "title": "《公共场所卫生许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/High_risk_sports_operation_license.html",
+      "cat": "shop",
+      "title": "《高危险性体育项目经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/ICP_for_the_record.html",
+      "cat": "shop",
+      "title": "《ICP备案或 ICP 许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Import_customs_declaration_document.html",
+      "cat": "shop",
+      "title": "《进口报关单据》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Import_feed_registration_certificate.html",
+      "cat": "shop",
+      "title": "《进口饲料登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Importer's_import_and_export_trade_qualification_certificate.html",
+      "cat": "shop",
+      "title": "《进口商的进出口贸易资格证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Infant_formula_Powder_Registration_Certificate.html",
+      "cat": "shop",
+      "title": "《婴儿配方乳粉注册证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Insurance_business_license.html",
+      "cat": "shop",
+      "title": "《经营保险业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Insurance_intermediary_license.html",
+      "cat": "shop",
+      "title": "《保险中介许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Insurance_part-time_agent_business_license.html",
+      "cat": "shop",
+      "title": "《保险兼业代理业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Insurance_valuation_business_license.html",
+      "cat": "shop",
+      "title": "《经营保险公估业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Intangible_certification.html",
+      "cat": "shop",
+      "title": "《非遗认证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Interior_decoration_enterprise_qualification_grade_certificate.html",
+      "cat": "shop",
+      "title": "《室内装饰企业资质等级证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Internet.html",
+      "cat": "shop",
+      "title": "《互联网出版许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Journal_Publishing_License.html",
+      "cat": "shop",
+      "title": "《期刊出版许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Lawyer_practice_qualification_Certificate.html",
+      "cat": "shop",
+      "title": "《律师执业资格证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Legal_person_license_of_insurance_company.html",
+      "cat": "shop",
+      "title": "《保险公司法人许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Letter_of_credit_commitment_of_the_electricity_selling_company.html",
+      "cat": "shop",
+      "title": "《售电公司信用承诺书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Mandatory_certification_products_comply_with_self-declaration.html",
+      "cat": "shop",
+      "title": "《强制性认证产品符合自我声明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Measures_for_the_Administration_of_Food_Business_License.html",
+      "cat": "shop",
+      "title": "《食品经营许可管理办法》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Measures_for_the_Administration_of_single-purpose_Commercial_Prepaid_cards.html",
+      "cat": "shop",
+      "title": "《单用途商业预付卡管理办法（试行）》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Measures_for_the_administration_of_Certificates_for_the_use_of_green_food_marks.html",
+      "cat": "shop",
+      "title": "《绿色食品标志使用证书管理办法》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Ministry.html",
+      "cat": "shop",
+      "title": "《工信部道路机动车辆生产企业准入许可》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Motor_vehicle_driving_training_license.html",
+      "cat": "shop",
+      "title": "《机动车驾驶培训许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/National_Industrial_Product_Production_license.html",
+      "cat": "shop",
+      "title": "《全国工业产品生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/National_compulsory_product_certification_certificate.html",
+      "cat": "shop",
+      "title": "《国家强制性产品认证证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Network_access_license_for_telecommunication_equipment.html",
+      "cat": "shop",
+      "title": "《电信设备进网许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Network_booking_taxi_operating_license.html",
+      "cat": "shop",
+      "title": "《网络预约出租汽车经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Newspaper_Publishing_license.html",
+      "cat": "shop",
+      "title": "《报纸出版许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Notice_of_acceptance_of_trademark_registration_application.html",
+      "cat": "shop",
+      "title": "《商标注册申请受理通知书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Occupational_qualification_Certificate_for_optometry_personnel.html",
+      "cat": "shop",
+      "title": "《验光人员职业资格证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Online_sales_and_real-name_system_authorization.html",
+      "cat": "shop",
+      "title": "《网络销售与实名制授权书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Operating_insurance_agency_business.html",
+      "cat": "shop",
+      "title": "《经营保险代理业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Operating_insurance_appraisal_business_for_filing.html",
+      "cat": "shop",
+      "title": "《经营保险公估业务备案》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Operation_License_of_public_air_transport_enterprise.html",
+      "cat": "shop",
+      "title": "《公共航空运输企业经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Operation_qualification_statemen.html",
+      "cat": "shop",
+      "title": "微信小店餐饮门店运营资质说明及承诺函",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Permit_of_insurance.html",
+      "cat": "shop",
+      "title": "《保险许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Pesticide_Management_License.html",
+      "cat": "shop",
+      "title": "《农药经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Pesticide_Production_License.html",
+      "cat": "shop",
+      "title": "《农药生产许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Pesticide_registration_Certificate.html",
+      "cat": "shop",
+      "title": "《农药登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Pollution-free_agricultural_products_certification.html",
+      "cat": "shop",
+      "title": "《无公害农产品认证证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Practicing_license_of_law_firm.html",
+      "cat": "shop",
+      "title": "《律师事务所执业许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Pre-packaged_food_sales_record_vouchers.html",
+      "cat": "shop",
+      "title": "《预包装食品销售备案凭证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Printing_business_License.html",
+      "cat": "shop",
+      "title": "《印刷经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Product_Operation_Specification.html",
+      "cat": "shop",
+      "title": "《产品经营说明书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Proof_Of_Association.html",
+      "cat": "shop",
+      "title": "《关联关系证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Publication_Operation_License.html",
+      "cat": "shop",
+      "title": "《出版物经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Qualification_certificate_for_public_fundraising_of_charitable_organizations.html",
+      "cat": "shop",
+      "title": "《慈善组织公开募捐资质证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Quality_inspection_report.html",
+      "cat": "shop",
+      "title": "《质检报告》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Real_estate_development_Qualification.html",
+      "cat": "shop",
+      "title": "《房地产开发资质》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_Certificate_for_small_food_shop.html",
+      "cat": "shop",
+      "title": "《食品小经营店登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_Certificate_of_charitable_organization.html",
+      "cat": "shop",
+      "title": "《慈善组织登记证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_Certificate_of_small_food_workshop.html",
+      "cat": "shop",
+      "title": "《食品小作坊登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_certificate_of_geographical_indication_of_agricultural_products.html",
+      "cat": "shop",
+      "title": "《农产品地理标志登记证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_of_small_food_production_and_processing_workshops.html",
+      "cat": "shop",
+      "title": "《食品生产加工小作坊登记》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Registration_qualification_for_imported_veterinary_drugs.html",
+      "cat": "shop",
+      "title": "《进口兽药注册资格》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Regulations_on_the_Administration_of_Live_Pig_Slaughter.html",
+      "cat": "shop",
+      "title": "《生猪屠宰管理条例（修订草案征求意见稿）》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Road_transport_operation_license.html",
+      "cat": "shop",
+      "title": "《道路运输经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Sanitary_license_for_enterprises_producing_disinfection_products.html",
+      "cat": "shop",
+      "title": "《消毒产品生产企业卫生许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/School-running_license_of_a_privately-run_school.html",
+      "cat": "shop",
+      "title": "《民办学校办学许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Small_catering_information_public_card.html",
+      "cat": "shop",
+      "title": "《小餐饮信息公示卡》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Small_restaurant_registration_certificate.html",
+      "cat": "shop",
+      "title": "《小餐饮登记证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Special_Trade_License.html",
+      "cat": "shop",
+      "title": "《特种行业许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Statement_on_the_relationship.html",
+      "cat": "shop",
+      "title": "餐饮平台与门店管理关系声明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Telecommunications_business_license.html",
+      "cat": "shop",
+      "title": "《电信业务经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/The_3c_mark.html",
+      "cat": "shop",
+      "title": "《3C标识》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Three_certificates_in_one.html",
+      "cat": "shop",
+      "title": "三证合一事业单位法人证书",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Timber_appraisal_certificate.html",
+      "cat": "shop",
+      "title": "《木材鉴定证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Tourist_Bureau_scenic_spot_grade_assessment.html",
+      "cat": "shop",
+      "title": "《旅游局景区等级评定》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Trade_mark_registration_certificate.html",
+      "cat": "shop",
+      "title": "《商标注册证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Trademark_assignment_certificate.html",
+      "cat": "shop",
+      "title": "《商标转让证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Travel_agency_branch_record_registration_certificate.html",
+      "cat": "shop",
+      "title": "《旅行社分社备案登记证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Travel_agency_business_license.html",
+      "cat": "shop",
+      "title": "《旅行社业务经营许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Travel_agency_liability_policy.html",
+      "cat": "shop",
+      "title": "《旅行社责任险保险单》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Value-added_telecommunications_service_license.html",
+      "cat": "shop",
+      "title": "《增值电信业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Vehicle_maintenance_and_operation_record_certificate.html",
+      "cat": "shop",
+      "title": "《机动车维修经营备案证明》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Vehicle_operation_certificate.html",
+      "cat": "shop",
+      "title": "《车辆营运证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Veterinary_medicine_Production_license.html",
+      "cat": "shop",
+      "title": "《兽药生产许可证》或《兽药经营许可证》、兽药 GMP 证书",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/Yangcheng_Lake_hairy_crab_native_area_protection_product_franchise_certificate.html",
+      "cat": "shop",
+      "title": "《阳澄湖大闸蟹原产地域保护产品专营证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/aaa.html",
+      "cat": "shop",
+      "title": "《经营保险经纪业务许可证》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/common_business.html",
+      "cat": "shop",
+      "title": "普通事业单位法人证书",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Examples_of_other_qualification_licenses/egistration_certificate_of_private_non-enterprise_unit.html",
+      "cat": "shop",
+      "title": "《民办非企业单位登记证书》",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Settlement_Account_information.html",
+      "cat": "shop",
+      "title": "结算账户信息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/Submit_Business_license.html",
+      "cat": "shop",
+      "title": "提交营业执照",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/Example_description_of_Qualification_license/business_unit.html",
+      "cat": "shop",
+      "title": "事业单位法人证书",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/changelog.html",
+      "cat": "shop",
+      "title": "接口变更日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/dev_before/commErrCode.html",
+      "cat": "shop",
+      "title": "公共错误码",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/dev_before/downloadResource.html",
+      "cat": "shop",
+      "title": "资源下载",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/dev_before/guide.html",
+      "cat": "shop",
+      "title": "开发者使用指南",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/dev_before/message_push.html",
+      "cat": "shop",
+      "title": "消息推送",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/catalog/brand.html",
+      "cat": "shop",
+      "title": "品牌资质",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/catalog/category.html",
+      "cat": "shop",
+      "title": "类目管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/catalog/product.html",
+      "cat": "shop",
+      "title": "商品管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/connect/kf.html",
+      "cat": "shop",
+      "title": "商家客服",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/connect/league.html",
+      "cat": "shop",
+      "title": "优选联盟",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/connect/miniprogram.html",
+      "cat": "shop",
+      "title": "小程序连接小店",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/connect/platformkf.html",
+      "cat": "shop",
+      "title": "客诉工单",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/logistics/delivery.html",
+      "cat": "shop",
+      "title": "物流发货",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/logistics/dropship.html",
+      "cat": "shop",
+      "title": "代发管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/logistics/ewaybill.html",
+      "cat": "shop",
+      "title": "电子面单打印组件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/logistics/warehouse.html",
+      "cat": "shop",
+      "title": "库存管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/marketing/coupon.html",
+      "cat": "shop",
+      "title": "营销管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/marketing/miniprogram_vip.html",
+      "cat": "shop",
+      "title": "小程序会员",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/marketing/vip.html",
+      "cat": "shop",
+      "title": "会员营销",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/operation/analytics.html",
+      "cat": "shop",
+      "title": "数据分析",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/operation/shop.html",
+      "cat": "shop",
+      "title": "店铺管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/aftersale.html",
+      "cat": "shop",
+      "title": "售后管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/complaint.html",
+      "cat": "shop",
+      "title": "纠纷管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/funds.html",
+      "cat": "shop",
+      "title": "资金结算",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/guarantee.html",
+      "cat": "shop",
+      "title": "服务保障",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/order.html",
+      "cat": "shop",
+      "title": "订单管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/qic.html",
+      "cat": "shop",
+      "title": "质检管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/guide/trade/subsidy.html",
+      "cat": "shop",
+      "title": "国补管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/linkstore/miniprogram_connection/cooperation.html",
+      "cat": "shop",
+      "title": "小程序连接小店-合作账号",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/linkstore/miniprogram_connection/miniprogram_callback/Order_notification.html",
+      "cat": "shop",
+      "title": "订单通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/linkstore/miniprogram_connection/miniprogram_desc.html",
+      "cat": "shop",
+      "title": "小程序连接微信小店介绍",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/linkstore/official_connection/official_desc.html",
+      "cat": "shop",
+      "title": "公众号连接微信小店介绍",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/aftersale_callback/channels_ec_aftersale_update.html",
+      "cat": "shop",
+      "title": "售后单更新通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/aftersale_callback/channels_ec_complaint_update.html",
+      "cat": "shop",
+      "title": "纠纷单更新通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/aftersale_callback/channels_ec_guarantee_update.html",
+      "cat": "shop",
+      "title": "保障单更新通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/brand_callback/brand_event.html",
+      "cat": "shop",
+      "title": "品牌资质事件通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/category_callback/ProductCategoryAudit.html",
+      "cat": "shop",
+      "title": "类目审核结果通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/common_callback/API_change_log_callback.html",
+      "cat": "shop",
+      "title": "API变更日志回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_create.html",
+      "cat": "shop",
+      "title": "创建优惠券通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_delete.html",
+      "cat": "shop",
+      "title": "删除优惠券通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_expire.html",
+      "cat": "shop",
+      "title": "优惠券过期通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_info_change.html",
+      "cat": "shop",
+      "title": "优惠券信息更新通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_invalid.html",
+      "cat": "shop",
+      "title": "作废优惠券通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_coupon_receive.html",
+      "cat": "shop",
+      "title": "领取优惠券通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_user_coupon_expire.html",
+      "cat": "shop",
+      "title": "用户优惠券过期通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_user_coupon_unuse.html",
+      "cat": "shop",
+      "title": "优惠券返还通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/coupon_callback/channels_ec_user_coupon_use.html",
+      "cat": "shop",
+      "title": "优惠券核销通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/funds_callback/channels_ec_acct_notify.html",
+      "cat": "shop",
+      "title": "结算账户变更回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/funds_callback/channels_ec_withdraw_notify.html",
+      "cat": "shop",
+      "title": "提现回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/funds_callback/qrcode_status.html",
+      "cat": "shop",
+      "title": "提现二维码回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/kf_callback/kf_msg_event.html",
+      "cat": "shop",
+      "title": "客服消息事件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/merchant_callback/ewaybill_push_path.html",
+      "cat": "shop",
+      "title": "物流轨迹推送通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_cancel.html",
+      "cat": "shop",
+      "title": "订单取消",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_confirm.html",
+      "cat": "shop",
+      "title": "订单确认收货",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_deliver.html",
+      "cat": "shop",
+      "title": "订单发货",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_ext_info.html",
+      "cat": "shop",
+      "title": "订单其他信息更新",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_new.html",
+      "cat": "shop",
+      "title": "订单下单",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_pay.html",
+      "cat": "shop",
+      "title": "订单支付成功",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_settle.html",
+      "cat": "shop",
+      "title": "订单结算成功",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/order_callback/channels_ec_order_wait_shipping.html",
+      "cat": "shop",
+      "title": "订单待发货",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/platformkf/ec_platform_kf_create_mch_ticket.html",
+      "cat": "shop",
+      "title": "工单创建通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/platformkf/ec_platform_kf_ticket_timeout.html",
+      "cat": "shop",
+      "title": "工单超时通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/product_callback/ProductSpuAudit.html",
+      "cat": "shop",
+      "title": "商品审核",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/product_callback/ProductSpuListing.html",
+      "cat": "shop",
+      "title": "商品上下架",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/product_callback/ProductSpuUpdate.html",
+      "cat": "shop",
+      "title": "商品更新",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/storebasics_callback/channels_ec_basic_change_status.html",
+      "cat": "shop",
+      "title": "小店状态变更回调事件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/storebasics_callback/channels_ec_basic_close_store.html",
+      "cat": "shop",
+      "title": "小店最终注销回调事件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/storebasics_callback/set_shop_nickname.html",
+      "cat": "shop",
+      "title": "小店修改名称事件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/wxa_callback/channels_ec_gen_order_info_init.html",
+      "cat": "shop",
+      "title": "用户进入下单页获取默认会员权益",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/wxa_callback/channels_ec_order_unuse_vip_discount.html",
+      "cat": "shop",
+      "title": "用户取消使用会员权益",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/wxa_callback/channels_ec_order_use_vip_discount.html",
+      "cat": "shop",
+      "title": "用户下单使用会员权益",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/wxa_callback/channels_ec_vip_user_auto_add.html",
+      "cat": "shop",
+      "title": "用户静默关联小店会员通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/notify/wxa_callback/channels_ec_vip_user_info_get.html",
+      "cat": "shop",
+      "title": "静默关联时获取小程序会员信息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/product/aftersale/aftersale_status_graph.html",
+      "cat": "shop",
+      "title": "售后管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/product/merchant/freightTemplate.html",
+      "cat": "shop",
+      "title": "物流发货",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/shop/product/wxamember/shop_wxa_vip_faq.html",
+      "cat": "shop",
+      "title": "小程序会员",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/",
+      "cat": "supplier",
+      "title": "微信小店供货商介绍",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/api/account/api_get_supplier_base_info.html",
+      "cat": "supplier",
+      "title": "获取供货商基础信息",
+      "method": "POST",
+      "path": "/channels/ec/supplier/base/get_supplier_base_info"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_callbackcheck.html",
+      "cat": "supplier",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_clearapiquota.html",
+      "cat": "supplier",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_clearquota.html",
+      "cat": "supplier",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_clearquotabyappsecret.html",
+      "cat": "supplier",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_getaccesstoken.html",
+      "cat": "supplier",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_getapidomainip.html",
+      "cat": "supplier",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_getapiquota.html",
+      "cat": "supplier",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/basics/api_getcallbackip.html",
+      "cat": "supplier",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/address/api_addaddress.html",
+      "cat": "supplier",
+      "title": "添加地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/add"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/address/api_deleteaddress.html",
+      "cat": "supplier",
+      "title": "删除地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/delete"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/address/api_getaddress.html",
+      "cat": "supplier",
+      "title": "获取地址详情",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/address/api_getaddresslist.html",
+      "cat": "supplier",
+      "title": "获取地址列表",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/list"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/address/api_updateaddress.html",
+      "cat": "supplier",
+      "title": "更新地址",
+      "method": "POST",
+      "path": "/channels/ec/merchant/address/update"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_addsuborder.html",
+      "cat": "supplier",
+      "title": "电子面单子件追加",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/addsuborder"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_batchprintorder.html",
+      "cat": "supplier",
+      "title": "批量打印通知",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/batchprint"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_cancelorder.html",
+      "cat": "supplier",
+      "title": "电子面单取消下单",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/cancel"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_createorder.html",
+      "cat": "supplier",
+      "title": "电子面单取号",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/create"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_createtemplate.html",
+      "cat": "supplier",
+      "title": "新增面单模板",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/create"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_deltemplate.html",
+      "cat": "supplier",
+      "title": "删除面单模版",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/delete"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_get_template_config.html",
+      "cat": "supplier",
+      "title": "获取面单标准模板",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/config"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_getacct.html",
+      "cat": "supplier",
+      "title": "查询开通的电子面单网点/账号信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/account/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_getdeliverylist.html",
+      "cat": "supplier",
+      "title": "查询开通的快递公司列表",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/delivery/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_getorder.html",
+      "cat": "supplier",
+      "title": "查询面单详情",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_gettemplate.html",
+      "cat": "supplier",
+      "title": "获取面单模板信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_gettemplatebyid.html",
+      "cat": "supplier",
+      "title": "根据模板ID获取面单模板信息",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/getbyid"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_precreateorder.html",
+      "cat": "supplier",
+      "title": "电子面单预取号",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/precreate"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_printorder.html",
+      "cat": "supplier",
+      "title": "打印成功通知",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/print"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_ewaybill_updatetemplate.html",
+      "cat": "supplier",
+      "title": "更新面单模版",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/template/update"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_get_print_content.html",
+      "cat": "supplier",
+      "title": "获取打印报文",
+      "method": "POST",
+      "path": "/channels/ec/logistics/ewaybill/biz/order/getprintinfo"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/electronic/api_getdeliverycompanylistnew.html",
+      "cat": "supplier",
+      "title": "获取快递公司列表",
+      "method": "POST",
+      "path": "/channels/ec/order/deliverycompanylist/new/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/shipping/api_delivery_send.html",
+      "cat": "supplier",
+      "title": "代发单与供货单发货",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/supplier/delivery/send"
+    },
+    {
+      "url": "/doc/store/supplier/api/delivery/shipping/api_delivery_update.html",
+      "cat": "supplier",
+      "title": "修改代发单与供货单物流",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/supplier/delivery/update"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-order/api_dropship_get.html",
+      "cat": "supplier",
+      "title": "查询代发单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/supplier/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-order/api_dropship_list.html",
+      "cat": "supplier",
+      "title": "获取代发单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/supplier/list"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-order/api_dropship_search.html",
+      "cat": "supplier",
+      "title": "搜索代发单",
+      "method": "POST",
+      "path": "/channels/ec/order/dropship/supplier/search"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-relation/api_accept_invitation.html",
+      "cat": "supplier",
+      "title": "同意商家关联申请",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/accept_invitation"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-relation/api_get_ec_list.html",
+      "cat": "supplier",
+      "title": "获取关联的商家列表",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/get_ec_list"
+    },
+    {
+      "url": "/doc/store/supplier/api/dropship/dropship-relation/api_reject_invitation.html",
+      "cat": "supplier",
+      "title": "拒绝商家关联申请",
+      "method": "POST",
+      "path": "/channels/ec/supplier/relation/reject_invitation"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/freight-template/api_addfreighttemplate.html",
+      "cat": "supplier",
+      "title": "增加运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/addfreighttemplate"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/freight-template/api_getfreighttemplatedetail.html",
+      "cat": "supplier",
+      "title": "查询运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/getfreighttemplatedetail"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/freight-template/api_getfreighttemplatelist.html",
+      "cat": "supplier",
+      "title": "获取运费模板列表",
+      "method": "POST",
+      "path": "/channels/ec/merchant/getfreighttemplatelist"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/freight-template/api_updatefreighttemplate.html",
+      "cat": "supplier",
+      "title": "更新运费模版",
+      "method": "POST",
+      "path": "/channels/ec/merchant/updatefreighttemplate"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_addcategory.html",
+      "cat": "supplier",
+      "title": "申请类目",
+      "method": "POST",
+      "path": "/channels/ec/category/add"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_cancelauditcategory.html",
+      "cat": "supplier",
+      "title": "撤销类目审核",
+      "method": "POST",
+      "path": "/shop/ec/category/audit/cancel"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getallcategory.html",
+      "cat": "supplier",
+      "title": "获取所有类目",
+      "method": "GET",
+      "path": "/shop/ec/category/all"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getbizcatflowdetail.html",
+      "cat": "supplier",
+      "title": "获取店铺的类目审核单详情",
+      "method": "POST",
+      "path": "/shop/ec/category/getbizcatflowdetail"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getbizcatflowlist.html",
+      "cat": "supplier",
+      "title": "获取店铺的类目审核单列表",
+      "method": "POST",
+      "path": "/shop/ec/category/getbizcatflowlist"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getcategorydetail.html",
+      "cat": "supplier",
+      "title": "获取类目信息",
+      "method": "POST",
+      "path": "/shop/ec/category/detail"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getcategoryrelationdetail.html",
+      "cat": "supplier",
+      "title": "获取店铺的类目权限详情",
+      "method": "POST",
+      "path": "/shop/ec/category/get_category_relation_detail"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-category/api_getcategoryrelationlist.html",
+      "cat": "supplier",
+      "title": "获取店铺的类目权限列表",
+      "method": "POST",
+      "path": "/shop/ec/category/get_category_relation_list"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-order/api_supplyorder_get.html",
+      "cat": "supplier",
+      "title": "查询供货单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/supplier/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-order/api_supplyorder_list.html",
+      "cat": "supplier",
+      "title": "获取供货单列表",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/supplier/list"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-order/api_supplyorder_search.html",
+      "cat": "supplier",
+      "title": "搜索供货单",
+      "method": "POST",
+      "path": "/channels/ec/order/supplyorder/supplier/search"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product-stock/api_batchgetstock.html",
+      "cat": "supplier",
+      "title": "批量获取库存信息",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/batchget"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product-stock/api_getstock.html",
+      "cat": "supplier",
+      "title": "获取库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product-stock/api_getstockflow.html",
+      "cat": "supplier",
+      "title": "获取库存流水",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/getflow"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product-stock/api_updatestock.html",
+      "cat": "supplier",
+      "title": "快速更新库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/update"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_addsupplyproduct.html",
+      "cat": "supplier",
+      "title": "添加货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/add"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_cancelauditsupplyproduct.html",
+      "cat": "supplier",
+      "title": "撤回货品审核",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/audit/cancel"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_deletesupplyproduct.html",
+      "cat": "supplier",
+      "title": "删除货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/delete"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_delistingsupplyproduct.html",
+      "cat": "supplier",
+      "title": "下架货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/delisting"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_externalproductmappingnew.html",
+      "cat": "supplier",
+      "title": "商品属性映射及推荐",
+      "method": "POST",
+      "path": "/channels/ec/product/externalproductmappingnew"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_getcategoryproductrule.html",
+      "cat": "supplier",
+      "title": "获取类目下商品发布规则",
+      "method": "POST",
+      "path": "/shop/ec/category/getcategoryproductrule"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_getsupplyproduct.html",
+      "cat": "supplier",
+      "title": "获取货品详情",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_getsupplyproductlist.html",
+      "cat": "supplier",
+      "title": "获取货品列表",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/list/get"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_listingsupplyproduct.html",
+      "cat": "supplier",
+      "title": "上架货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/listing"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_product_classify.html",
+      "cat": "supplier",
+      "title": "类目推荐",
+      "method": "POST",
+      "path": "/channels/ec/product/category/classify"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_updatesupplyproduct.html",
+      "cat": "supplier",
+      "title": "更新货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/update"
+    },
+    {
+      "url": "/doc/store/supplier/api/supply/supply-product/api_updatesupplyproductauditfree.html",
+      "cat": "supplier",
+      "title": "免审更新货品",
+      "method": "POST",
+      "path": "/channels/ec/supplier/product/auditfree"
+    },
+    {
+      "url": "/doc/store/supplier/mmecapisupplier_updates.html",
+      "cat": "supplier",
+      "title": "微信小店供货商接口变更日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/common_callback/API_change_log_callback.html",
+      "cat": "supplier",
+      "title": "API变更日志回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/ds_order_notify/ds_order_add_notice.html",
+      "cat": "supplier",
+      "title": "代发单新增",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/ds_order_notify/ds_order_cancel_notice.html",
+      "cat": "supplier",
+      "title": "代发单取消",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/ds_order_notify/ds_order_update_notice.html",
+      "cat": "supplier",
+      "title": "代发单更新",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/merchant_callback/ewaybill_push_path.html",
+      "cat": "supplier",
+      "title": "物流轨迹推送通知",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/partnership/invite_supplier.html",
+      "cat": "supplier",
+      "title": "商家关联供货商邀请",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-order/supply_order_cancel.html",
+      "cat": "supplier",
+      "title": "供货单取消",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-order/supply_order_complete.html",
+      "cat": "supplier",
+      "title": "供货单完成",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-order/supply_order_new.html",
+      "cat": "supplier",
+      "title": "供货单新增",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-order/supply_order_update.html",
+      "cat": "supplier",
+      "title": "供货单更新",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-product/ec_supplier_product_audit.html",
+      "cat": "supplier",
+      "title": "货品审核",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-product/ec_supplier_product_listing.html",
+      "cat": "supplier",
+      "title": "货品上下架",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/notify/supply-product/ec_supplier_product_update.html",
+      "cat": "supplier",
+      "title": "货品更新",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_flow.html",
+      "cat": "supplier",
+      "title": "电子面单流程",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_printer/connect_printer.html",
+      "cat": "supplier",
+      "title": "连接打印组件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_printer/get_printer_list.html",
+      "cat": "supplier",
+      "title": "获取打印机列表",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_printer/get_printer_version.html",
+      "cat": "supplier",
+      "title": "获取打印组件版本号",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_printer/preview_order.html",
+      "cat": "supplier",
+      "title": "预览面单",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_printer/print_order.html",
+      "cat": "supplier",
+      "title": "打印面单",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/ewaybill/ewaybill_suborder.html",
+      "cat": "supplier",
+      "title": "子母单接入说明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/merchant/freightTemplate.html",
+      "cat": "supplier",
+      "title": "运费模板定义",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/supplier/product/service_market_desc.html",
+      "cat": "supplier",
+      "title": "服务市场上架说明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/",
+      "cat": "talent",
+      "title": "带货助手",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/before_develop/bind_account.html",
+      "cat": "talent",
+      "title": "带货助手绑定开放平台账号",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/before_develop/dev_config.html",
+      "cat": "talent",
+      "title": "带货助手开发者使用指南",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/before_develop/third_party_platforms.html",
+      "cat": "talent",
+      "title": "第三方服务商调用模式介绍",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/changelog.html",
+      "cat": "talent",
+      "title": "接口变更日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/notify/API_change_log_callback.html",
+      "cat": "talent",
+      "title": "API变更日志回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/notify/talent_commission_order_update.html",
+      "cat": "talent",
+      "title": "达人佣金单变更回调",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_callbackcheck.html",
+      "cat": "talent",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_clearapiquota.html",
+      "cat": "talent",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_clearquota.html",
+      "cat": "talent",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_clearquotabyappsecret.html",
+      "cat": "talent",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_getaccesstoken.html",
+      "cat": "talent",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_getapidomainip.html",
+      "cat": "talent",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_getapiquota.html",
+      "cat": "talent",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get"
+    },
+    {
+      "url": "/doc/store/talent/openapi/basics/api_getcallbackip.html",
+      "cat": "talent",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip"
+    },
+    {
+      "url": "/doc/store/talent/openapi/order/api_get_order_detail.html",
+      "cat": "talent",
+      "title": "获取佣金单详情",
+      "method": "POST",
+      "path": "/channels/ec/talent/get_order_detail"
+    },
+    {
+      "url": "/doc/store/talent/openapi/order/api_get_order_list.html",
+      "cat": "talent",
+      "title": "获取佣金单列表",
+      "method": "POST",
+      "path": "/channels/ec/talent/get_order_list"
+    },
+    {
+      "url": "/doc/store/talent/openapi/window/api_get_product_detail.html",
+      "cat": "talent",
+      "title": "获取达人橱窗商品详情",
+      "method": "POST",
+      "path": "/channels/ec/talent/window/product/get"
+    },
+    {
+      "url": "/doc/store/talent/openapi/window/api_get_product_list.html",
+      "cat": "talent",
+      "title": "获取达人橱窗商品列表",
+      "method": "POST",
+      "path": "/channels/ec/talent/window/product/list/get"
+    }
+  ]
+}

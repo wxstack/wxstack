@@ -1,0 +1,3544 @@
+[
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/",
+    "cat": "Miniprogram_Frame",
+    "title": "产品介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/about.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf-cli 使用必读",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/backend/addDevice.html",
+    "cat": "Miniprogram_Frame",
+    "title": "注册设备ID",
+    "method": "POST",
+    "path": "/wxa/business/runtime/adddevice"
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/backend/pushAppMsg.html",
+    "cat": "Miniprogram_Frame",
+    "title": "向WMPF推送消息",
+    "method": "POST",
+    "path": "/wxa/business/runtime/pushappmsg"
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/account/isLogin.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFAccountApi.isLogin",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/account/login.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFAccountApi.login",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/account/loginByWechatAuto.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFAccountApi.loginByWechatAuto",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/account/logout.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFAccountApi.logout",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/boot/init.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFBoot.init",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/boot/initViaSetting.html",
+    "cat": "Miniprogram_Frame",
+    "title": "通过 Android Global Setting 初始化",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/car/getDrivingStatus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFCarApi.getDrivingStatus",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/car/sendChargerConnectedEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFCarApi.sendChargerConnectedEvent",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/car/sendChargerDisconnectedEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFCarApi.sendChargerDisconnectedEvent",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/car/setDrivingStatus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFCarApi.setDrivingStatus",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/activateDevice.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.activateDevice",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/getPushToken.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.getPushToken",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/isDeviceActivated.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.isDeviceActivated",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/registerDeviceActivationOutdatedEventListener.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.registerDeviceActivationOutdatedEventListener",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/registerPushMsgEventListener.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.registerPushMsgEventListener",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/device/setPushMsgCallback.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFDeviceApi.setPushMsgCallback",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/launcher/WMPFClientExportProvider.html",
+    "cat": "Miniprogram_Frame",
+    "title": "添加到桌面、自定义收藏（车机）",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/launcher/getMiniProgramList.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFLauncherApi.getMiniProgramList",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/launcher/setMiniProgramBlackList.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFLauncherApi.setMiniProgramBlackList",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/lifecycle/addWMPFLifecycleListener.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFLifeCycleManager.addWMPFLifecycleListener",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/lifecycle/removeWMPFLifecycleListener.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFLifecycleManager.removeWMPFLifecycleListener",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/closeWxaApp.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.closeWxaApp",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/launchByQRScanCode.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.launchByQRScanCode",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/launchMiniProgram.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.launchMiniProgram",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/preload.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.preload",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/registerChooseLocationEventHandler.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.registerChooseLocationEventHandler",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/registerMakePhoneCallEventHandler.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.registerMakePhoneCallEventHandler",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/registerOpenLocationEventHandler.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.registerOpenLocationEventHandler",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogram/warmUpApp.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramApi.warmUpApp",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogramdevice/getMiniProgramDeviceInfo.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramDeviceApi.getMiniProgramDeviceInfo",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogramdevice/prefetchDeviceToken.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramDeviceApi.prefetchDeviceToken",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/miniprogramdevice/registerMiniProgramDevice.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMiniProgramDeviceApi.registerMiniProgramDevice",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/MediaSession.html",
+    "cat": "Miniprogram_Frame",
+    "title": "MediaSession 支持",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/WMPFMusicController.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicController",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/getPlayingMetadata.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.getPlayingMetadata",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/isPlaying.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.isPlaying",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/next.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.next",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/pause.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.pause",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/play.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.play",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/playOrPause.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.playOrPause",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/previous.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.previous",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/registerMusicPlayStatusListener.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.registerMusicPlayStatusListener",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/seek.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.seek",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/music/stop.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFMusicApi.stop",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/setting/setSetting.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFSettingApi.setSetting",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setCloseActionType.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setCloseActionType",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setDrivingMaskAllowList.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setDrivingMaskAllowList",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setReloadActionType.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setReloadActionType",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setWindowRatio.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setWindowRatio",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setZoom.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setZoom",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/cli/ui/setZoomForProcess.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFUiApi.setZoomForProcess",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/ActivateDevice.html",
+    "cat": "Miniprogram_Frame",
+    "title": "ActivateDevice",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/ActivateDeviceByIoT.html",
+    "cat": "Miniprogram_Frame",
+    "title": "ActivateDeviceByIoT",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/ActiveStatus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "ActiveStatus",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/Authorize.html",
+    "cat": "Miniprogram_Frame",
+    "title": "Authorize",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/AuthorizeByWxFacePay.html",
+    "cat": "Miniprogram_Frame",
+    "title": "AuthorizeByWxFacePay",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/AuthorizeStatus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "AuthorizeStatus",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/CloseWxaApp.html",
+    "cat": "Miniprogram_Frame",
+    "title": "CloseWxaApp",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/Deauthorize.html",
+    "cat": "Miniprogram_Frame",
+    "title": "Deauthorize",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/GetPushToken.html",
+    "cat": "Miniprogram_Frame",
+    "title": "GetPushToken",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/InitGlobalConfig.html",
+    "cat": "Miniprogram_Frame",
+    "title": "InitGlobalConfig",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/InitWxFacePayInfo.html",
+    "cat": "Miniprogram_Frame",
+    "title": "InitWxFacePayInfo",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/LaunchWxaApp.html",
+    "cat": "Miniprogram_Frame",
+    "title": "LaunchWxaApp",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/LaunchWxaAppByQrCode.html",
+    "cat": "Miniprogram_Frame",
+    "title": "LaunchWxaAppByQrCode",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/ManageBackgroundMusic.html",
+    "cat": "Miniprogram_Frame",
+    "title": "ManageBackgroundMusic",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/NotifyBackgroundMusic.html",
+    "cat": "Miniprogram_Frame",
+    "title": "NotifyBackgroundMusic",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/PrefetchDeviceToken.html",
+    "cat": "Miniprogram_Frame",
+    "title": "PrefetchDeviceToken",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/PreloadRuntime.html",
+    "cat": "Miniprogram_Frame",
+    "title": "PreloadRuntime",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/RegisterMiniProgramDevice.html",
+    "cat": "Miniprogram_Frame",
+    "title": "RegisterMiniProgramDevice",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/SetPushMsgCallback.html",
+    "cat": "Miniprogram_Frame",
+    "title": "SetPushMsgCallback",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/TaskError.html",
+    "cat": "Miniprogram_Frame",
+    "title": "TaskError",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/WMPFClientProvider.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPFClientProvider",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/invoke.html",
+    "cat": "Miniprogram_Frame",
+    "title": "invoke",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/invokeSync.html",
+    "cat": "Miniprogram_Frame",
+    "title": "invokeSync",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/registerEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "registerEvent",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/client/unregisterEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "unregisterEvent",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/facePay.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.wxFacePay.facePay(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getDeviceSerialNumber.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.getDeviceSerialNumber(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getDeviceSerialNumberSync.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.getDeviceSerialNumberSync()",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getFaceCode.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.wxFacePay.getFaceCode(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getVehicleDrivingStatus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.getVehicleDrivingStatus(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getVehicleInfo.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.getVehicleInfo(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/getWmpfPushToken.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.getWmpfPushToken(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/invoke.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.invoke(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/invokeSync.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.invokeSync(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/off.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.off(string event, function callback)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/on.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.on(string event, function callback)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/onVehicleChargeStatusChange.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.onVehicleChargeStatusChange(function callback)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/onVehicleDrivingStatusChange.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.onVehicleDrivingStatusChange(function callback)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/printer.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.printer(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/registerEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.registerEvent(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/api/mini_program/unregisterEvent.html",
+    "cat": "Miniprogram_Frame",
+    "title": "wmpf.Channel.unregisterEvent(Object object)",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/bind-app.html",
+    "cat": "Miniprogram_Frame",
+    "title": "绑定移动应用和小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/client-service.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPF Client 与 Service 通信",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/contactus.html",
+    "cat": "Miniprogram_Frame",
+    "title": "联系我们",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/create-app.html",
+    "cat": "Miniprogram_Frame",
+    "title": "创建移动应用",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/demo.html",
+    "cat": "Miniprogram_Frame",
+    "title": "快速体验（安卓）",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/description.html",
+    "cat": "Miniprogram_Frame",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/developer-tools.html",
+    "cat": "Miniprogram_Frame",
+    "title": "调试 WMPF 小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/device-sn.html",
+    "cat": "Miniprogram_Frame",
+    "title": "设备 SN 码",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/download.html",
+    "cat": "Miniprogram_Frame",
+    "title": "安卓小程序硬件框架发布",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/face-pay.html",
+    "cat": "Miniprogram_Frame",
+    "title": "刷脸支付",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/faq.html",
+    "cat": "Miniprogram_Frame",
+    "title": "常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/glossary.html",
+    "cat": "Miniprogram_Frame",
+    "title": "名词解释",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/hardware-register.html",
+    "cat": "Miniprogram_Frame",
+    "title": "硬件注册",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/invoke-channel.html",
+    "cat": "Miniprogram_Frame",
+    "title": "小程序与移动应用通信",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/principle.html",
+    "cat": "Miniprogram_Frame",
+    "title": "WMPF 技术原理",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/printer.html",
+    "cat": "Miniprogram_Frame",
+    "title": "打印机",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/process.html",
+    "cat": "Miniprogram_Frame",
+    "title": "概要",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/push.html",
+    "cat": "Miniprogram_Frame",
+    "title": "消息推送",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/quick-start.html",
+    "cat": "Miniprogram_Frame",
+    "title": "快速上手",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/reg-device-info.html",
+    "cat": "Miniprogram_Frame",
+    "title": "登记设备信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/utils.html",
+    "cat": "Miniprogram_Frame",
+    "title": "辅助工具",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/voip.html",
+    "cat": "Miniprogram_Frame",
+    "title": "小程序音视频通话（for 硬件）",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Miniprogram_Frame/wecooper-reg.html",
+    "cat": "Miniprogram_Frame",
+    "title": "注册「微信终端合作平台」账号",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/APP_launch_wechat_customer_service.html",
+    "cat": "Mobile_App",
+    "title": "APP拉起微信客服功能",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Access_Guide/Android.html",
+    "cat": "Mobile_App",
+    "title": "Android 接入指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Access_Guide/iOS.html",
+    "cat": "Mobile_App",
+    "title": "iOS 接入指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Access_Guide/ohos.html",
+    "cat": "Mobile_App",
+    "title": "鸿蒙应用开发手册",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Access_Guide/signature_verify.html",
+    "cat": "Mobile_App",
+    "title": "安全鉴权模式",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Downloads/Android_Resource.html",
+    "cat": "Mobile_App",
+    "title": "基本信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Downloads/HarmonyOS_Resource.html",
+    "cat": "Mobile_App",
+    "title": "基本信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Downloads/iOS_Resource.html",
+    "cat": "Mobile_App",
+    "title": "基本信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/FAQ/Android.html",
+    "cat": "Mobile_App",
+    "title": "Android 常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/FAQ/Required_Developer_Knowledge.html",
+    "cat": "Mobile_App",
+    "title": "开发者须知",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/FAQ/iOS.html",
+    "cat": "Mobile_App",
+    "title": "iOS 常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Launching_a_Mini_Program/Android_Development_example.html",
+    "cat": "Mobile_App",
+    "title": "Android 开发示例",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Launching_a_Mini_Program/Launching_a_Mini_Program.html",
+    "cat": "Mobile_App",
+    "title": "功能介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Launching_a_Mini_Program/OHOS_Development_example.html",
+    "cat": "Mobile_App",
+    "title": "鸿蒙应用拉起小程序开发示例",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Launching_a_Mini_Program/iOS_Development_example.html",
+    "cat": "Mobile_App",
+    "title": "iOS 开发示例",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/One-time_subscription_info.html",
+    "cat": "Mobile_App",
+    "title": "多端应用开发指南",
+    "method": "POST",
+    "path": "/cgi-bin/message/template/subscribe"
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Share_and_Favorites/Android.html",
+    "cat": "Mobile_App",
+    "title": "多端应用开发指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Share_and_Favorites/OpenSDK_Signature.html",
+    "cat": "Mobile_App",
+    "title": "OpenSDK分享签名开发手册",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Share_and_Favorites/Share_and_Favorites.html",
+    "cat": "Mobile_App",
+    "title": "功能介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Share_and_Favorites/iOS.html",
+    "cat": "Mobile_App",
+    "title": "多端应用开发指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/Share_and_Favorites/ohos.html",
+    "cat": "Mobile_App",
+    "title": "鸿蒙应用开发手册",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_H5_Launch_APP.html",
+    "cat": "Mobile_App",
+    "title": "功能介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/Authorized_API_call_UnionID.html",
+    "cat": "Mobile_App",
+    "title": "微信开放文档",
+    "method": "GET",
+    "path": "/sns/oauth2/access_token"
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/Development_Guide.html",
+    "cat": "Mobile_App",
+    "title": "准备工作",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/Login_via_Scan.html",
+    "cat": "Mobile_App",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/authorization_change.html",
+    "cat": "Mobile_App",
+    "title": "授权用户信息变更",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/get_quota.html",
+    "cat": "Mobile_App",
+    "title": "移动应用微信登录接口付费提额指引",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Login/message_push.html",
+    "cat": "Mobile_App",
+    "title": "消息推送",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Pay/Android.html",
+    "cat": "Mobile_App",
+    "title": "多端应用开发指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Pay/Vendor_Service_Center.html",
+    "cat": "Mobile_App",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/WeChat_Pay/iOS.html",
+    "cat": "Mobile_App",
+    "title": "多端应用开发指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/agreement/sdk.html",
+    "cat": "Mobile_App",
+    "title": "微信 Open SDK开发者合规使用指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/backup_signature.html",
+    "cat": "Mobile_App",
+    "title": "配置 Android 应用备用签名",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/backup_ul.html",
+    "cat": "Mobile_App",
+    "title": "配置 iOS 应用备用 Universal Link",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/basic_info.html",
+    "cat": "Mobile_App",
+    "title": "移动应用基本资料填写说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/bind.html",
+    "cat": "Mobile_App",
+    "title": "移动应用绑定关系说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/create.html",
+    "cat": "Mobile_App",
+    "title": "创建移动应用",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/dev_info.html",
+    "cat": "Mobile_App",
+    "title": "移动应用开发信息修改说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/getioslink.html",
+    "cat": "Mobile_App",
+    "title": "获取 AppStore 下载地址",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/guideline/migrate.html",
+    "cat": "Mobile_App",
+    "title": "移动应用迁移",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Mobile_App/operation.html",
+    "cat": "Mobile_App",
+    "title": "应用审核规范",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Authorization_Process_Technical_Description.html",
+    "cat": "Third-party_Platforms",
+    "title": "授权流程技术说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/ComponentAccessToken.html",
+    "cat": "Third-party_Platforms",
+    "title": "component_access_token 使用说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Message_encryption_and_decryption.html",
+    "cat": "Third-party_Platforms",
+    "title": "概述",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Official_Accounts/Handling_of_news_and_events.html",
+    "cat": "Third-party_Platforms",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Official_Accounts/js_sdk_instructions.html",
+    "cat": "Third-party_Platforms",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Official_Accounts/official_account_website_authorization.html",
+    "cat": "Third-party_Platforms",
+    "title": "简介",
+    "method": "GET",
+    "path": "/sns/userinfo"
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/Technical_Plan.html",
+    "cat": "Third-party_Platforms",
+    "title": "概述",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/authorize_event.html",
+    "cat": "Third-party_Platforms",
+    "title": "授权变更通知推送",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/call_interface.html",
+    "cat": "Third-party_Platforms",
+    "title": "代调用接口介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/component_verify_ticket.html",
+    "cat": "Third-party_Platforms",
+    "title": "验证票据",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/creat_token.html",
+    "cat": "Third-party_Platforms",
+    "title": "authorizer_access_token 生成说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/Before_Develop/message_push.html",
+    "cat": "Third-party_Platforms",
+    "title": "消息推送",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/cloudbase/batch/CloudConsole.html",
+    "cat": "Third-party_Platforms",
+    "title": "批量云开发控制台",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/cloudbase/batch/problem.html",
+    "cat": "Third-party_Platforms",
+    "title": "常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/cloudbase/batch/quickstart.html",
+    "cat": "Third-party_Platforms",
+    "title": "开发前准备",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/cloudbase/cloudbase.html",
+    "cat": "Third-party_Platforms",
+    "title": "批量代云开发",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/cloudbase/common/problem.html",
+    "cat": "Third-party_Platforms",
+    "title": "常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_be.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何成为服务商",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_be_found.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何让商家更好地发现你的服务",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_call_api.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何代商家调用接口",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_read.html",
+    "cat": "Third-party_Platforms",
+    "title": "导读",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_run.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何搭建第三方平台后端服务",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_service.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何完成商家授权",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/how_to_test.html",
+    "cat": "Third-party_Platforms",
+    "title": "个人如何测试第三方平台",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/getting_started/terminology_introduce.html",
+    "cat": "Third-party_Platforms",
+    "title": "基本概念介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/authorization/authorization_management.html",
+    "cat": "Third-party_Platforms",
+    "title": "授权相关操作",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/open/change.html",
+    "cat": "Third-party_Platforms",
+    "title": "更换开放平台主体",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/open/create.html",
+    "cat": "Third-party_Platforms",
+    "title": "注册开放平台",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/open/link.html",
+    "cat": "Third-party_Platforms",
+    "title": "关联主体",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/others/Logistics_Assistant.html",
+    "cat": "Third-party_Platforms",
+    "title": "一、接入前必读",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/others/Logistics_Synopsis.html",
+    "cat": "Third-party_Platforms",
+    "title": "一、物流助手介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/alarm.html",
+    "cat": "Third-party_Platforms",
+    "title": "告警群设置",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/apply.html",
+    "cat": "Third-party_Platforms",
+    "title": "创建第三方平台",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/beta_mp_plugin.html",
+    "cat": "Third-party_Platforms",
+    "title": "小程序服务商组件使用指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/config.html",
+    "cat": "Third-party_Platforms",
+    "title": "第三方平台开发配置",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/customized_service_platform_guidelines.html",
+    "cat": "Third-party_Platforms",
+    "title": "定制化型第三方平台账号",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/dev.html",
+    "cat": "Third-party_Platforms",
+    "title": "绑定开发小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/faq.html",
+    "cat": "Third-party_Platforms",
+    "title": "常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/modify.html",
+    "cat": "Third-party_Platforms",
+    "title": "修改第三方平台",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/prepare.html",
+    "cat": "Third-party_Platforms",
+    "title": "创建与配置第三方平台准备工作",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/publish.html",
+    "cat": "Third-party_Platforms",
+    "title": "申请全网发布",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/releases_instructions.html",
+    "cat": "Third-party_Platforms",
+    "title": "全网发布检测说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/operation/thirdparty/template.html",
+    "cat": "Third-party_Platforms",
+    "title": "小程序模板库管理",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/COMPONENT_OPERATOR_AMS/component_ams.html",
+    "cat": "Third-party_Platforms",
+    "title": "一、能力介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Open_Platform_Account_Management.html",
+    "cat": "Third-party_Platforms",
+    "title": "微信开放平台账号管理",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/Fast_Registration_Interface_document.html",
+    "cat": "Third-party_Platforms",
+    "title": "快速注册企业小程序介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/Intro.html",
+    "cat": "Third-party_Platforms",
+    "title": "代注册小程序介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/beta_mp_introduction.html",
+    "cat": "Third-party_Platforms",
+    "title": "试用小程序介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/beta_mp_plugin.html",
+    "cat": "Third-party_Platforms",
+    "title": "小程序服务商组件介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/fast_registration_of_mini_program.html",
+    "cat": "Third-party_Platforms",
+    "title": "复用公众号主体快速注册小程序介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/fastregisterpersonalmp.html",
+    "cat": "Third-party_Platforms",
+    "title": "快速创建个人小程序",
+    "method": "POST",
+    "path": "/wxa/component/fastregisterpersonalweapp"
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Register_Mini_Programs/fastregistertransactionweapp.html",
+    "cat": "Third-party_Platforms",
+    "title": "能力介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Security_Management_Instructions.html",
+    "cat": "Third-party_Platforms",
+    "title": "第三方平台安全管理说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/Third_party_platform_appid.html",
+    "cat": "Third-party_Platforms",
+    "title": "平台概述",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/admininfo.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何完善小程序实名信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/apply_privacy_api.html",
+    "cat": "Third-party_Platforms",
+    "title": "小程序地理位置接口申请与使用指引",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/channel_authority.html",
+    "cat": "Third-party_Platforms",
+    "title": "视频号权限集",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/domain.html",
+    "cat": "Third-party_Platforms",
+    "title": "代开发的小程序域名配置说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/how_to_dev.html",
+    "cat": "Third-party_Platforms",
+    "title": "服务商代开发小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/illegalEvent.html",
+    "cat": "Third-party_Platforms",
+    "title": "服务商代接收小程序违规处罚信息",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/live-player.html",
+    "cat": "Third-party_Platforms",
+    "title": "代开发小程序配置直播插件说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/management-tool-dev.html",
+    "cat": "Third-party_Platforms",
+    "title": "官方服务二次开发",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/management-tools.html",
+    "cat": "Third-party_Platforms",
+    "title": "微管家使用和问题解答",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/miniprogram_authority.html",
+    "cat": "Third-party_Platforms",
+    "title": "小程序权限集",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/offical_account_authority.html",
+    "cat": "Third-party_Platforms",
+    "title": "公众号权限集",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/officalaccount_jump_miniprogram.html",
+    "cat": "Third-party_Platforms",
+    "title": "如何实现扫服务号带参二维码打开小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/privacy_setting.html",
+    "cat": "Third-party_Platforms",
+    "title": "配置小程序用户隐私保护指引",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/record.html",
+    "cat": "Third-party_Platforms",
+    "title": "服务商提交备案资料指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/talent_authority.html",
+    "cat": "Third-party_Platforms",
+    "title": "小店带货助手权限集",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/weapp_wxverify.html",
+    "cat": "Third-party_Platforms",
+    "title": "代认证小程序介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/wxcloudrun.html",
+    "cat": "Third-party_Platforms",
+    "title": "第三方平台云服务",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/wxcloudrun_dev.html",
+    "cat": "Third-party_Platforms",
+    "title": "与业务系统对接",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/wxcloudrun_dev_token.html",
+    "cat": "Third-party_Platforms",
+    "title": "服务商使用云托管开放服务",
+    "method": "GET",
+    "path": "/sns/component/jscode2session"
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/product/wxverifyicp.html",
+    "cat": "Third-party_Platforms",
+    "title": "服务商代认证及备案介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/troubleshooting/TroubleShooting.html",
+    "cat": "Third-party_Platforms",
+    "title": "接口类常见问题排查指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/troubleshooting/authorization_troubleshooting.html",
+    "cat": "Third-party_Platforms",
+    "title": "第三方授权常见问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/troubleshooting/component_verify_ticket_troubleshooting.html",
+    "cat": "Third-party_Platforms",
+    "title": "componentverifyticket常见排错指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/troubleshooting/submit_quota.html",
+    "cat": "Third-party_Platforms",
+    "title": "第三方小程序提审问题",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Third-party_Platforms/2.0/troubleshooting/third_party_authority_instructions_troubleshooting.html",
+    "cat": "Third-party_Platforms",
+    "title": "权限集常见排错指南",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/Developer_FAQ.html",
+    "cat": "Website_App",
+    "title": "微信开放文档",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_Login/Authorized_Interface_Calling_UnionID.html",
+    "cat": "Website_App",
+    "title": "1、通过code获取网站授权 access_token",
+    "method": "GET",
+    "path": "/sns/oauth2/access_token"
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_Login/Wechat_Login.html",
+    "cat": "Website_App",
+    "title": "关于微信快速登录功能的说明",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_Login/authorization_change.html",
+    "cat": "Website_App",
+    "title": "授权用户信息变更",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_Login/message_push.html",
+    "cat": "Website_App",
+    "title": "消息推送",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/Launching_a_Mini_Program.html",
+    "cat": "Website_App",
+    "title": "网站应用拉起 PC 小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/Share_a_Mini_Program.html",
+    "cat": "Website_App",
+    "title": "网站应用分享 PC 小程序",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/getaccesstoken.html",
+    "cat": "Website_App",
+    "title": "获取普通 AccessToken",
+    "method": "GET",
+    "path": "/cgi-bin/token"
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/guideline.html",
+    "cat": "Website_App",
+    "title": "网站应用调用 PC 微信能力",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/running_a_mini_program.html",
+    "cat": "Website_App",
+    "title": "PC 小程序插件接入指南 Beta",
+    "method": "POST",
+    "path": "/sns/pcsdk/login"
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_PC_APIs/share.html",
+    "cat": "Website_App",
+    "title": "网站应用分享内容到 PC 微信",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/WeChat_Smart_APIs/Semantic_Understanding.html",
+    "cat": "Website_App",
+    "title": "第一步：创建应用",
+    "method": "GET",
+    "path": "/cgi-bin/token"
+  },
+  {
+    "url": "/doc/oplatform/Website_App/guide/apply.html",
+    "cat": "Website_App",
+    "title": "申请 PC 小程序插件",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/guide/bind_admin.html",
+    "cat": "Website_App",
+    "title": "绑定管理员",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/guide/domain.html",
+    "cat": "Website_App",
+    "title": "配置网站应用业务域名",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/guide/signature_verify.html",
+    "cat": "Website_App",
+    "title": "安全鉴权模式",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/Website_App/operation.html",
+    "cat": "Website_App",
+    "title": "应用审核规范",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/open/intro.html",
+    "cat": "open",
+    "title": "微信开放平台介绍",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-black/api_getamscategoryblacklist.html",
+    "cat": "openApi",
+    "title": "获取行业屏蔽信息",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-black/api_getblacklist.html",
+    "cat": "openApi",
+    "title": "获取屏蔽的广告主",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-black/api_setamscategoryblacklist.html",
+    "cat": "openApi",
+    "title": "设置行业屏蔽信息",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-black/api_setblacklist.html",
+    "cat": "openApi",
+    "title": "设置屏蔽的广告主",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-data/api_getadposdetail.html",
+    "cat": "openApi",
+    "title": "获取小程序广告细分数据",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-data/api_getadposgenenral.html",
+    "cat": "openApi",
+    "title": "获取小程序广告汇总数据",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-data/api_getagencyadsdetail.html",
+    "cat": "openApi",
+    "title": "获取服务商广告明细数据",
+    "method": "POST",
+    "path": "/wxa/getdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-data/api_getagencyadsstat.html",
+    "cat": "openApi",
+    "title": "获取服务商广告汇总数据",
+    "method": "POST",
+    "path": "/wxa/getdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_agencycreateadunit.html",
+    "cat": "openApi",
+    "title": "创建广告单元",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_agencygettmpltype.html",
+    "cat": "openApi",
+    "title": "获取原生模板广告模板类型",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_agencyupdateadunit.html",
+    "cat": "openApi",
+    "title": "更新广告单元",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_getadunitcode.html",
+    "cat": "openApi",
+    "title": "获取广告单元代码",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_getadunitlist.html",
+    "cat": "openApi",
+    "title": "获取广告位或指定广告单元的信息",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_getagencytmplidlist.html",
+    "cat": "openApi",
+    "title": "获取原生模板广告自定义模板绑定情况",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_getcoveradposscene.html",
+    "cat": "openApi",
+    "title": "获取封面广告位场景设置",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_getcoveradposstatus.html",
+    "cat": "openApi",
+    "title": "获取封面广告位状态",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_setcoveradposscene.html",
+    "cat": "openApi",
+    "title": "设置封面广告位场景值",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/ad-mgnt/api_setcoveradposstatus.html",
+    "cat": "openApi",
+    "title": "设置封面广告位开关状态",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/open/api_agencycheckcanopenpublisher.html",
+    "cat": "openApi",
+    "title": "检测是否能开通流量主",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/open/api_agencycreatepublisher.html",
+    "cat": "openApi",
+    "title": "开通流量主",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/percentage/api_getcustomshareratio.html",
+    "cat": "openApi",
+    "title": "查询自定义分账比例",
+    "method": "POST",
+    "path": "/wxa/getdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/percentage/api_getshareratio.html",
+    "cat": "openApi",
+    "title": "查询分账比例",
+    "method": "POST",
+    "path": "/wxa/getdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/percentage/api_setcustomshareratio.html",
+    "cat": "openApi",
+    "title": "设置自定义分账比例",
+    "method": "POST",
+    "path": "/wxa/setdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/percentage/api_setshareratio.html",
+    "cat": "openApi",
+    "title": "设置默认分账比例",
+    "method": "POST",
+    "path": "/wxa/setdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/settlement/api_getagencysettlement.html",
+    "cat": "openApi",
+    "title": "获取服务商结算收入数据",
+    "method": "POST",
+    "path": "/wxa/getdefaultamsinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ams/settlement/api_getsettlement.html",
+    "cat": "openApi",
+    "title": "获取小程序结算收入数据",
+    "method": "POST",
+    "path": "/wxa/operationams"
+  },
+  {
+    "url": "/doc/oplatform/openApi/authorization-management/api_getauthorizerinfo.html",
+    "cat": "openApi",
+    "title": "获取授权账号详情",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_get_authorizer_info"
+  },
+  {
+    "url": "/doc/oplatform/openApi/authorization-management/api_getauthorizerlist.html",
+    "cat": "openApi",
+    "title": "拉取已授权的账号信息",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_get_authorizer_list"
+  },
+  {
+    "url": "/doc/oplatform/openApi/authorization-management/api_getauthorizeroptioninfo.html",
+    "cat": "openApi",
+    "title": "获取授权方选项信息",
+    "method": "POST",
+    "path": "/cgi-bin/component/get_authorizer_option"
+  },
+  {
+    "url": "/doc/oplatform/openApi/authorization-management/api_setauthorizeroptioninfo.html",
+    "cat": "openApi",
+    "title": "设置授权方选项信息",
+    "method": "POST",
+    "path": "/cgi-bin/component/set_authorizer_option"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_dbaggregate.html",
+    "cat": "openApi",
+    "title": "数据库聚合",
+    "method": "POST",
+    "path": "/componenttcb/dbaggregate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_dbexport.html",
+    "cat": "openApi",
+    "title": "数据库导出",
+    "method": "POST",
+    "path": "/componenttcb/dbexport"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_dbimport.html",
+    "cat": "openApi",
+    "title": "数据库导入",
+    "method": "POST",
+    "path": "/componenttcb/dbimport"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_dbindexmanage.html",
+    "cat": "openApi",
+    "title": "数据库索引管理",
+    "method": "POST",
+    "path": "/componenttcb/dbindex"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_dbrecordmanage.html",
+    "cat": "openApi",
+    "title": "数据库记录管理",
+    "method": "POST",
+    "path": "/componenttcb/dbrecord"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_getmigrationstate.html",
+    "cat": "openApi",
+    "title": "数据库状态查询",
+    "method": "POST",
+    "path": "/componenttcb/dbmigrationstate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_getpermission.html",
+    "cat": "openApi",
+    "title": "获取数据库操作权限",
+    "method": "POST",
+    "path": "/componenttcb/dbgetacl"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/db-mgnt/api_setpermission.html",
+    "cat": "openApi",
+    "title": "修改数据库操作权限",
+    "method": "POST",
+    "path": "/componenttcb/dbmodifyacl"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_changetcbenv.html",
+    "cat": "openApi",
+    "title": "转换云环境",
+    "method": "POST",
+    "path": "/tcb/modifyenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_createtcbenv.html",
+    "cat": "openApi",
+    "title": "创建环境",
+    "method": "POST",
+    "path": "/componenttcb/createenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_getsharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "查询环境共享信息",
+    "method": "POST",
+    "path": "/componenttcb/batchgetenvid"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_gettcbenvlist.html",
+    "cat": "openApi",
+    "title": "获取环境信息",
+    "method": "POST",
+    "path": "/componenttcb/describeenvs"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_setcloudaccesstoken.html",
+    "cat": "openApi",
+    "title": "管理微信令牌权限",
+    "method": "POST",
+    "path": "/tcb/usecloudaccesstoken"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_sharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "环境共享",
+    "method": "POST",
+    "path": "/componenttcb/batchshareenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/env-mgnt/api_unsharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "解除环境共享关联关系",
+    "method": "POST",
+    "path": "/componenttcb/batchunshareenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/file-mgnt/api_deletetcbfile.html",
+    "cat": "openApi",
+    "title": "删除文件",
+    "method": "POST",
+    "path": "/componenttcb/batchdeletefile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/file-mgnt/api_getdownloadfilelink.html",
+    "cat": "openApi",
+    "title": "获取下载文件链接",
+    "method": "POST",
+    "path": "/componenttcb/batchdownloadfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/file-mgnt/api_gettcbfile.html",
+    "cat": "openApi",
+    "title": "获取文件列表",
+    "method": "POST",
+    "path": "/componenttcb/getbucket"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/file-mgnt/api_getuploadfilelink.html",
+    "cat": "openApi",
+    "title": "获取上传文件链接",
+    "method": "POST",
+    "path": "/componenttcb/uploadfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_batchuuloadcloudfunction.html",
+    "cat": "openApi",
+    "title": "创建云函数",
+    "method": "POST",
+    "path": "/componenttcb/batchuploadscf"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_deletecloudfunction.html",
+    "cat": "openApi",
+    "title": "删除云函数",
+    "method": "POST",
+    "path": "/componenttcb/deletescf"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_getcloudfunctionlist.html",
+    "cat": "openApi",
+    "title": "获取云函数",
+    "method": "POST",
+    "path": "/componenttcb/getscflist"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_gettriggers.html",
+    "cat": "openApi",
+    "title": "获取触发器",
+    "method": "POST",
+    "path": "/componenttcb/gettriggers"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_invokecloudfunction.html",
+    "cat": "openApi",
+    "title": "触发云函数",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_updatetriggers.html",
+    "cat": "openApi",
+    "title": "更新触发器",
+    "method": "POST",
+    "path": "/componenttcb/batchupdatetriggers"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_uploadcloudfunctioncode.html",
+    "cat": "openApi",
+    "title": "更新云函数代码",
+    "method": "POST",
+    "path": "/componenttcb/batchuploadscfcode"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/scf-mgnt/api_uploadcloudfunctionconfig.html",
+    "cat": "openApi",
+    "title": "更新云函数配置",
+    "method": "POST",
+    "path": "/componenttcb/updatescfconfig"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/staticstore-management/api_createstaticstore.html",
+    "cat": "openApi",
+    "title": "开通静态网站",
+    "method": "POST",
+    "path": "/componenttcb/createstaticstore"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/staticstore-management/api_getstaticstore.html",
+    "cat": "openApi",
+    "title": "查看静态网站状态",
+    "method": "POST",
+    "path": "/componenttcb/describestaticstore"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/staticstore-management/api_getstaticstorefile.html",
+    "cat": "openApi",
+    "title": "获取静态网站文件列表",
+    "method": "POST",
+    "path": "/componenttcb/staticfilelist"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-batch/staticstore-management/api_getuploadstaticstorefile.html",
+    "cat": "openApi",
+    "title": "获取上传静态网站文件链接",
+    "method": "POST",
+    "path": "/componenttcb/staticuploadfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/admin-management/api_checkmobileconfig.html",
+    "cat": "openApi",
+    "title": "查询是否绑定手机号",
+    "method": "POST",
+    "path": "/tcb/checkmobile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/admin-management/api_createclouduser.html",
+    "cat": "openApi",
+    "title": "开通云开发",
+    "method": "POST",
+    "path": "/tcb/createclouduser"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/admin-management/api_getcloudtoken.html",
+    "cat": "openApi",
+    "title": "获取腾讯云API调用凭证",
+    "method": "POST",
+    "path": "/tcb/getqcloudtoken"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/admin-management/api_setcloudaccesstoken.html",
+    "cat": "openApi",
+    "title": "管理微信令牌权限",
+    "method": "POST",
+    "path": "/tcb/usecloudaccesstoken"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_adddatabasecollection.html",
+    "cat": "openApi",
+    "title": "新增集合",
+    "method": "POST",
+    "path": "/tcb/databasecollectionadd"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_adddatabaseitem.html",
+    "cat": "openApi",
+    "title": "数据库插入记录",
+    "method": "POST",
+    "path": "/tcb/databaseadd"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_aggregatedatabase.html",
+    "cat": "openApi",
+    "title": "数据库聚合",
+    "method": "POST",
+    "path": "/tcb/databaseaggregate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_dbcollectionmanage.html",
+    "cat": "openApi",
+    "title": "数据库集合管理",
+    "method": "POST",
+    "path": "/componenttcb/dbcollection"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_deletedatabasecollection.html",
+    "cat": "openApi",
+    "title": "删除集合",
+    "method": "POST",
+    "path": "/tcb/databasecollectiondelete"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_deletedatabaseitem.html",
+    "cat": "openApi",
+    "title": "数据库删除记录",
+    "method": "POST",
+    "path": "/tcb/databasedelete"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_exportdatabaseitem.html",
+    "cat": "openApi",
+    "title": "数据库导出",
+    "method": "POST",
+    "path": "/tcb/databasemigrateexport"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_getdatabasecollection.html",
+    "cat": "openApi",
+    "title": "获取集合信息",
+    "method": "POST",
+    "path": "/tcb/databasecollectionget"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_getdatabasecount.html",
+    "cat": "openApi",
+    "title": "统计集合记录数",
+    "method": "POST",
+    "path": "/tcb/databasecount"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_getdatabasemigratestatus.html",
+    "cat": "openApi",
+    "title": "数据库迁移状态查询",
+    "method": "POST",
+    "path": "/tcb/databasemigratequeryinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_getdatabaserecord.html",
+    "cat": "openApi",
+    "title": "数据库查询记录",
+    "method": "POST",
+    "path": "/tcb/databasequery"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_importdatabaseitem.html",
+    "cat": "openApi",
+    "title": "数据库导入",
+    "method": "POST",
+    "path": "/tcb/databasemigrateimport"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_updatedatabaseindexs.html",
+    "cat": "openApi",
+    "title": "更新数据库索引",
+    "method": "POST",
+    "path": "/tcb/updateindex"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/db-management/api_updatedatabaserecord.html",
+    "cat": "openApi",
+    "title": "数据库更新记录",
+    "method": "POST",
+    "path": "/tcb/databaseupdate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/env-management/api_changetcbenv.html",
+    "cat": "openApi",
+    "title": "转换云环境",
+    "method": "POST",
+    "path": "/tcb/modifyenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/env-management/api_createenv.html",
+    "cat": "openApi",
+    "title": "创建云环境",
+    "method": "POST",
+    "path": "/tcb/createenvandresource"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/env-management/api_getenvinfo.html",
+    "cat": "openApi",
+    "title": "获取云环境",
+    "method": "POST",
+    "path": "/tcb/getenvinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/env-management/api_shareenv.html",
+    "cat": "openApi",
+    "title": "环境共享",
+    "method": "POST",
+    "path": "/tcb/shareenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/file-management/api_deletetcbcloudfile.html",
+    "cat": "openApi",
+    "title": "删除文件",
+    "method": "POST",
+    "path": "/tcb/batchdeletefile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/file-management/api_getdownloadtcbfilelink.html",
+    "cat": "openApi",
+    "title": "获取文件下载链接",
+    "method": "POST",
+    "path": "/tcb/batchdownloadfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/file-management/api_getuploadtcbfilelink.html",
+    "cat": "openApi",
+    "title": "获取文件上传链接",
+    "method": "POST",
+    "path": "/tcb/uploadfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/msg-push/api_getcallbackconfig.html",
+    "cat": "openApi",
+    "title": "获取消息推送配置",
+    "method": "POST",
+    "path": "/tcb/getcallbackconfig"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/msg-push/api_setcallbackconfig.html",
+    "cat": "openApi",
+    "title": "上传消息推送配置",
+    "method": "POST",
+    "path": "/tcb/setcallbackconfig"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_createfunction.html",
+    "cat": "openApi",
+    "title": "创建云函数",
+    "method": "POST",
+    "path": "/tcb/createfunction"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getcodesecret.html",
+    "cat": "openApi",
+    "title": "获取代码保护密钥",
+    "method": "POST",
+    "path": "/tcb/getcodesecret"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getfuntionconfig.html",
+    "cat": "openApi",
+    "title": "获取云函数配置",
+    "method": "POST",
+    "path": "/tcb/getfuncconfig"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getfuntionlink.html",
+    "cat": "openApi",
+    "title": "获取云函数下载地址",
+    "method": "POST",
+    "path": "/tcb/downloadfunction"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getfuntionlist.html",
+    "cat": "openApi",
+    "title": "获取云函数列表",
+    "method": "POST",
+    "path": "/tcb/listfunctions"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getuploadfuntionconfig.html",
+    "cat": "openApi",
+    "title": "上传云函数配置",
+    "method": "POST",
+    "path": "/tcb/uploadfuncconfig"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_getyploadsignature.html",
+    "cat": "openApi",
+    "title": "获取上传凭证",
+    "method": "POST",
+    "path": "/tcb/getuploadsignature"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/scf-management/api_invokecloudfunction.html",
+    "cat": "openApi",
+    "title": "触发云函数",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/wechatpay/api_getwechatpayauth.html",
+    "cat": "openApi",
+    "title": "申请商户号授权",
+    "method": "POST",
+    "path": "/tcb/wxpayopenauth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudbase-common/wechatpay/api_getwechatpaylist.html",
+    "cat": "openApi",
+    "title": "获取授权绑定的商户号列表",
+    "method": "POST",
+    "path": "/tcb/wxpaylist"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/cloudenv-mgnt/api_createcloudbaseenv.html",
+    "cat": "openApi",
+    "title": "创建云托管环境",
+    "method": "POST",
+    "path": "/componenttcb/createcloudbaserunenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/cloudenv-mgnt/api_getsharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "查询环境共享信息",
+    "method": "POST",
+    "path": "/componenttcb/batchgetenvid"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/cloudenv-mgnt/api_getwxcloudbaserunenvs.html",
+    "cat": "openApi",
+    "title": "获取环境信息",
+    "method": "POST",
+    "path": "/componenttcb/describecloudbaserunenvs"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/cloudenv-mgnt/api_sharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "环境共享",
+    "method": "POST",
+    "path": "/componenttcb/batchshareenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/cloudenv-mgnt/api_unsharecloudbaseenv.html",
+    "cat": "openApi",
+    "title": "解除环境共享关联关系",
+    "method": "POST",
+    "path": "/componenttcb/batchunshareenv"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/service-mgnt/api_createcloudbaseservice.html",
+    "cat": "openApi",
+    "title": "创建服务",
+    "method": "POST",
+    "path": "/componenttcb/establishcloudbaserunserver"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/service-mgnt/api_createcloudbaseserviceversion.html",
+    "cat": "openApi",
+    "title": "创建服务版本",
+    "method": "POST",
+    "path": "/componenttcb/createcloudbaserunserverversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/service-mgnt/api_deletecloudbaseserviceversion.html",
+    "cat": "openApi",
+    "title": "删除服务版本",
+    "method": "POST",
+    "path": "/componenttcb/deletecloudbaserunserverversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/service-mgnt/api_releasecloudbaseserviceversion.html",
+    "cat": "openApi",
+    "title": "发布服务",
+    "method": "POST",
+    "path": "/componenttcb/releasecloudbaserunversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/cloudrun-batch/service-mgnt/api_updatecloudbaseserviceversion.html",
+    "cat": "openApi",
+    "title": "滚动更新服务版本",
+    "method": "POST",
+    "path": "/componenttcb/rollupdatecloudbaserunserverversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_applysetorderpathinfo.html",
+    "cat": "openApi",
+    "title": "申请设置订单页path信息",
+    "method": "POST",
+    "path": "/wxa/security/applysetorderpathinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_checknickname.html",
+    "cat": "openApi",
+    "title": "小程序名称检测",
+    "method": "POST",
+    "path": "/cgi-bin/wxverify/checkwxverifynickname"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getaccountbasicinfo.html",
+    "cat": "openApi",
+    "title": "获取基本信息",
+    "method": "POST",
+    "path": "/cgi-bin/account/getaccountbasicinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getbindopenaccount.html",
+    "cat": "openApi",
+    "title": "查询绑定的开放平台账号",
+    "method": "GET",
+    "path": "/cgi-bin/open/have"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getbindopenaccountentity.html",
+    "cat": "openApi",
+    "title": "查询开放平台账号是否与小程序同主体",
+    "method": "GET",
+    "path": "/cgi-bin/open/sameentity"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getfetchdatasetting.html",
+    "cat": "openApi",
+    "title": "数据预拉取和数据周期性更新",
+    "method": "POST",
+    "path": "/wxa/fetchdatasetting"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getnicknamestatus.html",
+    "cat": "openApi",
+    "title": "查询小程序名称审核状态",
+    "method": "POST",
+    "path": "/wxa/api_wxa_querynickname"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getorderpathinfo.html",
+    "cat": "openApi",
+    "title": "获取订单页path信息",
+    "method": "POST",
+    "path": "/wxa/security/getorderpathinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_getsearchstatus.html",
+    "cat": "openApi",
+    "title": "获取搜索状态",
+    "method": "GET",
+    "path": "/wxa/getwxasearchstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_setheadimage.html",
+    "cat": "openApi",
+    "title": "修改头像",
+    "method": "POST",
+    "path": "/cgi-bin/account/modifyheadimage"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_setnickname.html",
+    "cat": "openApi",
+    "title": "设置小程序名称",
+    "method": "POST",
+    "path": "/wxa/setnickname"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_setsearchstatus.html",
+    "cat": "openApi",
+    "title": "设置搜索状态",
+    "method": "POST",
+    "path": "/wxa/changewxasearchstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/basic-info-management/api_setsignature.html",
+    "cat": "openApi",
+    "title": "设置小程序介绍",
+    "method": "POST",
+    "path": "/cgi-bin/account/modifysignature"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_addcategory.html",
+    "cat": "openApi",
+    "title": "添加类目",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/addcategory"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_deletecategory.html",
+    "cat": "openApi",
+    "title": "删除类目",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/deletecategory"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_getallcategories.html",
+    "cat": "openApi",
+    "title": "获取可设置的所有类目",
+    "method": "GET",
+    "path": "/cgi-bin/wxopen/getallcategories"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_getallcategoriesbytype.html",
+    "cat": "openApi",
+    "title": "获取不同类型主体可设置的类目",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/getcategoriesbytype"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_getallcategoryname.html",
+    "cat": "openApi",
+    "title": "获取类目名称信息",
+    "method": "GET",
+    "path": "/wxa/get_category"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_getsettingcategories.html",
+    "cat": "openApi",
+    "title": "获取已设置的所有类目",
+    "method": "GET",
+    "path": "/cgi-bin/wxopen/getcategory"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/category-management/api_modifycategory.html",
+    "cat": "openApi",
+    "title": "修改类目资质信息",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/modifycategory"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_commit.html",
+    "cat": "openApi",
+    "title": "上传代码并生成体验版",
+    "method": "POST",
+    "path": "/wxa/commit"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getauditstatus.html",
+    "cat": "openApi",
+    "title": "查询审核单状态",
+    "method": "POST",
+    "path": "/wxa/get_auditstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getcodepage.html",
+    "cat": "openApi",
+    "title": "获取已上传的代码页面列表",
+    "method": "GET",
+    "path": "/wxa/get_page"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getcodeprivacyinfo.html",
+    "cat": "openApi",
+    "title": "获取隐私接口检测结果",
+    "method": "GET",
+    "path": "/wxa/security/get_code_privacy_info"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getgrayreleaseplan.html",
+    "cat": "openApi",
+    "title": "获取分阶段发布详情",
+    "method": "GET",
+    "path": "/wxa/getgrayreleaseplan"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getlatestauditstatus.html",
+    "cat": "openApi",
+    "title": "查询最新一次审核单状态",
+    "method": "GET",
+    "path": "/wxa/get_latest_auditstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getsupportversion.html",
+    "cat": "openApi",
+    "title": "查询各版本用户占比",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/getweappsupportversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_gettrialqrcode.html",
+    "cat": "openApi",
+    "title": "获取体验版二维码",
+    "method": "GET",
+    "path": "/wxa/get_qrcode"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getversioninfo.html",
+    "cat": "openApi",
+    "title": "查询小程序版本信息",
+    "method": "POST",
+    "path": "/wxa/getversioninfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_getvisitstatus.html",
+    "cat": "openApi",
+    "title": "查询小程序服务状态",
+    "method": "POST",
+    "path": "/wxa/getvisitstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_grayrelease.html",
+    "cat": "openApi",
+    "title": "分阶段发布",
+    "method": "POST",
+    "path": "/wxa/grayrelease"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_release.html",
+    "cat": "openApi",
+    "title": "发布已通过审核的小程序",
+    "method": "POST",
+    "path": "/wxa/release"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_revertcoderelease.html",
+    "cat": "openApi",
+    "title": "小程序版本回退",
+    "method": "GET",
+    "path": "/wxa/revertcoderelease"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_revertgrayrelease.html",
+    "cat": "openApi",
+    "title": "取消分阶段发布",
+    "method": "GET",
+    "path": "/wxa/revertgrayrelease"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_setcodeauditquota.html",
+    "cat": "openApi",
+    "title": "查询服务商审核额度",
+    "method": "GET",
+    "path": "/wxa/queryquota"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_setsupportversion.html",
+    "cat": "openApi",
+    "title": "设置最低基础库版本",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/setweappsupportversion"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_setvisitstatus.html",
+    "cat": "openApi",
+    "title": "设置小程序服务状态",
+    "method": "POST",
+    "path": "/wxa/change_visitstatus"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_speedupcodeaudit.html",
+    "cat": "openApi",
+    "title": "加急代码审核",
+    "method": "POST",
+    "path": "/wxa/speedupaudit"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_submitaudit.html",
+    "cat": "openApi",
+    "title": "提交代码审核",
+    "method": "POST",
+    "path": "/wxa/submit_audit"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_undoaudit.html",
+    "cat": "openApi",
+    "title": "撤回代码审核",
+    "method": "GET",
+    "path": "/wxa/undocodeaudit"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/code-management/api_uploadmediatocodeaudit.html",
+    "cat": "openApi",
+    "title": "上传提审素材",
+    "method": "POST",
+    "path": "/wxa/uploadmedia"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_geteffectivejumpdomain.html",
+    "cat": "openApi",
+    "title": "获取发布后生效业务域名列表",
+    "method": "POST",
+    "path": "/wxa/get_effective_webviewdomain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_geteffectiveserverdomain.html",
+    "cat": "openApi",
+    "title": "获取发布后生效服务器域名列表",
+    "method": "POST",
+    "path": "/wxa/get_effective_domain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_getjumpdomainconfirmfile.html",
+    "cat": "openApi",
+    "title": "获取业务域名校验文件",
+    "method": "POST",
+    "path": "/wxa/get_webviewdomain_confirmfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_getprefetchdomain.html",
+    "cat": "openApi",
+    "title": "获取DNS预解析域名",
+    "method": "GET",
+    "path": "/wxa/get_prefetchdnsdomain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_modifyjumpdomain.html",
+    "cat": "openApi",
+    "title": "配置小程序业务域名",
+    "method": "POST",
+    "path": "/wxa/setwebviewdomain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_modifyjumpdomaindirectly.html",
+    "cat": "openApi",
+    "title": "快速配置小程序业务域名",
+    "method": "POST",
+    "path": "/wxa/setwebviewdomain_directly"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_modifyserverdomain.html",
+    "cat": "openApi",
+    "title": "配置小程序服务器域名",
+    "method": "POST",
+    "path": "/wxa/modify_domain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_modifyserverdomaindirectly.html",
+    "cat": "openApi",
+    "title": "快速配置小程序服务器域名",
+    "method": "POST",
+    "path": "/wxa/modify_domain_directly"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/domain-management/api_setprefetchdomain.html",
+    "cat": "openApi",
+    "title": "设置DNS预解析域名",
+    "method": "POST",
+    "path": "/wxa/set_prefetchdnsdomain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_addembedded.html",
+    "cat": "openApi",
+    "title": "添加半屏小程序",
+    "method": "POST",
+    "path": "/wxaapi/wxaembedded/add_embedded"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_deleteauthorizedembedded.html",
+    "cat": "openApi",
+    "title": "取消授权小程序",
+    "method": "POST",
+    "path": "/wxaapi/wxaembedded/del_authorize"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_deleteembedded.html",
+    "cat": "openApi",
+    "title": "删除半屏小程序",
+    "method": "POST",
+    "path": "/wxaapi/wxaembedded/del_embedded"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_getembeddedlist.html",
+    "cat": "openApi",
+    "title": "获取半屏小程序调用列表",
+    "method": "GET",
+    "path": "/wxaapi/wxaembedded/get_list"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_getownlist.html",
+    "cat": "openApi",
+    "title": "获取半屏小程序授权列表",
+    "method": "GET",
+    "path": "/wxaapi/wxaembedded/get_own_list"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/embedded-management/api_setauthorizedembedded.html",
+    "cat": "openApi",
+    "title": "设置授权方式",
+    "method": "POST",
+    "path": "/wxaapi/wxaembedded/set_authorize"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/jumpqrcode-config/api_downloadqrcodetext.html",
+    "cat": "openApi",
+    "title": "获取校验文件名称及内容",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpdownload"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/jumpqrcode-config/api_qrcodejumpadd.html",
+    "cat": "openApi",
+    "title": "增加或修改二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpadd"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/jumpqrcode-config/api_qrcodejumpdelete.html",
+    "cat": "openApi",
+    "title": "删除已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpdelete"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/jumpqrcode-config/api_qrcodejumpget.html",
+    "cat": "openApi",
+    "title": "获取已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpget"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/jumpqrcode-config/api_qrcodejumppublish.html",
+    "cat": "openApi",
+    "title": "发布已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumppublish"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/live-player/api_applylivelnfo.html",
+    "cat": "openApi",
+    "title": "申请开通直播",
+    "method": "POST",
+    "path": "/wxa/business/applyliveinfo"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/login/api_thirdpartycode2session.html",
+    "cat": "openApi",
+    "title": "小程序登录",
+    "method": "GET",
+    "path": "/sns/component/jscode2session"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/logistics-service/api_applymsgplugin.html",
+    "cat": "openApi",
+    "title": "申请开通物流消息",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/open_openmsg"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/logistics-service/api_applyqueryplugin.html",
+    "cat": "openApi",
+    "title": "申请开通物流查询组件",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/open_query_plugin"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/logistics-service/api_applyreturnplugin.html",
+    "cat": "openApi",
+    "title": "申请开通物流退货组件",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/return/open_return"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/member-management/api_bindtester.html",
+    "cat": "openApi",
+    "title": "绑定体验者",
+    "method": "POST",
+    "path": "/wxa/bind_tester"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/member-management/api_gettester.html",
+    "cat": "openApi",
+    "title": "获取体验者列表",
+    "method": "POST",
+    "path": "/wxa/memberauth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/member-management/api_unbindtester.html",
+    "cat": "openApi",
+    "title": "解除绑定体验者",
+    "method": "POST",
+    "path": "/wxa/unbind_tester"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/privacy-api-management/api_applyprivacyinterface.html",
+    "cat": "openApi",
+    "title": "申请地理位置接口",
+    "method": "POST",
+    "path": "/wxa/security/apply_privacy_interface"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/privacy-api-management/api_getprivacyinterface.html",
+    "cat": "openApi",
+    "title": "获取地理位置接口列表",
+    "method": "GET",
+    "path": "/wxa/security/get_privacy_interface"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/privacy-management/api_getprivacysetting.html",
+    "cat": "openApi",
+    "title": "获取小程序用户隐私保护指引",
+    "method": "POST",
+    "path": "/cgi-bin/component/getprivacysetting"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/privacy-management/api_setprivacysetting.html",
+    "cat": "openApi",
+    "title": "设置小程序用户隐私保护指引",
+    "method": "POST",
+    "path": "/cgi-bin/component/setprivacysetting"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/privacy-management/api_uploadprivacysetting.html",
+    "cat": "openApi",
+    "title": "上传小程序用户隐私保护指引",
+    "method": "POST",
+    "path": "/cgi-bin/component/uploadprivacyextfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record-management/api_getappealrecords.html",
+    "cat": "openApi",
+    "title": "获取小程序申诉记录",
+    "method": "POST",
+    "path": "/wxa/getappealrecords"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record-management/api_getillegalrecords.html",
+    "cat": "openApi",
+    "title": "获取小程序违规处罚记录",
+    "method": "POST",
+    "path": "/wxa/getillegalrecords"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_applyicpfiling.html",
+    "cat": "openApi",
+    "title": "申请小程序备案",
+    "method": "POST",
+    "path": "/wxa/icp/apply_icp_filing"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_cancelapplyicpfiling.html",
+    "cat": "openApi",
+    "title": "撤回小程序备案申请",
+    "method": "POST",
+    "path": "/wxa/icp/cancel_apply_icp_filing"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_cancelicpfiling.html",
+    "cat": "openApi",
+    "title": "注销小程序备案",
+    "method": "POST",
+    "path": "/wxa/icp/cancel_icp_filing"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_createicpverifytask.html",
+    "cat": "openApi",
+    "title": "发起小程序管理员人脸核身",
+    "method": "POST",
+    "path": "/wxa/icp/create_icp_verifytask"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_geticpentranceinfo.html",
+    "cat": "openApi",
+    "title": "获取小程序备案状态及驳回原因",
+    "method": "GET",
+    "path": "/wxa/icp/get_icp_entrance_info"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_geticpmedia.html",
+    "cat": "openApi",
+    "title": "获取小程序备案媒体材料",
+    "method": "GET",
+    "path": "/wxa/icp/get_icp_media"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_getonlineicporder.html",
+    "cat": "openApi",
+    "title": "获取小程序已备案详情",
+    "method": "GET",
+    "path": "/wxa/icp/get_online_icp_order"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpcertificatetypes.html",
+    "cat": "openApi",
+    "title": "获取证件类型",
+    "method": "GET",
+    "path": "/wxa/icp/query_icp_certificate_types"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpdistrictcode.html",
+    "cat": "openApi",
+    "title": "获取区域信息",
+    "method": "GET",
+    "path": "/wxa/icp/query_icp_district_code"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpnrlxtypes.html",
+    "cat": "openApi",
+    "title": "获取前置审批项类型",
+    "method": "GET",
+    "path": "/wxa/icp/query_icp_nrlx_types"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpservicecontenttypes.html",
+    "cat": "openApi",
+    "title": "获取小程序服务内容类型",
+    "method": "GET",
+    "path": "/wxa/icp/query_icp_service_content_types"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpsubjecttypes.html",
+    "cat": "openApi",
+    "title": "获取单位性质",
+    "method": "GET",
+    "path": "/wxa/icp/query_icp_subject_types"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_queryicpverifytask.html",
+    "cat": "openApi",
+    "title": "查询人脸核身任务状态",
+    "method": "POST",
+    "path": "/wxa/icp/query_icp_verifytask"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/record/api_uploadicpmedia.html",
+    "cat": "openApi",
+    "title": "上传小程序备案媒体材料",
+    "method": "POST",
+    "path": "/wxa/icp/upload_icp_media"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/subscribe-component/api_getlinkforshow.html",
+    "cat": "openApi",
+    "title": "获取可设置公众号列表",
+    "method": "GET",
+    "path": "/wxa/getwxamplinkforshow"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/subscribe-component/api_getshowitem.html",
+    "cat": "openApi",
+    "title": "获取已设置公众号信息",
+    "method": "GET",
+    "path": "/wxa/getshowwxaitem"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/subscribe-component/api_setshowitem.html",
+    "cat": "openApi",
+    "title": "设置扫码关注的公众号",
+    "method": "POST",
+    "path": "/wxa/updateshowwxaitem"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedata_login.html",
+    "cat": "openApi",
+    "title": "用户PC端登录",
+    "method": "POST",
+    "path": "/wedata/wedata_login"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedatagetloginconfig.html",
+    "cat": "openApi",
+    "title": "查询登录配置",
+    "method": "POST",
+    "path": "/wedata/wedata_get_login_config"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedatagetpermlist.html",
+    "cat": "openApi",
+    "title": "获取商家We分析权限集列表",
+    "method": "POST",
+    "path": "/wedata/wedata_get_perm_list"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedataquerybindlist.html",
+    "cat": "openApi",
+    "title": "查询用户绑定列表",
+    "method": "POST",
+    "path": "/wedata/wedata_query_bind_list"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedatasetloginconfig.html",
+    "cat": "openApi",
+    "title": "设置登录配置",
+    "method": "POST",
+    "path": "/wedata/wedata_set_login_config"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedatasetuserperm.html",
+    "cat": "openApi",
+    "title": "设置用户We分析权限集",
+    "method": "POST",
+    "path": "/wedata/wedata_set_user_perm"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/we-analysis/api_wedataunbinduser.html",
+    "cat": "openApi",
+    "title": "用户解绑",
+    "method": "POST",
+    "path": "/wedata/wedata_unbind_user"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/weapp-wxverify/api_secwxaapi_authidentitytree.html",
+    "cat": "openApi",
+    "title": "查询个人认证身份选项列表",
+    "method": "GET",
+    "path": "/wxa/sec/authidentitytree"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/weapp-wxverify/api_secwxaapi_queryauth.html",
+    "cat": "openApi",
+    "title": "小程序认证进度查询",
+    "method": "POST",
+    "path": "/wxa/sec/queryauth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/weapp-wxverify/api_secwxaapi_reauth.html",
+    "cat": "openApi",
+    "title": "小程序认证重新提审",
+    "method": "POST",
+    "path": "/wxa/sec/reauth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/weapp-wxverify/api_secwxaapi_uploadauthmaterial.html",
+    "cat": "openApi",
+    "title": "小程序认证上传补充材料",
+    "method": "POST",
+    "path": "/wxa/sec/uploadauthmaterial"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/weapp-wxverify/api_secwxaapi_wxaauth.html",
+    "cat": "openApi",
+    "title": "小程序认证",
+    "method": "POST",
+    "path": "/wxa/sec/wxaauth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/wxverifyicp/api_createicpverifytask.html",
+    "cat": "openApi",
+    "title": "发起小程序管理员人脸核身",
+    "method": "POST",
+    "path": "/wxa/icp/create_icp_verifytask"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/wxverifyicp/api_queryauthandicp.html",
+    "cat": "openApi",
+    "title": "查询小程序认证及备案进度",
+    "method": "POST",
+    "path": "/wxa/sec/query_auth_and_icp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/wxverifyicp/api_queryicpverifytask.html",
+    "cat": "openApi",
+    "title": "查询人脸核身任务状态",
+    "method": "POST",
+    "path": "/wxa/icp/query_icp_verifytask"
+  },
+  {
+    "url": "/doc/oplatform/openApi/miniprogram-management/wxverifyicp/api_submitauthandicp.html",
+    "cat": "openApi",
+    "title": "申请小程序认证及备案",
+    "method": "POST",
+    "path": "/wxa/sec/submit_auth_and_icp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/officalaccount-management/link-miniprogram/api_getlinkminiprogram.html",
+    "cat": "openApi",
+    "title": "获取公众号关联的小程序",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/wxamplinkget"
+  },
+  {
+    "url": "/doc/oplatform/openApi/officalaccount-management/link-miniprogram/api_linkminiprogram.html",
+    "cat": "openApi",
+    "title": "公众号关联小程序",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/wxamplink"
+  },
+  {
+    "url": "/doc/oplatform/openApi/officalaccount-management/link-miniprogram/api_unlinkminiprogram.html",
+    "cat": "openApi",
+    "title": "公众号解除关联小程序",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/wxampunlink"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openapi/api_clearquota.html",
+    "cat": "openApi",
+    "title": "重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openapi/api_componentclearquota_v2.html",
+    "cat": "openApi",
+    "title": "使用AppSecret重置第三方平台API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/component/clear_quota/v2"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openapi/api_getapiquota.html",
+    "cat": "openApi",
+    "title": "查询API调用额度",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/get"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openapi/api_getridinfo.html",
+    "cat": "openApi",
+    "title": "查询rid信息",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/rid/get"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openplatform-management/api_bindopenaccount.html",
+    "cat": "openApi",
+    "title": "绑定开放平台账号",
+    "method": "POST",
+    "path": "/cgi-bin/open/bind"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openplatform-management/api_createopenaccount.html",
+    "cat": "openApi",
+    "title": "创建开放平台账号",
+    "method": "POST",
+    "path": "/cgi-bin/open/create"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openplatform-management/api_getopenaccount.html",
+    "cat": "openApi",
+    "title": "获取开放平台账号",
+    "method": "POST",
+    "path": "/cgi-bin/open/get"
+  },
+  {
+    "url": "/doc/oplatform/openApi/openplatform-management/api_unbindopenaccount.html",
+    "cat": "openApi",
+    "title": "解除绑定开放平台账号",
+    "method": "POST",
+    "path": "/cgi-bin/open/unbind"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-regist-beta/api_fastnormalizebetaweapp.html",
+    "cat": "openApi",
+    "title": "转正为个人升级版小程序",
+    "method": "POST",
+    "path": "/wxa/component/fastnormalizebetaweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-regist-beta/api_modifybetaminiprogramnickname.html",
+    "cat": "openApi",
+    "title": "修改试用小程序名称",
+    "method": "POST",
+    "path": "/wxa/setbetaweappnickname"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-regist-beta/api_registerbetaminiprogram.html",
+    "cat": "openApi",
+    "title": "注册试用小程序",
+    "method": "POST",
+    "path": "/wxa/component/fastregisterbetaweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-regist-beta/api_verfifybetaminiprogram.html",
+    "cat": "openApi",
+    "title": "试用小程序快速转正",
+    "method": "POST",
+    "path": "/wxa/verifybetaweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-registration-ent/api_registerminiprogram.html",
+    "cat": "openApi",
+    "title": "快速注册企业小程序",
+    "method": "POST",
+    "path": "/cgi-bin/component/fastregisterweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-registration-ind/api_fastregisterpersonalmp.html",
+    "cat": "openApi",
+    "title": "快速注册个人小程序",
+    "method": "POST",
+    "path": "/wxa/component/fastregisterpersonalweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-registration-ind/api_fastregistertransactionweapp.html",
+    "cat": "openApi",
+    "title": "快速注册个人升级版小程序",
+    "method": "POST",
+    "path": "/wxa/component/fastregistertransactionweapp"
+  },
+  {
+    "url": "/doc/oplatform/openApi/register-management/fast-registration-officalaccount/api_registerminiprogrambyoffiaccount.html",
+    "cat": "openApi",
+    "title": "复用公众号主体快速注册小程序",
+    "method": "POST",
+    "path": "/cgi-bin/account/fastregister"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/domain-mgnt/api_getthirdpartyjumpdomainconfirmfile.html",
+    "cat": "openApi",
+    "title": "获取第三方平台业务域名校验文件",
+    "method": "POST",
+    "path": "/cgi-bin/component/get_domain_confirmfile"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/domain-mgnt/api_modifythirdpartyjumpdomain.html",
+    "cat": "openApi",
+    "title": "设置第三方平台业务域名",
+    "method": "POST",
+    "path": "/cgi-bin/component/modify_wxa_jump_domain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/domain-mgnt/api_modifythirdpartyserverdomain.html",
+    "cat": "openApi",
+    "title": "设置第三方平台服务器域名",
+    "method": "POST",
+    "path": "/cgi-bin/component/modify_wxa_server_domain"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/template-management/api_addtotemplate.html",
+    "cat": "openApi",
+    "title": "将草稿添加到模板库",
+    "method": "POST",
+    "path": "/wxa/addtotemplate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/template-management/api_deletetemplate.html",
+    "cat": "openApi",
+    "title": "删除代码模板",
+    "method": "POST",
+    "path": "/wxa/deletetemplate"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/template-management/api_gettemplatedraftlist.html",
+    "cat": "openApi",
+    "title": "获取草稿箱列表",
+    "method": "GET",
+    "path": "/wxa/gettemplatedraftlist"
+  },
+  {
+    "url": "/doc/oplatform/openApi/thirdparty-management/template-management/api_gettemplatelist.html",
+    "cat": "openApi",
+    "title": "获取模板列表",
+    "method": "GET",
+    "path": "/wxa/gettemplatelist"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ticket-token/api_getauthorizeraccesstoken.html",
+    "cat": "openApi",
+    "title": "获取授权账号调用令牌",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_authorizer_token"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ticket-token/api_getauthorizerrefreshtoken.html",
+    "cat": "openApi",
+    "title": "获取刷新令牌",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_query_auth"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ticket-token/api_getcomponentaccesstoken.html",
+    "cat": "openApi",
+    "title": "获取令牌",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_component_token"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ticket-token/api_getpreauthcode.html",
+    "cat": "openApi",
+    "title": "获取预授权码",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_create_preauthcode"
+  },
+  {
+    "url": "/doc/oplatform/openApi/ticket-token/api_startpushticket.html",
+    "cat": "openApi",
+    "title": "启动票据推送服务",
+    "method": "POST",
+    "path": "/cgi-bin/component/api_start_push_ticket"
+  },
+  {
+    "url": "https://developers.weixin.qq.com/doc/oplatform/openApi/",
+    "cat": "openApi",
+    "title": "第三方平台调用凭证",
+    "method": "",
+    "path": ""
+  }
+]

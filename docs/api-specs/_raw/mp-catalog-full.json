@@ -1,0 +1,3026 @@
+[
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_addprofitsharingaccount.html",
+    "cat": "B2b",
+    "title": "添加分账方",
+    "method": "POST",
+    "path": "/retail/B2b/addprofitsharingaccount"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_closeb2border.html",
+    "cat": "B2b",
+    "title": "关闭订单",
+    "method": "POST",
+    "path": "/retail/B2b/closeb2border"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_createprofitsharingorder.html",
+    "cat": "B2b",
+    "title": "请求分账",
+    "method": "POST",
+    "path": "/retail/B2b/createprofitsharingorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_createwqflink.html",
+    "cat": "B2b",
+    "title": "跳转银行转账页面",
+    "method": "POST",
+    "path": "/retail/B2b/createwqflink"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_delprofitsharingaccount.html",
+    "cat": "B2b",
+    "title": "删除分账方",
+    "method": "POST",
+    "path": "/retail/B2b/delprofitsharingaccount"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_downloadbill.html",
+    "cat": "B2b",
+    "title": "接口下载交易账单与资金账单",
+    "method": "POST",
+    "path": "/retail/B2b/downloadbill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_finishprofitsharingorder.html",
+    "cat": "B2b",
+    "title": "完成分账",
+    "method": "POST",
+    "path": "/retail/B2b/finishprofitsharingorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getappkey.html",
+    "cat": "B2b",
+    "title": "获取密钥AppKey",
+    "method": "POST",
+    "path": "/retail/B2b/getappkey"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getmchbalance.html",
+    "cat": "B2b",
+    "title": "查询账户余额",
+    "method": "POST",
+    "path": "/retail/B2b/getmchbalance"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getmchinfo.html",
+    "cat": "B2b",
+    "title": "获取小程序下所有商户的信息",
+    "method": "POST",
+    "path": "/retail/B2b/getmchinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getorder.html",
+    "cat": "B2b",
+    "title": "查询订单",
+    "method": "POST",
+    "path": "/retail/B2b/getorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getrefund.html",
+    "cat": "B2b",
+    "title": "查询退款",
+    "method": "POST",
+    "path": "/retail/B2b/getrefund"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_getwqfchargefee.html",
+    "cat": "B2b",
+    "title": "查询银行转账的技术服务费率",
+    "method": "POST",
+    "path": "/retail/B2b/getwqfchargefee"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_manualwithdraw.html",
+    "cat": "B2b",
+    "title": "发起手动提现",
+    "method": "POST",
+    "path": "/retail/B2b/withdraw"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_queryprofitsharingaccount.html",
+    "cat": "B2b",
+    "title": "查询分账方",
+    "method": "POST",
+    "path": "/retail/B2b/queryprofitsharingaccount"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_queryprofitsharingorder.html",
+    "cat": "B2b",
+    "title": "查询分账结果",
+    "method": "POST",
+    "path": "/retail/B2b/queryprofitsharingorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_queryprofitsharingremainamt.html",
+    "cat": "B2b",
+    "title": "查询分账剩余金额",
+    "method": "POST",
+    "path": "/retail/B2b/queryprofitsharingremainamt"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_queryrefundprofitsharingorder.html",
+    "cat": "B2b",
+    "title": "查询分账回退结果",
+    "method": "POST",
+    "path": "/retail/B2b/queryrefundprofitsharingorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_querywithdraw.html",
+    "cat": "B2b",
+    "title": "查询提现状态",
+    "method": "POST",
+    "path": "/retail/B2b/querywithdraw"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_refundorder.html",
+    "cat": "B2b",
+    "title": "退款",
+    "method": "POST",
+    "path": "/retail/B2b/refund"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_refundprofitsharing.html",
+    "cat": "B2b",
+    "title": "请求分账回退",
+    "method": "POST",
+    "path": "/retail/B2b/refundprofitsharing"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_registeronlywqf.html",
+    "cat": "B2b",
+    "title": "申请开通银行转账",
+    "method": "POST",
+    "path": "/retail/B2b/registeronlywqf"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_retailgetmchorder.html",
+    "cat": "B2b",
+    "title": "查询商户号开通状态",
+    "method": "POST",
+    "path": "/retail/B2b/retailgetmchorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_retailregistermch.html",
+    "cat": "B2b",
+    "title": "商户号进件",
+    "method": "POST",
+    "path": "/retail/B2b/retailregistermch"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_retailuploadmchfile.html",
+    "cat": "B2b",
+    "title": "上传商户图片",
+    "method": "POST",
+    "path": "/retail/B2b/retailuploadmchfile"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_setautowithdraw.html",
+    "cat": "B2b",
+    "title": "微信支付自动提现接口",
+    "method": "POST",
+    "path": "/retail/B2b/setautowithdraw"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_setmchprofitrate.html",
+    "cat": "B2b",
+    "title": "报名微信支付技术服务费优惠活动",
+    "method": "POST",
+    "path": "/retail/B2b/setmchprofitrate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/bill/api_updatewqfchargefee.html",
+    "cat": "B2b",
+    "title": "报名银行转账技术服务费优惠活动",
+    "method": "POST",
+    "path": "/retail/B2b/updatewqfchargefee"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/notify/api_getretailmessagelist.html",
+    "cat": "B2b",
+    "title": "消息效果数据",
+    "method": "POST",
+    "path": "/wxa/business/getretailmessagelist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/notify/api_retailnotifybusiness.html",
+    "cat": "B2b",
+    "title": "模板消息列表及下发",
+    "method": "POST",
+    "path": "/wxa/business/retailnotifybusiness"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/store_assistant/api_batchcreateretail.html",
+    "cat": "B2b",
+    "title": "预录入门店信息",
+    "method": "POST",
+    "path": "/wxa/business/batchcreateretail"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/store_assistant/api_getretailinfo.html",
+    "cat": "B2b",
+    "title": "门店信息查询",
+    "method": "POST",
+    "path": "/wxa/business/getretailinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/store_assistant/api_getretailopenidlist.html",
+    "cat": "B2b",
+    "title": "全量授权门店查询",
+    "method": "POST",
+    "path": "/wxa/business/getretailopenidlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/B2b/store_assistant/api_retailbusinessapply.html",
+    "cat": "B2b",
+    "title": "开通流程",
+    "method": "POST",
+    "path": "/wxa/business/retailbusinessapply"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_bind_transfer_accout.html",
+    "cat": "VirtualPayment",
+    "title": "绑定广告金充值账户",
+    "method": "POST",
+    "path": "/xpay/bind_transfer_accout"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_cancel_currency_pay.html",
+    "cat": "VirtualPayment",
+    "title": "代币支付退款",
+    "method": "POST",
+    "path": "/xpay/cancel_currency_pay"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_cancel_subscribe_contract.html",
+    "cat": "VirtualPayment",
+    "title": "商家解约",
+    "method": "POST",
+    "path": "/xpay/cancel_subscribe_contract"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_complete_complaint.html",
+    "cat": "VirtualPayment",
+    "title": "完成投诉处理",
+    "method": "POST",
+    "path": "/xpay/complete_complaint"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_create_funds_bill.html",
+    "cat": "VirtualPayment",
+    "title": "充值广告金",
+    "method": "POST",
+    "path": "/xpay/create_funds_bill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_create_withdraw_order.html",
+    "cat": "VirtualPayment",
+    "title": "创建提现单",
+    "method": "POST",
+    "path": "/xpay/create_withdraw_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_currency_pay.html",
+    "cat": "VirtualPayment",
+    "title": "扣减代币",
+    "method": "POST",
+    "path": "/xpay/currency_pay"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_download_adverfunds_order.html",
+    "cat": "VirtualPayment",
+    "title": "下载广告金对应的商户订单信息",
+    "method": "POST",
+    "path": "/xpay/download_adverfunds_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_download_bill.html",
+    "cat": "VirtualPayment",
+    "title": "下载小程序账单",
+    "method": "POST",
+    "path": "/xpay/download_bill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_get_complaint_detail.html",
+    "cat": "VirtualPayment",
+    "title": "获取投诉详情",
+    "method": "POST",
+    "path": "/xpay/get_complaint_detail"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_get_complaint_list.html",
+    "cat": "VirtualPayment",
+    "title": "获取投诉列表",
+    "method": "POST",
+    "path": "/xpay/get_complaint_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_get_negotiation_history.html",
+    "cat": "VirtualPayment",
+    "title": "获取协商历史",
+    "method": "POST",
+    "path": "/xpay/get_negotiation_history"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_get_upload_file_sign.html",
+    "cat": "VirtualPayment",
+    "title": "获取微信支付反馈投诉图片的签名头部",
+    "method": "POST",
+    "path": "/xpay/get_upload_file_sign"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_notify_provide_goods.html",
+    "cat": "VirtualPayment",
+    "title": "通知已发货完成",
+    "method": "POST",
+    "path": "/xpay/notify_provide_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_present_currency.html",
+    "cat": "VirtualPayment",
+    "title": "代币赠送",
+    "method": "POST",
+    "path": "/xpay/present_currency"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_adver_funds.html",
+    "cat": "VirtualPayment",
+    "title": "查询广告金发放记录",
+    "method": "POST",
+    "path": "/xpay/query_adver_funds"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_biz_balance.html",
+    "cat": "VirtualPayment",
+    "title": "查询商家账户可提现余额",
+    "method": "POST",
+    "path": "/xpay/query_biz_balance"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_download_order.html",
+    "cat": "VirtualPayment",
+    "title": "查询下载订单任务",
+    "method": "POST",
+    "path": "/xpay/query_download_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_funds_bill.html",
+    "cat": "VirtualPayment",
+    "title": "查询广告金充值记录",
+    "method": "POST",
+    "path": "/xpay/query_funds_bill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_order.html",
+    "cat": "VirtualPayment",
+    "title": "查询创建的订单",
+    "method": "POST",
+    "path": "/xpay/query_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_publish_goods.html",
+    "cat": "VirtualPayment",
+    "title": "查询批量发布道具任务",
+    "method": "POST",
+    "path": "/xpay/query_publish_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_recover_bill.html",
+    "cat": "VirtualPayment",
+    "title": "查询广告金回收记录",
+    "method": "POST",
+    "path": "/xpay/query_recover_bill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_subscribe_contract.html",
+    "cat": "VirtualPayment",
+    "title": "查询签约关系",
+    "method": "POST",
+    "path": "/xpay/query_subscribe_contract"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_transfer_account.html",
+    "cat": "VirtualPayment",
+    "title": "查询广告金充值账户",
+    "method": "POST",
+    "path": "/xpay/query_transfer_account"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_upload_goods.html",
+    "cat": "VirtualPayment",
+    "title": "查询批量上传道具任务",
+    "method": "POST",
+    "path": "/xpay/query_upload_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_user_balance.html",
+    "cat": "VirtualPayment",
+    "title": "查询代币余额",
+    "method": "POST",
+    "path": "/xpay/query_user_balance"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_query_withdraw_order.html",
+    "cat": "VirtualPayment",
+    "title": "查询提现单",
+    "method": "POST",
+    "path": "/xpay/query_withdraw_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_refund_order.html",
+    "cat": "VirtualPayment",
+    "title": "启动订单退款任务",
+    "method": "POST",
+    "path": "/xpay/refund_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_response_complaint.html",
+    "cat": "VirtualPayment",
+    "title": "回复用户",
+    "method": "POST",
+    "path": "/xpay/response_complaint"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_send_subscribe_pre_payment.html",
+    "cat": "VirtualPayment",
+    "title": "预通知扣款",
+    "method": "POST",
+    "path": "/xpay/send_subscribe_pre_payment"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_start_download_order.html",
+    "cat": "VirtualPayment",
+    "title": "下载支付订单",
+    "method": "POST",
+    "path": "/xpay/start_download_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_start_publish_goods.html",
+    "cat": "VirtualPayment",
+    "title": "启动批量发布道具任务",
+    "method": "POST",
+    "path": "/xpay/start_publish_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_start_upload_goods.html",
+    "cat": "VirtualPayment",
+    "title": "批量上传道具",
+    "method": "POST",
+    "path": "/xpay/start_upload_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_submit_subscribe_pay_order.html",
+    "cat": "VirtualPayment",
+    "title": "发起订阅扣款",
+    "method": "POST",
+    "path": "/xpay/submit_subscribe_pay_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/VirtualPayment/api_upload_vp_file.html",
+    "cat": "VirtualPayment",
+    "title": "上传媒体文件",
+    "method": "POST",
+    "path": "/xpay/upload_vp_file"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/charge/api_getrecentaverageusage.html",
+    "cat": "charge",
+    "title": "获取小程序某个付费能力的最近用量数据",
+    "method": "GET",
+    "path": "/wxa/charge/usage/get_recent_average"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/charge/api_getusagedetail.html",
+    "cat": "charge",
+    "title": "查询购买资源包的用量情况",
+    "method": "GET",
+    "path": "/wxa/charge/usage/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/basic/api_checkrealnameinfo.html",
+    "cat": "cityservice",
+    "title": "校验实名信息",
+    "method": "POST",
+    "path": "/intp/realname/checkrealnameinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/basic/api_cityservice_sendmsgdata.html",
+    "cat": "cityservice",
+    "title": "消息通路发消息",
+    "method": "POST",
+    "path": "/cityservice/sendmsgdata"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/basic/api_cityserviceservicehomepath.html",
+    "cat": "cityservice",
+    "title": "获取城市服务限定页面链接",
+    "method": "POST",
+    "path": "/cityservice/getservicepath"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/basic/api_transportcode_getbusinessview.html",
+    "cat": "cityservice",
+    "title": "仿原生跳转",
+    "method": "POST",
+    "path": "/intp/transportcode/getbusinessview"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_cityservice_getmedrealname.html",
+    "cat": "cityservice",
+    "title": "查询用户实名API",
+    "method": "POST",
+    "path": "/cityservice/getmedrealname"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_cityservice_getmsgrelation.html",
+    "cat": "cityservice",
+    "title": "查询用户是否开通",
+    "method": "POST",
+    "path": "/cityservice/getmsgrelation"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_intp_eldermed_gethospnoticelist.html",
+    "cat": "cityservice",
+    "title": "查询所有公告",
+    "method": "POST",
+    "path": "/intp/eldermedical/gethospnoticelist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_intp_eldermed_publichopsnotice.html",
+    "cat": "cityservice",
+    "title": "正式发布公告",
+    "method": "POST",
+    "path": "/intp/eldermedical/publichopsnotice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_previewhopsnotice.html",
+    "cat": "cityservice",
+    "title": "公告草稿预览设置",
+    "method": "POST",
+    "path": "/intp/eldermedical/previewhopsnotice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/elderMedical/api_sethopsnotice.html",
+    "cat": "cityservice",
+    "title": "添加公告草稿",
+    "method": "POST",
+    "path": "/intp/eldermedical/sethopsnotice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cityservice/medicalassistant/api_cityservice_sendchannelmsg.html",
+    "cat": "cityservice",
+    "title": "消息推送接口",
+    "method": "POST",
+    "path": "/cityservice/sendchannelmsg"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_adddatabasecollection.html",
+    "cat": "cloudbase",
+    "title": "新增集合",
+    "method": "POST",
+    "path": "/tcb/databasecollectionadd"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_adddatabaseitem.html",
+    "cat": "cloudbase",
+    "title": "数据库插入记录",
+    "method": "POST",
+    "path": "/tcb/databaseadd"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_aggregatedatabase.html",
+    "cat": "cloudbase",
+    "title": "数据库聚合",
+    "method": "POST",
+    "path": "/tcb/databaseaggregate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_deletedatabasecollection.html",
+    "cat": "cloudbase",
+    "title": "删除集合",
+    "method": "POST",
+    "path": "/tcb/databasecollectiondelete"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_deletedatabaseitem.html",
+    "cat": "cloudbase",
+    "title": "数据库删除记录",
+    "method": "POST",
+    "path": "/tcb/databasedelete"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_exportdatabaseitem.html",
+    "cat": "cloudbase",
+    "title": "数据库导出",
+    "method": "POST",
+    "path": "/tcb/databasemigrateexport"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_getdatabasecollection.html",
+    "cat": "cloudbase",
+    "title": "获取集合信息",
+    "method": "POST",
+    "path": "/tcb/databasecollectionget"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_getdatabasecount.html",
+    "cat": "cloudbase",
+    "title": "统计集合记录数",
+    "method": "POST",
+    "path": "/tcb/databasecount"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_getdatabasemigratestatus.html",
+    "cat": "cloudbase",
+    "title": "数据库迁移状态查询",
+    "method": "POST",
+    "path": "/tcb/databasemigratequeryinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_getdatabaserecord.html",
+    "cat": "cloudbase",
+    "title": "数据库查询记录",
+    "method": "POST",
+    "path": "/tcb/databasequery"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_importdatabaseitem.html",
+    "cat": "cloudbase",
+    "title": "数据库导入",
+    "method": "POST",
+    "path": "/tcb/databasemigrateimport"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_updatedatabaseindexs.html",
+    "cat": "cloudbase",
+    "title": "更新数据库索引",
+    "method": "POST",
+    "path": "/tcb/updateindex"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/database/api_updatedatabaserecord.html",
+    "cat": "cloudbase",
+    "title": "数据库更新记录",
+    "method": "POST",
+    "path": "/tcb/databaseupdate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/functions/api_adddelayedfunctiontask.html",
+    "cat": "cloudbase",
+    "title": "延时调用云函数",
+    "method": "POST",
+    "path": "/tcb/adddelayedfunctiontask"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/functions/api_invokecloudfunction.html",
+    "cat": "cloudbase",
+    "title": "触发云函数",
+    "method": "",
+    "path": ""
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_cloudbasereportapi.html",
+    "cat": "cloudbase",
+    "title": "云开发上报接口",
+    "method": "POST",
+    "path": "/tcb/cloudbasereport"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_createsendsmstask.html",
+    "cat": "cloudbase",
+    "title": "创建发短信任务",
+    "method": "POST",
+    "path": "/tcb/createsendsmstask"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_describeextensionuploadinfo.html",
+    "cat": "cloudbase",
+    "title": "描述扩展上传文件信息",
+    "method": "POST",
+    "path": "/tcb/describeextensionuploadinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_describesmsrecords.html",
+    "cat": "cloudbase",
+    "title": "查询短信记录",
+    "method": "POST",
+    "path": "/tcb/describesmsrecords"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_getcloudbasestatistics.html",
+    "cat": "cloudbase",
+    "title": "获取云开发数据",
+    "method": "POST",
+    "path": "/tcb/getstatistics"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_getcloudbasevoipsign.html",
+    "cat": "cloudbase",
+    "title": "获取实时语音签名",
+    "method": "POST",
+    "path": "/wxa/getvoipsign"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_getcloudtoken.html",
+    "cat": "cloudbase",
+    "title": "获取腾讯云API调用凭证",
+    "method": "POST",
+    "path": "/tcb/getqcloudtoken"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_getopendata.html",
+    "cat": "cloudbase",
+    "title": "获取cloudID对应的数据",
+    "method": "POST",
+    "path": "/wxa/getopendata"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_newsendcloudbasesms.html",
+    "cat": "cloudbase",
+    "title": "发送短信v2",
+    "method": "POST",
+    "path": "/tcb/sendsmsv2"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/others/api_sendcloudbasesms.html",
+    "cat": "cloudbase",
+    "title": "发送短信",
+    "method": "POST",
+    "path": "/tcb/sendsms"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/storage/api_deletetcbcloudfile.html",
+    "cat": "cloudbase",
+    "title": "删除文件",
+    "method": "POST",
+    "path": "/tcb/batchdeletefile"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/storage/api_getdownloadtcbfilelink.html",
+    "cat": "cloudbase",
+    "title": "获取文件下载链接",
+    "method": "POST",
+    "path": "/tcb/batchdownloadfile"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/cloudbase/storage/api_getuploadtcbfilelink.html",
+    "cat": "cloudbase",
+    "title": "获取文件上传链接",
+    "method": "POST",
+    "path": "/tcb/uploadfile"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/others/api_getdailysummary.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序数据概况",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappiddailysummarytrend"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/others/api_getperformancedata.html",
+    "cat": "data-analysis",
+    "title": "获取小程序性能数据",
+    "method": "POST",
+    "path": "/wxa/business/performance/boot"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/others/api_getuserportrait.html",
+    "cat": "data-analysis",
+    "title": "获取小程序用户画像分布",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappiduserportrait"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/others/api_getvisitdistribution.html",
+    "cat": "data-analysis",
+    "title": "获取用户小程序访问分布数据",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidvisitdistribution"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/others/api_getvisitpage.html",
+    "cat": "data-analysis",
+    "title": "获取访问页面数据",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidvisitpage"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-retain/api_getdailyretain.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序日留存",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappiddailyretaininfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-retain/api_getmonthlyretain.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序月留存",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidmonthlyretaininfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-retain/api_getweeklyretain.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序周留存",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidweeklyretaininfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-trend/api_getdailyvisittrend.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序数据日趋势",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappiddailyvisittrend"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-trend/api_getmonthlyvisittrend.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序数据月趋势",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidmonthlyvisittrend"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/data-analysis/visit-trend/api_getweeklyvisittrend.html",
+    "cat": "data-analysis",
+    "title": "获取用户访问小程序数据周趋势",
+    "method": "POST",
+    "path": "/datacube/getweanalysisappidweeklyvisittrend"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_batchprocessdramapromotion.html",
+    "cat": "dramaOthersAPI",
+    "title": "批处理短剧合作推广计划",
+    "method": "POST",
+    "path": "/wxadrama/batchprocessdramapromotion"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developergetiaadrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "获取短剧变现类型",
+    "method": "POST",
+    "path": "/wxadrama/developergetiaadrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developergetpublisheddrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "获取已上架短剧",
+    "method": "POST",
+    "path": "/wxadrama/developergetpublisheddrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developerpublishdrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "短剧上架",
+    "method": "POST",
+    "path": "/wxadrama/developerpublishdrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developersetflushdrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "刷剧剧目设置",
+    "method": "POST",
+    "path": "/wxadrama/developersetflushdrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developersetiaadrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "设置短剧变现类型",
+    "method": "POST",
+    "path": "/wxadrama/developersetiaadrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_developersetrecmddrama.html",
+    "cat": "dramaOthersAPI",
+    "title": "推荐剧目",
+    "method": "POST",
+    "path": "/wxadrama/developersetrecmddrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_getfinderevent.html",
+    "cat": "dramaOthersAPI",
+    "title": "获取短剧合作推广活动",
+    "method": "POST",
+    "path": "/wxadrama/getfinderevent"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/dramaOthersAPI/api_setplayerdramarecmdswitch.html",
+    "cat": "dramaOthersAPI",
+    "title": "播放原始视频-推荐位控制接口",
+    "method": "POST",
+    "path": "/wxadrama/setplayerdramarecmdswitch"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_addorder.html",
+    "cat": "express",
+    "title": "生成运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/order/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_batchgetorder.html",
+    "cat": "express",
+    "title": "批量获取运单数据",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/order/batchget"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_bindaccount.html",
+    "cat": "express",
+    "title": "绑定/解绑物流账号",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/account/bind"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_cancelorder.html",
+    "cat": "express",
+    "title": "取消运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/order/cancel"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getallaccount.html",
+    "cat": "express",
+    "title": "获取所有绑定的物流账号",
+    "method": "GET",
+    "path": "/cgi-bin/express/business/account/getall"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getalldelivery.html",
+    "cat": "express",
+    "title": "获取支持的快递公司列表",
+    "method": "GET",
+    "path": "/cgi-bin/express/business/delivery/getall"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getorder.html",
+    "cat": "express",
+    "title": "获取运单数据",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/order/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getpath.html",
+    "cat": "express",
+    "title": "查询运单轨迹",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/path/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getprinter.html",
+    "cat": "express",
+    "title": "获取打印员",
+    "method": "GET",
+    "path": "/cgi-bin/express/business/printer/getall"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_getquota.html",
+    "cat": "express",
+    "title": "获取电子面单余额",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/quota/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_testupdateorder.html",
+    "cat": "express",
+    "title": "模拟更新订单状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/test_update_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-business/api_updateprinter.html",
+    "cat": "express",
+    "title": "配置面单打印员",
+    "method": "POST",
+    "path": "/cgi-bin/express/business/printer/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_getcontact.html",
+    "cat": "express",
+    "title": "获取面单联系人信息",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/contact/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_previewtemplate.html",
+    "cat": "express",
+    "title": "预览面单模板",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/template/preview"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatter_get_bill.html",
+    "cat": "express",
+    "title": "对账单下载",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/single_waybill/get_bill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatterdeliverycancel.html",
+    "cat": "express",
+    "title": "运力取消订单",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/single_waybill/cancel_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatterdeliveryrefund.html",
+    "cat": "express",
+    "title": "运力公司退款",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/single_waybill/refund_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatterupdatecomplainresult.html",
+    "cat": "express",
+    "title": "运力返回用户投诉处理结果",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/scatter/update_complaint_result"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatterupdateorderfee.html",
+    "cat": "express",
+    "title": "运力更新需支付的运费",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/single_waybill/fee"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_scatterupdateorderstatus.html",
+    "cat": "express",
+    "title": "运力更新订单状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/single_waybill/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_updatebusiness.html",
+    "cat": "express",
+    "title": "更新商户审核结果",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/service/business/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/express/express-by-provider/api_updatepath.html",
+    "cat": "express",
+    "title": "更新运单轨迹",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/path/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/face/api_getverifyid.html",
+    "cat": "face",
+    "title": "获取用户人脸核身会话唯一标识",
+    "method": "POST",
+    "path": "/cityservice/face/identify/getverifyid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/face/api_queryverifyinfo.html",
+    "cat": "face",
+    "title": "查询用户人脸核身真实验证结果",
+    "method": "POST",
+    "path": "/cityservice/face/identify/queryverifyinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_activelicensedevice.html",
+    "cat": "hardware-device",
+    "title": "激活设备license",
+    "method": "POST",
+    "path": "/wxa/business/license/activedevice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_addiotgroupdevice.html",
+    "cat": "hardware-device",
+    "title": "设备组添加设备",
+    "method": "POST",
+    "path": "/wxa/business/group/adddevice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_createiotgroupid.html",
+    "cat": "hardware-device",
+    "title": "创建设备组",
+    "method": "POST",
+    "path": "/wxa/business/group/createid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_getiotgroupinfo.html",
+    "cat": "hardware-device",
+    "title": "查询设备组信息",
+    "method": "POST",
+    "path": "/wxa/business/group/getinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_getlicensedeviceinfo.html",
+    "cat": "hardware-device",
+    "title": "查询设备激活详情",
+    "method": "POST",
+    "path": "/wxa/business/license/getdeviceinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_getlicensepkglist.html",
+    "cat": "hardware-device",
+    "title": "查询license资源包列表",
+    "method": "POST",
+    "path": "/wxa/business/license/getpkglist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_getsnticket.html",
+    "cat": "hardware-device",
+    "title": "获取设备票据",
+    "method": "POST",
+    "path": "/wxa/getsnticket"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_removeiotgroupdevice.html",
+    "cat": "hardware-device",
+    "title": "设备组删除设备",
+    "method": "POST",
+    "path": "/wxa/business/group/removedevice"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/hardware-device/api_sendhardwaredevicemessage.html",
+    "cat": "hardware-device",
+    "title": "发送设备消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/device/subscribe/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/img/api_imgaicrop.html",
+    "cat": "img-ocr",
+    "title": "图片智能裁剪",
+    "method": "POST",
+    "path": "/cv/img/aicrop"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/img/api_imgqrcode.html",
+    "cat": "img-ocr",
+    "title": "二维码/条码识别",
+    "method": "POST",
+    "path": "/cv/img/qrcode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/img/api_imgsuperresolution.html",
+    "cat": "img-ocr",
+    "title": "图片高清化",
+    "method": "POST",
+    "path": "/cv/img/superresolution"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_bankcardocr.html",
+    "cat": "img-ocr",
+    "title": "银行卡识别",
+    "method": "POST",
+    "path": "/cv/ocr/bankcard"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_bizlicenseocr.html",
+    "cat": "img-ocr",
+    "title": "营业执照识别",
+    "method": "POST",
+    "path": "/cv/ocr/bizlicense"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_commocr.html",
+    "cat": "img-ocr",
+    "title": "通用印刷体识别",
+    "method": "POST",
+    "path": "/cv/ocr/comm"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_drivinglicenseocr.html",
+    "cat": "img-ocr",
+    "title": "驾驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/drivinglicense"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_drivingocr.html",
+    "cat": "img-ocr",
+    "title": "行驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/driving"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/img-ocr/ocr/api_idcardocr.html",
+    "cat": "img-ocr",
+    "title": "身份证识别",
+    "method": "POST",
+    "path": "/cv/ocr/idcard"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_abnormalconfirm.html",
+    "cat": "immediate-delivery",
+    "title": "异常件退回商家确认",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/confirm_return"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_addlocalorder.html",
+    "cat": "immediate-delivery",
+    "title": "添加配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_addtips.html",
+    "cat": "immediate-delivery",
+    "title": "添加小费",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/addtips"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_bindlocalaccount.html",
+    "cat": "immediate-delivery",
+    "title": "发起绑定请求",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/shop/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_cancellocalorder.html",
+    "cat": "immediate-delivery",
+    "title": "取消配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/cancel"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_getallimmedelivery.html",
+    "cat": "immediate-delivery",
+    "title": "获取已支持的配送公司列表",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/delivery/getall"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_getbindaccount.html",
+    "cat": "immediate-delivery",
+    "title": "拉取已绑定账号",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/shop/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_getlocalorder.html",
+    "cat": "immediate-delivery",
+    "title": "拉取配送单信息",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_mockupdateorder.html",
+    "cat": "immediate-delivery",
+    "title": "模拟配送公司更新配送单状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/test_update_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_opendelivery.html",
+    "cat": "immediate-delivery",
+    "title": "申请开通即时配送",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/open"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_preaddorder.html",
+    "cat": "immediate-delivery",
+    "title": "预下配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/pre_add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_precancelorder.html",
+    "cat": "immediate-delivery",
+    "title": "预取消配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/precancel"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_realmockupdateorder.html",
+    "cat": "immediate-delivery",
+    "title": "模拟更新配送单状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/realmock_update_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-business/api_reorder.html",
+    "cat": "immediate-delivery",
+    "title": "重新下单",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/business/order/readd"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/immediate-delivery/deliver-by-provider/api_updateorder.html",
+    "cat": "immediate-delivery",
+    "title": "更新配送单状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/local/delivery/update_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-management/api_getbusiness.html",
+    "cat": "kf-mgnt",
+    "title": "客服子商户拉取单个商户信息",
+    "method": "POST",
+    "path": "/cgi-bin/business/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-management/api_listbusiness.html",
+    "cat": "kf-mgnt",
+    "title": "客服子商户拉取多个商户信息",
+    "method": "POST",
+    "path": "/cgi-bin/business/list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-management/api_registerbusiness.html",
+    "cat": "kf-mgnt",
+    "title": "客服子商户创建商户",
+    "method": "POST",
+    "path": "/cgi-bin/business/register"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-management/api_updatebusiness.html",
+    "cat": "kf-mgnt",
+    "title": "客服子商户更新商户信息",
+    "method": "POST",
+    "path": "/cgi-bin/business/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_addkfaccount.html",
+    "cat": "kf-mgnt",
+    "title": "添加客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_cancelkfadmin.html",
+    "cat": "kf-mgnt",
+    "title": "取消客服管理员",
+    "method": "GET",
+    "path": "/customservice/kfaccount/canceladmin"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_delkfaccount.html",
+    "cat": "kf-mgnt",
+    "title": "删除客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/del"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_getkflist.html",
+    "cat": "kf-mgnt",
+    "title": "获取所有客服账号",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getkflist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_getmedia.html",
+    "cat": "kf-mgnt",
+    "title": "获取临时素材",
+    "method": "GET",
+    "path": "/cgi-bin/media/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_getonlinekflist.html",
+    "cat": "kf-mgnt",
+    "title": "获取在线客服列表",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getonlinekflist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_sendcustommessage.html",
+    "cat": "kf-mgnt",
+    "title": "发送客服消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_setkfadmin.html",
+    "cat": "kf-mgnt",
+    "title": "设置客服管理员",
+    "method": "GET",
+    "path": "/customservice/kfaccount/setadmin"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_typing.html",
+    "cat": "kf-mgnt",
+    "title": "客服输入状态",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/business/typing"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-mgnt/kf-message/api_uploadtempmedia.html",
+    "cat": "kf-mgnt",
+    "title": "新增临时素材",
+    "method": "POST",
+    "path": "/cgi-bin/media/upload"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-work/api_bindkfwork.html",
+    "cat": "kf-work",
+    "title": "绑定微信客服",
+    "method": "POST",
+    "path": "/customservice/work/bind"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-work/api_getkfworkbound.html",
+    "cat": "kf-work",
+    "title": "查询绑定情况",
+    "method": "GET",
+    "path": "/customservice/work/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/kf-work/api_unbindkfwork.html",
+    "cat": "kf-work",
+    "title": "解除绑定微信客服",
+    "method": "POST",
+    "path": "/customservice/work/unbind"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/laboruse/api_sendemployeerelationmsg.html",
+    "cat": "laboruse",
+    "title": "推送用工消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/wxopen/employeerelationmsg/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/laboruse/api_unbinduserb2cauthinfo.html",
+    "cat": "laboruse",
+    "title": "解绑用工关系",
+    "method": "POST",
+    "path": "/wxa/business/unbinduserb2cauthinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_addgoods.html",
+    "cat": "livebroadcast",
+    "title": "添加并提审商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_deletegoodsinfo.html",
+    "cat": "livebroadcast",
+    "title": "删除商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/delete"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_getgoodsauditinfo.html",
+    "cat": "livebroadcast",
+    "title": "获取商品的信息与审核状态",
+    "method": "POST",
+    "path": "/wxa/business/getgoodswarehouse"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_getgoodsinfo.html",
+    "cat": "livebroadcast",
+    "title": "获取商品列表",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/goods/getapproved"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_resetaudit.html",
+    "cat": "livebroadcast",
+    "title": "撤回商品审核",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/resetaudit"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_resubmitaudit.html",
+    "cat": "livebroadcast",
+    "title": "重新提交商品审核",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/audit"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/commodity-management/api_updategoodsinfo.html",
+    "cat": "livebroadcast",
+    "title": "更新商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/update"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/role-management/api_deleterole.html",
+    "cat": "livebroadcast",
+    "title": "移除成员角色",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/role/deleterole"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/role-management/api_getrolelist.html",
+    "cat": "livebroadcast",
+    "title": "查询成员列表",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/role/getrolelist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/role-management/api_getrolelistdw.html",
+    "cat": "livebroadcast",
+    "title": "设置成员角色",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/role/addrole"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_addsubanchor.html",
+    "cat": "livebroadcast",
+    "title": "添加主播副号",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/addsubanchor"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_addveassistant.html",
+    "cat": "livebroadcast",
+    "title": "添加管理直播间小助手",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/addassistant"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_createroom.html",
+    "cat": "livebroadcast",
+    "title": "创建直播间",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/create"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_deletedoods.html",
+    "cat": "livebroadcast",
+    "title": "删除直播间商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/deleteInRoom"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_deleteroom.html",
+    "cat": "livebroadcast",
+    "title": "删除直播间",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/deleteroom"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_deletesubanchor.html",
+    "cat": "livebroadcast",
+    "title": "删除主播副号",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/deletesubanchor"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_downloadgoodsvideo.html",
+    "cat": "livebroadcast",
+    "title": "下载商品讲解视频",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/getVideo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_editroom.html",
+    "cat": "livebroadcast",
+    "title": "编辑直播间",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/editroom"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getassistantlist.html",
+    "cat": "livebroadcast",
+    "title": "查询直播间小助手",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/room/getassistantlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getdefault_goodskey.html",
+    "cat": "livebroadcast",
+    "title": "直播挂件获取全局KEY",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/goods/getkey"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getliveinfo.html",
+    "cat": "livebroadcast",
+    "title": "获取直播间列表和回放",
+    "method": "POST",
+    "path": "/wxa/business/getliveinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getpushurl.html",
+    "cat": "livebroadcast",
+    "title": "获取直播间推流地址",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/room/getpushurl"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getsharedcode.html",
+    "cat": "livebroadcast",
+    "title": "获取直播间分享二维码",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/room/getsharedcode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_getsubanchor.html",
+    "cat": "livebroadcast",
+    "title": "获取主播副号",
+    "method": "GET",
+    "path": "/wxaapi/broadcast/room/getsubanchor"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_importgoods.html",
+    "cat": "livebroadcast",
+    "title": "导入商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/addgoods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_modifyassistant.html",
+    "cat": "livebroadcast",
+    "title": "修改直播间小助手",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/modifyassistant"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_modifysubanchor.html",
+    "cat": "livebroadcast",
+    "title": "修改主播副号",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/modifysubanchor"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_pushgoods.html",
+    "cat": "livebroadcast",
+    "title": "推送商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/push"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_removeassistant.html",
+    "cat": "livebroadcast",
+    "title": "删除直播间小助手",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/removeassistant"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_salegoods.html",
+    "cat": "livebroadcast",
+    "title": "上下架商品",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/onsale"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_setdefault_goodskey.html",
+    "cat": "livebroadcast",
+    "title": "直播挂件设置全局KEY",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/setkey"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_sortgoods.html",
+    "cat": "livebroadcast",
+    "title": "直播间商品排序",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/goods/sort"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_updatecomment.html",
+    "cat": "livebroadcast",
+    "title": "禁言管理",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/updatecomment"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_updatefeedpublic.html",
+    "cat": "livebroadcast",
+    "title": "官方收录管理",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/updatefeedpublic"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_updatekf.html",
+    "cat": "livebroadcast",
+    "title": "客服功能管理",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/updatekf"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/studio-management/api_updatereplay.html",
+    "cat": "livebroadcast",
+    "title": "回放功能管理",
+    "method": "POST",
+    "path": "/wxaapi/broadcast/room/updatereplay"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/subscribe-management/api_getfollowers.html",
+    "cat": "livebroadcast",
+    "title": "获取长期订阅用户",
+    "method": "POST",
+    "path": "/wxa/business/get_wxa_followers"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/livebroadcast/subscribe-management/api_pushmessage.html",
+    "cat": "livebroadcast",
+    "title": "发送直播开始事件",
+    "method": "POST",
+    "path": "/wxa/business/push_message"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_auditdrama.html",
+    "cat": "minidrama",
+    "title": "剧目提审",
+    "method": "POST",
+    "path": "/wxa/sec/vod/auditdrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_getdrama.html",
+    "cat": "minidrama",
+    "title": "获取剧目信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getdrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_getdramalatestauditinfo.html",
+    "cat": "minidrama",
+    "title": "查询剧目审核信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getdramalatestauditinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_listdramas.html",
+    "cat": "minidrama",
+    "title": "获取剧目列表",
+    "method": "POST",
+    "path": "/wxa/sec/vod/listdramas"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_replacedramamedia.html",
+    "cat": "minidrama",
+    "title": "替换审核通过的剧集",
+    "method": "POST",
+    "path": "/wxa/sec/vod/replacedramamedia"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_submitmodifydramabasicinforeq.html",
+    "cat": "minidrama",
+    "title": "修改剧目基本信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/modifydramabasicinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/auditdrama/api_submitreplacemedias.html",
+    "cat": "minidrama",
+    "title": "提交替换剧集审核",
+    "method": "POST",
+    "path": "/wxa/sec/vod/submitreplacedramamedias"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizeapp/api_authorizeapp.html",
+    "cat": "minidrama",
+    "title": "增加账号授权",
+    "method": "POST",
+    "path": "/wxa/sec/vod/authorizeapp"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizeapp/api_deauthorizeapp.html",
+    "cat": "minidrama",
+    "title": "解除账号授权",
+    "method": "POST",
+    "path": "/wxa/sec/vod/deauthorizeapp"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizeapp/api_getauthorizeapps.html",
+    "cat": "minidrama",
+    "title": "查询账号授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getauthorizeapps"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizeapp/api_getauthorizedobjects.html",
+    "cat": "minidrama",
+    "title": "查询被授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getauthorizedobjects"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizecopyright/api_authorizecopyright.html",
+    "cat": "minidrama",
+    "title": "增加版权授权",
+    "method": "POST",
+    "path": "/wxa/sec/vod/authorizecopyright"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizecopyright/api_deauthorizecopyright.html",
+    "cat": "minidrama",
+    "title": "解除版权授权",
+    "method": "POST",
+    "path": "/wxa/sec/vod/deauthorizecopyright"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizecopyright/api_getcopyrightauthorizationlist.html",
+    "cat": "minidrama",
+    "title": "查询版权授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getcopyrightauthorizationlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizecopyright/api_getcopyrightauthorizedlist.html",
+    "cat": "minidrama",
+    "title": "查询被版权授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getcopyrightauthorizedlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizedrama/api_authorizedrama.html",
+    "cat": "minidrama",
+    "title": "增加剧目授权",
+    "method": "GET",
+    "path": "/wxa/sec/vod/authorizedrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizedrama/api_deauthorizedrama.html",
+    "cat": "minidrama",
+    "title": "解除剧目授权",
+    "method": "POST",
+    "path": "/wxa/sec/vod/deauthorizedrama"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizedrama/api_getauthorizedobjects.html",
+    "cat": "minidrama",
+    "title": "查询被授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getauthorizedobjects"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/authorizedrama/api_getauthorizeobjects.html",
+    "cat": "minidrama",
+    "title": "查询授权信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getauthorizeobjects"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/usagedata/api_getcdnlogs.html",
+    "cat": "minidrama",
+    "title": "查询CDN日志下载链接列表",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getcdnlogs"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/usagedata/api_getcdnusagedata.html",
+    "cat": "minidrama",
+    "title": "查询CDN用量数据",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getcdnusagedata"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/usagedata/api_listpackages.html",
+    "cat": "minidrama",
+    "title": "查询流量包详情",
+    "method": "POST",
+    "path": "/wxa/sec/vod/listpackages"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_applyupload.html",
+    "cat": "minidrama",
+    "title": "申请分片上传",
+    "method": "POST",
+    "path": "/wxa/sec/vod/applyupload"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_commitupload.html",
+    "cat": "minidrama",
+    "title": "确认上传",
+    "method": "POST",
+    "path": "/wxa/sec/vod/commitupload"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_gettask.html",
+    "cat": "minidrama",
+    "title": "查询任务",
+    "method": "POST",
+    "path": "/wxa/sec/vod/gettask"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_pullupload.html",
+    "cat": "minidrama",
+    "title": "拉取上传",
+    "method": "POST",
+    "path": "/wxa/sec/vod/pullupload"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_singlefileupload.html",
+    "cat": "minidrama",
+    "title": "单个文件上传",
+    "method": "POST",
+    "path": "/wxa/sec/vod/singlefileupload"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_fileupload/api_uploadpart.html",
+    "cat": "minidrama",
+    "title": "上传分片",
+    "method": "POST",
+    "path": "/wxa/sec/vod/uploadpart"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_media/api_deletemedia.html",
+    "cat": "minidrama",
+    "title": "删除媒资",
+    "method": "POST",
+    "path": "/wxa/sec/vod/deletemedia"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_media/api_getmedia.html",
+    "cat": "minidrama",
+    "title": "获取媒资详细信息",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getmedia"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_media/api_getmedialink.html",
+    "cat": "minidrama",
+    "title": "获取媒资播放链接",
+    "method": "POST",
+    "path": "/wxa/sec/vod/getmedialink"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/minidrama/vod_media/api_listmedia.html",
+    "cat": "minidrama",
+    "title": "获取媒资列表",
+    "method": "POST",
+    "path": "/wxa/sec/vod/listmedia"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-access-token/api_getaccesstoken.html",
+    "cat": "mp-access-token",
+    "title": "获取接口调用凭据",
+    "method": "GET",
+    "path": "/cgi-bin/token"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-access-token/api_getstableaccesstoken.html",
+    "cat": "mp-access-token",
+    "title": "获取稳定版接口调用凭据",
+    "method": "POST",
+    "path": "/cgi-bin/stable_token"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_addwxanewtemplate.html",
+    "cat": "mp-message-management",
+    "title": "选用模板",
+    "method": "POST",
+    "path": "/wxaapi/newtmpl/addtemplate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_delwxanewtemplate.html",
+    "cat": "mp-message-management",
+    "title": "删除模板",
+    "method": "POST",
+    "path": "/wxaapi/newtmpl/deltemplate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_getcategory.html",
+    "cat": "mp-message-management",
+    "title": "获取类目",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getcategory"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_getpubnewtemplatekeywords.html",
+    "cat": "mp-message-management",
+    "title": "获取模板中的关键词",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getpubtemplatekeywords"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_getpubnewtemplatetitles.html",
+    "cat": "mp-message-management",
+    "title": "获取类目下的公共模板",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getpubtemplatetitles"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_getusernotify.html",
+    "cat": "mp-message-management",
+    "title": "查询服务卡片状态",
+    "method": "POST",
+    "path": "/wxa/get_user_notify"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_getwxapubnewtemplate.html",
+    "cat": "mp-message-management",
+    "title": "获取已有模板列表",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/gettemplate"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_sendmessage.html",
+    "cat": "mp-message-management",
+    "title": "发送订阅消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/subscribe/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_setusernotify.html",
+    "cat": "mp-message-management",
+    "title": "激活与更新服务卡片",
+    "method": "POST",
+    "path": "/wxa/set_user_notify"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/subscribe-message/api_setusernotifyext.html",
+    "cat": "mp-message-management",
+    "title": "更新服务卡片扩展信息",
+    "method": "POST",
+    "path": "/wxa/set_user_notifyext"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/updatable-message/api_createactivityid.html",
+    "cat": "mp-message-management",
+    "title": "创建activity_id",
+    "method": "GET",
+    "path": "/cgi-bin/message/wxopen/activityid/create"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/updatable-message/api_setchattoolmsg.html",
+    "cat": "mp-message-management",
+    "title": "修改小程序聊天工具的动态卡片消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/wxopen/chattoolmsg/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/mp-message-management/updatable-message/api_setupdatablemsg.html",
+    "cat": "mp-message-management",
+    "title": "修改动态消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/wxopen/updatablemsg/send"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/nearby-poi/api_addnearbypoi.html",
+    "cat": "nearby-poi",
+    "title": "添加地点",
+    "method": "POST",
+    "path": "/wxa/addnearbypoi"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/nearby-poi/api_deletenearbypoi.html",
+    "cat": "nearby-poi",
+    "title": "删除地点",
+    "method": "POST",
+    "path": "/wxa/delnearbypoi"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/nearby-poi/api_getnearbypoilist.html",
+    "cat": "nearby-poi",
+    "title": "查看地点",
+    "method": "POST",
+    "path": "/wxa/getnearbypoilist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/nearby-poi/api_setshowstatus.html",
+    "cat": "nearby-poi",
+    "title": "设置展示状态",
+    "method": "POST",
+    "path": "/wxa/setnearbypoishowstatus"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_addbookauth.html",
+    "cat": "novel",
+    "title": "新增账号-小说授权",
+    "method": "POST",
+    "path": "/wxa/book/addbookauth"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_addbookauthbyappid.html",
+    "cat": "novel",
+    "title": "新增账号-账号授权",
+    "method": "POST",
+    "path": "/wxa/book/addbookauthbyappid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_delbookauth.html",
+    "cat": "novel",
+    "title": "删除指定的授权关系",
+    "method": "POST",
+    "path": "/wxa/book/delbookauth"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_delbookauthbyappid.html",
+    "cat": "novel",
+    "title": "删除指定的账号授权关系",
+    "method": "POST",
+    "path": "/wxa/book/delbookauthbyappid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_querybookauth.html",
+    "cat": "novel",
+    "title": "查看主授权关系列表-查看被授权关系列表",
+    "method": "POST",
+    "path": "/wxa/book/querybookauth"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/auth/api_querybookauthv2.html",
+    "cat": "novel",
+    "title": "查看账号主授权关系列表",
+    "method": "POST",
+    "path": "/wxa/book/querybookauthv2"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_auditbook.html",
+    "cat": "novel",
+    "title": "作品提审",
+    "method": "POST",
+    "path": "/wxa/book/auditbook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_batchcreatechapter.html",
+    "cat": "novel",
+    "title": "批量上传章节",
+    "method": "POST",
+    "path": "/wxa/book/batchcreatechapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_createbook.html",
+    "cat": "novel",
+    "title": "创建作品",
+    "method": "POST",
+    "path": "/wxa/book/createbook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_createchapter.html",
+    "cat": "novel",
+    "title": "上传章节",
+    "method": "POST",
+    "path": "/wxa/book/createchapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_deletebook.html",
+    "cat": "novel",
+    "title": "删除作品",
+    "method": "POST",
+    "path": "/wxa/book/deletebook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_deletechapter.html",
+    "cat": "novel",
+    "title": "删除章节",
+    "method": "POST",
+    "path": "/wxa/book/deletechapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_getbook.html",
+    "cat": "novel",
+    "title": "获取作品信息",
+    "method": "POST",
+    "path": "/wxa/book/getbook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_getchapter.html",
+    "cat": "novel",
+    "title": "获取章节信息",
+    "method": "POST",
+    "path": "/wxa/book/getchapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_listbook.html",
+    "cat": "novel",
+    "title": "获取作品列表",
+    "method": "POST",
+    "path": "/wxa/book/listbook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_listchapter.html",
+    "cat": "novel",
+    "title": "获取章节列表",
+    "method": "POST",
+    "path": "/wxa/book/listchapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_reorderchapter.html",
+    "cat": "novel",
+    "title": "调整章节顺序",
+    "method": "POST",
+    "path": "/wxa/book/reorderchapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_replacechapter.html",
+    "cat": "novel",
+    "title": "替换章节",
+    "method": "POST",
+    "path": "/wxa/book/replacechapter"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_updatebook.html",
+    "cat": "novel",
+    "title": "编辑作品",
+    "method": "POST",
+    "path": "/wxa/book/updatebook"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/business/api_updatechapterseq.html",
+    "cat": "novel",
+    "title": "调整章节相对顺序",
+    "method": "POST",
+    "path": "/wxa/book/updatechapterseq"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/other/api_novelreadersetrecmdnovel.html",
+    "cat": "novel",
+    "title": "读后推荐",
+    "method": "POST",
+    "path": "/wxa/business/novelreader/setrecmdnovel"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/preview/api_getpreviewsetting.html",
+    "cat": "novel",
+    "title": "预览设置获取",
+    "method": "POST",
+    "path": "/wxa/business/novelreader/getpreviewsetting"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/novel/preview/api_setpreviewsetting.html",
+    "cat": "novel",
+    "title": "预览设置修改",
+    "method": "POST",
+    "path": "/wxa/business/novelreader/setpreviewsetting"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_callbackcheck.html",
+    "cat": "openApi-mgnt",
+    "title": "网络通信检测",
+    "method": "POST",
+    "path": "/cgi-bin/callback/check"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_clearapiquota.html",
+    "cat": "openApi-mgnt",
+    "title": "重置指定API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/clear"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_clearquota.html",
+    "cat": "openApi-mgnt",
+    "title": "重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_clearquotabyappsecret.html",
+    "cat": "openApi-mgnt",
+    "title": "使用AppSecret重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota/v2"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_getapidomainip.html",
+    "cat": "openApi-mgnt",
+    "title": "获取微信API服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/get_api_domain_ip"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_getapiquota.html",
+    "cat": "openApi-mgnt",
+    "title": "查询API调用额度",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_getcallbackip.html",
+    "cat": "openApi-mgnt",
+    "title": "获取微信推送服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/getcallbackip"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/openApi-mgnt/api_getridinfo.html",
+    "cat": "openApi-mgnt",
+    "title": "查询rid信息",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/rid/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getdomaininfo.html",
+    "cat": "operation",
+    "title": "查询域名配置",
+    "method": "POST",
+    "path": "/wxa/getwxadevinfo"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getfeedback.html",
+    "cat": "operation",
+    "title": "获取用户反馈列表",
+    "method": "GET",
+    "path": "/wxaapi/feedback/list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getfeedbackmedia.html",
+    "cat": "operation",
+    "title": "获取mediaId图片",
+    "method": "GET",
+    "path": "/cgi-bin/media/getfeedbackmedia"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getgrayreleaseplan.html",
+    "cat": "operation",
+    "title": "获取分阶段发布详情",
+    "method": "GET",
+    "path": "/wxa/getgrayreleaseplan"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getjserrdetail.html",
+    "cat": "operation",
+    "title": "查询js错误详情",
+    "method": "POST",
+    "path": "/wxaapi/log/jserr_detail"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getjserrlist.html",
+    "cat": "operation",
+    "title": "查询错误列表",
+    "method": "POST",
+    "path": "/wxaapi/log/jserr_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getperformance.html",
+    "cat": "operation",
+    "title": "获取性能数据",
+    "method": "POST",
+    "path": "/wxaapi/log/get_performance"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getscenelist.html",
+    "cat": "operation",
+    "title": "获取访问来源",
+    "method": "GET",
+    "path": "/wxaapi/log/get_scene"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_getversionlist.html",
+    "cat": "operation",
+    "title": "获取客户端版本",
+    "method": "GET",
+    "path": "/wxaapi/log/get_client_version"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/operation/api_realtimelogsearch.html",
+    "cat": "operation",
+    "title": "查询实时日志",
+    "method": "GET",
+    "path": "/wxaapi/userlog/userlog_search"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_famousbrandapply.html",
+    "cat": "order_shipping",
+    "title": "品牌申请",
+    "method": "POST",
+    "path": "/wxa/sec/famousbrand/apply"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_getfamousbrandapplystatus.html",
+    "cat": "order_shipping",
+    "title": "小程序品牌申请状态查询",
+    "method": "POST",
+    "path": "/wxa/sec/famousbrand/get_status"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_getorder.html",
+    "cat": "order_shipping",
+    "title": "查询订单发货状态",
+    "method": "POST",
+    "path": "/wxa/sec/order/get_order"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_getorderlist.html",
+    "cat": "order_shipping",
+    "title": "查询订单列表",
+    "method": "POST",
+    "path": "/wxa/sec/order/get_order_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_istrademanaged.html",
+    "cat": "order_shipping",
+    "title": "查询小程序是否已开通发货信息管理服务",
+    "method": "POST",
+    "path": "/wxa/sec/order/is_trade_managed"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_istrademanagementconfirmationcompleted.html",
+    "cat": "order_shipping",
+    "title": "查询小程序是否已完成交易结算管理确认",
+    "method": "POST",
+    "path": "/wxa/sec/order/is_trade_management_confirmation_completed"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_notifyconfirmreceive.html",
+    "cat": "order_shipping",
+    "title": "确认收货提醒",
+    "method": "POST",
+    "path": "/wxa/sec/order/notify_confirm_receive"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_opspecialorder.html",
+    "cat": "order_shipping",
+    "title": "特殊发货报备",
+    "method": "POST",
+    "path": "/wxa/sec/order/opspecialorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_setmsgjumppath.html",
+    "cat": "order_shipping",
+    "title": "消息跳转路径设置",
+    "method": "POST",
+    "path": "/wxa/sec/order/set_msg_jump_path"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_setwxatradetypecgi.html",
+    "cat": "order_shipping",
+    "title": "小程序交易类型变更申请",
+    "method": "POST",
+    "path": "/wxa/sec/order/setwxatradetypecgi"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_uploadcombinedshippinginfo.html",
+    "cat": "order_shipping",
+    "title": "发货信息合单录入",
+    "method": "POST",
+    "path": "/wxa/sec/order/upload_combined_shipping_info"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/order_shipping/api_uploadshippinginfo.html",
+    "cat": "order_shipping",
+    "title": "发货信息录入",
+    "method": "POST",
+    "path": "/wxa/sec/order/upload_shipping_info"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/plugin-management/api_manageplugin.html",
+    "cat": "plugin-management",
+    "title": "插件管理",
+    "method": "POST",
+    "path": "/wxa/plugin"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/plugin-management/api_managepluginapplication.html",
+    "cat": "plugin-management",
+    "title": "插件申请管理",
+    "method": "POST",
+    "path": "/wxa/devplugin"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/qr-code/api_createqrcode.html",
+    "cat": "qrcode-link",
+    "title": "获取小程序二维码",
+    "method": "POST",
+    "path": "/cgi-bin/wxaapp/createwxaqrcode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/qr-code/api_getqrcode.html",
+    "cat": "qrcode-link",
+    "title": "获取小程序码",
+    "method": "POST",
+    "path": "/wxa/getwxacode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/qr-code/api_getunlimitedqrcode.html",
+    "cat": "qrcode-link",
+    "title": "获取不限制的小程序码",
+    "method": "POST",
+    "path": "/wxa/getwxacodeunlimit"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/short-link/api_generateshortlink.html",
+    "cat": "qrcode-link",
+    "title": "获取ShortLink",
+    "method": "POST",
+    "path": "/wxa/genwxashortlink"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/url-link/api_generateurllink.html",
+    "cat": "qrcode-link",
+    "title": "获取加密URLLink",
+    "method": "POST",
+    "path": "/wxa/generate_urllink"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/url-link/api_queryurllink.html",
+    "cat": "qrcode-link",
+    "title": "查询加密URLLink",
+    "method": "POST",
+    "path": "/wxa/query_urllink"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/url-scheme/api_generatenfcscheme.html",
+    "cat": "qrcode-link",
+    "title": "获取NFC的小程序scheme",
+    "method": "POST",
+    "path": "/wxa/generatenfcscheme"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/url-scheme/api_generatescheme.html",
+    "cat": "qrcode-link",
+    "title": "获取加密scheme码",
+    "method": "POST",
+    "path": "/wxa/generatescheme"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/qrcode-link/url-scheme/api_queryscheme.html",
+    "cat": "qrcode-link",
+    "title": "查询scheme码",
+    "method": "POST",
+    "path": "/wxa/queryscheme"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/red-packet-cover/api_getredpacketcoverurl.html",
+    "cat": "red-packet-cover",
+    "title": "获取微信红包封面",
+    "method": "POST",
+    "path": "/redpacketcover/wxapp/cover_url/get_by_token"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/sec-center/safety-control-capability/api_getuserriskrank.html",
+    "cat": "sec-center",
+    "title": "获取用户安全等级",
+    "method": "POST",
+    "path": "/wxa/getuserriskrank"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/sec-center/sec-check/api_mediacheckasync.html",
+    "cat": "sec-center",
+    "title": "多媒体内容安全识别",
+    "method": "POST",
+    "path": "/wxa/media_check_async"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/sec-center/sec-check/api_msgseccheck.html",
+    "cat": "sec-center",
+    "title": "文本内容安全识别",
+    "method": "POST",
+    "path": "/wxa/msg_sec_check"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/soter/api_verifysignature.html",
+    "cat": "soter",
+    "title": "生物认证秘钥签名验证",
+    "method": "POST",
+    "path": "/cgi-bin/soter/verify_signature"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/student/api_quickcheckstudentidentity.html",
+    "cat": "student",
+    "title": "快速获取学生身份",
+    "method": "POST",
+    "path": "/intp/quickcheckstudentidentity"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/basic/api_getguaranteestatus.html",
+    "cat": "transaction-guarantee",
+    "title": "获取交易保障标状态",
+    "method": "GET",
+    "path": "/wxaapi/wxamptrade/get_guarantee_status"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/basic/api_getpenaltylist.html",
+    "cat": "transaction-guarantee",
+    "title": "获取小程序交易体验分违规记录",
+    "method": "GET",
+    "path": "/wxaapi/wxamptrade/get_penalty_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_addcommentreply.html",
+    "cat": "transaction-guarantee",
+    "title": "创建回复",
+    "method": "POST",
+    "path": "/wxaapi/comment/commentreply/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_addreply.html",
+    "cat": "transaction-guarantee",
+    "title": "创建评论",
+    "method": "POST",
+    "path": "/wxaapi/comment/reply/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_confirmcompromise.html",
+    "cat": "transaction-guarantee",
+    "title": "确认和解",
+    "method": "POST",
+    "path": "/wxaapi/comment/confirmcompromise"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_deletecommentreply.html",
+    "cat": "transaction-guarantee",
+    "title": "删除回复",
+    "method": "POST",
+    "path": "/wxaapi/comment/commentreply/delete"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_deletereply.html",
+    "cat": "transaction-guarantee",
+    "title": "删除评论",
+    "method": "POST",
+    "path": "/wxaapi/comment/reply/delete"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_getccommentlist.html",
+    "cat": "transaction-guarantee",
+    "title": "查询评价列表",
+    "method": "GET",
+    "path": "/wxaapi/comment/mpcommentlist/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_getcommentinfo.html",
+    "cat": "transaction-guarantee",
+    "title": "查询评价详情",
+    "method": "GET",
+    "path": "/wxaapi/comment/commentinfo/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_getcommentreplylist.html",
+    "cat": "transaction-guarantee",
+    "title": "查询评论列表",
+    "method": "GET",
+    "path": "/wxaapi/comment/replyandcommentreplylist/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/comment/api_resetapikfquota.html",
+    "cat": "transaction-guarantee",
+    "title": "重置Api客服quota",
+    "method": "POST",
+    "path": "/wxaapi/comment/apikfquota/reset"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/complaint/api_busiappeal.html",
+    "cat": "transaction-guarantee",
+    "title": "商家申诉",
+    "method": "POST",
+    "path": "/wxaapi/minishop/busiAppeal"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/complaint/api_getorderdetail.html",
+    "cat": "transaction-guarantee",
+    "title": "查询投诉单详情",
+    "method": "GET",
+    "path": "/wxaapi/minishop/complaintOrderDetail"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/complaint/api_respondcomplaint.html",
+    "cat": "transaction-guarantee",
+    "title": "商家回应投诉",
+    "method": "POST",
+    "path": "/wxaapi/minishop/bussiRespondComplaint"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/complaint/api_submitrefund.html",
+    "cat": "transaction-guarantee",
+    "title": "商家提交退款凭证",
+    "method": "POST",
+    "path": "/wxaapi/minishop/bussiSupplyRefund"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/transaction-guarantee/complaint/api_supplyproof.html",
+    "cat": "transaction-guarantee",
+    "title": "商家补充凭证",
+    "method": "POST",
+    "path": "/wxaapi/minishop/bussiSupplyProof"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-info/basic-info/api_checkencrypteddata.html",
+    "cat": "user-info",
+    "title": "检查加密信息",
+    "method": "POST",
+    "path": "/wxa/business/checkencryptedmsg"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-info/basic-info/api_getpaidunionid.html",
+    "cat": "user-info",
+    "title": "支付后获取Unionid",
+    "method": "GET",
+    "path": "/wxa/getpaidunionid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-info/basic-info/api_getpluginopenpid.html",
+    "cat": "user-info",
+    "title": "获取插件用户openpid",
+    "method": "POST",
+    "path": "/wxa/getpluginopenpid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-info/internet/api_getuserencryptkey.html",
+    "cat": "user-info",
+    "title": "获取用户encryptKey",
+    "method": "GET",
+    "path": "/wxa/business/getuserencryptkey"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-info/phone-number/api_getphonenumber.html",
+    "cat": "user-info",
+    "title": "获取手机号",
+    "method": "POST",
+    "path": "/wxa/business/getuserphonenumber"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-login/api_checksessionkey.html",
+    "cat": "user-login",
+    "title": "检验登录态",
+    "method": "GET",
+    "path": "/wxa/checksession"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-login/api_code2session.html",
+    "cat": "user-login",
+    "title": "小程序登录凭证校验",
+    "method": "GET",
+    "path": "/sns/jscode2session"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/user-login/api_resetusersessionkey.html",
+    "cat": "user-login",
+    "title": "重置登录态",
+    "method": "GET",
+    "path": "/wxa/resetusersessionkey"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-msg/api_follow_waybill.html",
+    "cat": "weixin-express",
+    "title": "传运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/follow_waybill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-msg/api_get_delivery_list.html",
+    "cat": "weixin-express",
+    "title": "获取运力id列表",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/get_delivery_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-msg/api_query_follow_trace.html",
+    "cat": "weixin-express",
+    "title": "查运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/query_follow_trace"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-msg/api_update_follow_waybill_goods.html",
+    "cat": "weixin-express",
+    "title": "更新物品信息接口",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/update_follow_waybill_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-return/api_addreturnid.html",
+    "cat": "weixin-express",
+    "title": "创建退货ID",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/no_worry_return/add"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-return/api_getreturnid.html",
+    "cat": "weixin-express",
+    "title": "查询退货ID状态",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/no_worry_return/get"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-return/api_unbindreturnid.html",
+    "cat": "weixin-express",
+    "title": "解绑退货ID",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/no_worry_return/unbind"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-search/api_get_delivery_list.html",
+    "cat": "weixin-express",
+    "title": "获取运力id列表",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/get_delivery_list"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-search/api_query_trace.html",
+    "cat": "weixin-express",
+    "title": "查询运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/query_trace"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-search/api_trace_waybill.html",
+    "cat": "weixin-express",
+    "title": "传运单",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/trace_waybill"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/express-search/api_update_waybill_goods.html",
+    "cat": "weixin-express",
+    "title": "更新物流信息",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/open_msg/update_waybill_goods"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_applypay.html",
+    "cat": "weixin-express",
+    "title": "申请支付",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/applypay"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_claim.html",
+    "cat": "weixin-express",
+    "title": "无忧退理赔",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/claim"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_createchargeid.html",
+    "cat": "weixin-express",
+    "title": "申请充值订单号",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/createchargeid"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_createorder.html",
+    "cat": "weixin-express",
+    "title": "发货时投保",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/createorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_getorderlist.html",
+    "cat": "weixin-express",
+    "title": "拉取保单信息",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/getorderlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_getpayorderlist.html",
+    "cat": "weixin-express",
+    "title": "拉取充值订单信息",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/getpayorderlist"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_getsummary.html",
+    "cat": "weixin-express",
+    "title": "拉取理赔摘要",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/getsummary"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_open.html",
+    "cat": "weixin-express",
+    "title": "开通无忧退货",
+    "method": "GET",
+    "path": "/wxa/business/insurance_freight/open"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_query_open.html",
+    "cat": "weixin-express",
+    "title": "查询开通状态",
+    "method": "GET",
+    "path": "/wxa/business/insurance_freight/query_open"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_refund.html",
+    "cat": "weixin-express",
+    "title": "充值保费退款",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/refund"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/freight/api_insurance_freight_update_notify_funds.html",
+    "cat": "weixin-express",
+    "title": "设置保费告警余额",
+    "method": "POST",
+    "path": "/wxa/business/insurance_freight/update_notify_funds"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/msgpush/api_deliverypathnotify.html",
+    "cat": "weixin-express",
+    "title": "推送已绑定物流轨迹信息",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/pathnotify"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/msgpush/api_deliveryuserquery.html",
+    "cat": "weixin-express",
+    "title": "用户手机状态查询",
+    "method": "POST",
+    "path": "/cgi-bin/express/delivery/userquery"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_addorder.html",
+    "cat": "weixin-express",
+    "title": "创建配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/addorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_apply.html",
+    "cat": "weixin-express",
+    "title": "开通门店权限",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/apply"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_balancequery.html",
+    "cat": "weixin-express",
+    "title": "门店余额查询",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/balancequery"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_cancelorder.html",
+    "cat": "weixin-express",
+    "title": "取消配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/cancelorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_createstore.html",
+    "cat": "weixin-express",
+    "title": "创建门店",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/createstore"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_getcity.html",
+    "cat": "weixin-express",
+    "title": "查询支持同城配送的城市",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/getcity"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_getpaymode.html",
+    "cat": "weixin-express",
+    "title": "查询扣费主体",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/getpaymode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_mocknotify.html",
+    "cat": "weixin-express",
+    "title": "模拟回调接口",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/mocknotify"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_preaddorder.html",
+    "cat": "weixin-express",
+    "title": "查询运费",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/preaddorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_queryflow.html",
+    "cat": "weixin-express",
+    "title": "门店运费流水查询",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/queryflow"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_queryorder.html",
+    "cat": "weixin-express",
+    "title": "查询配送单",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/queryorder"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_querystore.html",
+    "cat": "weixin-express",
+    "title": "查询门店",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/querystore"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_setpaymode.html",
+    "cat": "weixin-express",
+    "title": "设置扣费主体",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/setpaymode"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_store_refund.html",
+    "cat": "weixin-express",
+    "title": "门店运费退款",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/storerefund"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_storecharge.html",
+    "cat": "weixin-express",
+    "title": "门店运费充值",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/storecharge"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/weixin-express/same_city_distribution/api_intracity_updatestore.html",
+    "cat": "weixin-express",
+    "title": "更新门店",
+    "method": "POST",
+    "path": "/cgi-bin/express/intracity/updatestore"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/wx-service-market/api_invokeservice.html",
+    "cat": "wx-service-market",
+    "title": "调用服务市场接口",
+    "method": "POST",
+    "path": "/wxa/servicemarket"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/wx-service-market/api_servicemarketretrieve.html",
+    "cat": "wx-service-market",
+    "title": "异步获取处理数据",
+    "method": "POST",
+    "path": "/wxa/servicemarketretrieve"
+  },
+  {
+    "url": "/miniprogram/dev/server/API/wxsearch/api_submitpages.html",
+    "cat": "wxsearch",
+    "title": "搜一搜数据推送",
+    "method": "POST",
+    "path": "/wxa/search/wxaapi_submitpages"
+  }
+]

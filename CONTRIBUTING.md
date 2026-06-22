@@ -27,36 +27,40 @@
    yarn install
    ```
 
-4. **运行开发环境**
+4. **常用命令**
    ```bash
-   # 启动文档开发服务器
-   pnpm run docs:dev
-   
-   # 生成 API 文档
-   node scripts/gen-oa-docs.mjs
+   pnpm build       # 构建全部包（turbo 编排，ESM + CJS + 类型声明）
+   pnpm typecheck   # 类型检查
+   pnpm test        # 运行 Vitest 单元测试
+   pnpm lint        # Biome 代码规范检查
+   pnpm format      # Biome 自动格式化
+   pnpm docs:dev    # 启动文档开发服务器
    ```
 
 ### 项目结构
 
 ```
 wxstack/
-├── packages/                 # 各功能包源码
-│   ├── oa/                  # 公众号 SDK
-│   │   ├── index.js         # 入口文件
-│   │   ├── client.js        # 主客户端
-│   │   ├── auth/            # 认证相关
-│   │   ├── lib/             # 核心库
-│   │   ├── middleware/      # 中间件
-│   │   └── request/         # 请求处理
-│   └── pay/                 # 支付 SDK（开发中）
+├── packages/                 # TypeScript 源码（pnpm workspace + turbo）
+│   ├── core/                # @wxstack/core 内核（HTTP/令牌/加解密/错误/回调/存储/日志）
+│   │   ├── src/             # 源码
+│   │   └── test/            # Vitest 单元测试
+│   ├── oa/  pay/  mp/  wecom/  op/  shop/  ch/  mg/  ai/   # 各业务包（仅依赖 core）
+│   │   ├── src/             # client.ts / types.ts / actions/ / index.ts
+│   │   └── README.md
+│   └── wxstack/             # 聚合 meta 包
 ├── docs/                    # VitePress 文档
-│   ├── .vitepress/         # 文档配置
-│   ├── oa/                 # 公众号文档
+│   ├── api-specs/          # 官方文档权威核验记录（端点 DSL）
+│   ├── guide/  oa/         # 指南与各业务文档
 │   └── index.md            # 首页
-├── scripts/                 # 构建脚本
-├── examples/               # 示例代码
-└── README.md               # 项目说明
+├── examples/               # ESM / CJS 消费示例与冒烟测试
+├── .changeset/             # Changesets 版本管理
+├── tsconfig.base.json  turbo.json  biome.json  pnpm-workspace.yaml
+└── README.md
 ```
+
+> 每个包统一产物：`dist/index.js`（ESM）、`dist/index.cjs`（CJS）、`dist/index.d.ts` / `dist/index.d.cts`（类型）。
+> 发布前由 `publint` + `attw` 校验双发行正确性。
 
 ## 📝 贡献类型
 
@@ -94,8 +98,10 @@ wxstack/
 
 ### 代码风格
 
-- **模块格式**: 使用 ESM (`import`/`export`)
-- **编码风格**: 遵循项目现有代码风格
+- **源码语言**: TypeScript（strict 模式）；产物为 ESM + CJS 双格式 + 类型声明
+- **编码风格**: 由 Biome 统一约束（`pnpm format` / `pnpm lint`）
+- **注释语言**: 注释、文档字符串与用户可见文本一律使用简体中文；标识符用英文
+- **文档依据**: 高层方法须以 `@see` 标注官方文档 URL，只采信官方站点
 - **命名规范**: 
   - 文件名使用 kebab-case
   - 函数名使用 camelCase

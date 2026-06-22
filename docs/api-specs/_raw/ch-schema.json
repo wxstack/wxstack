@@ -1,0 +1,2876 @@
+{
+  "total": 67,
+  "withPath": 49,
+  "withSchema": 49,
+  "data": [
+    {
+      "url": "/doc/channels/",
+      "cat": "",
+      "title": "介绍",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/ChangeLog.html",
+      "cat": "",
+      "title": "接口变更日志",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/api/basic/api_callbackcheck.html",
+      "cat": "api",
+      "title": "网络通信检测",
+      "method": "POST",
+      "path": "/cgi-bin/callback/check",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "action",
+          "t": "string",
+          "r": true,
+          "d": "检测动作：dns(域名解析)/ping(ping检测)/all(全部)"
+        },
+        {
+          "n": "check_operator",
+          "t": "string",
+          "r": true,
+          "d": "检测运营商：CHINANET(电信)/UNICOM(联通)/CAP(腾讯)/DEFAULT(自动)"
+        }
+      ],
+      "resp": [
+        {
+          "n": "dns",
+          "t": "objarray",
+          "r": false,
+          "d": "DNS解析结果列表"
+        },
+        {
+          "n": "ping",
+          "t": "objarray",
+          "r": false,
+          "d": "PING检测结果列表"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearapiquota.html",
+      "cat": "api",
+      "title": "重置指定API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/clear",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "cgi_path",
+          "t": "string",
+          "r": true,
+          "d": "api的请求地址，cgi_path 必须以\"/channels/ec/\"开头，不要前缀\"https://api.weixin.qq.com\"，也不要漏了\"/\""
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearquota.html",
+      "cat": "api",
+      "title": "重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "要被清空的账号的appid"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_clearquotabyappsecret.html",
+      "cat": "api",
+      "title": "使用AppSecret重置API调用次数",
+      "method": "POST",
+      "path": "/cgi-bin/clear_quota/v2",
+      "query": [],
+      "body": [
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "要被清空的账号的appid"
+        },
+        {
+          "n": "appsecret",
+          "t": "string",
+          "r": true,
+          "d": "唯一凭证密钥，即 AppSecret"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getaccesstoken.html",
+      "cat": "api",
+      "title": "获取接口调用凭据",
+      "method": "GET",
+      "path": "/cgi-bin/token",
+      "query": [
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "账号的唯一凭证，即 AppID，点此查看如何获取Appid"
+        },
+        {
+          "n": "secret",
+          "t": "string",
+          "r": true,
+          "d": "唯一凭证密钥，即 AppSecret，点此查看如何获取AppSecret"
+        },
+        {
+          "n": "grant_type",
+          "t": "string",
+          "r": true,
+          "d": "填写 client_credential"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": false,
+          "d": "获取到的凭证"
+        },
+        {
+          "n": "expires_in",
+          "t": "number",
+          "r": false,
+          "d": "凭证有效时间，单位：秒。目前是7200秒之内的值。"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getapidomainip.html",
+      "cat": "api",
+      "title": "获取微信API服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/get_api_domain_ip",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "ip_list",
+          "t": "array",
+          "r": false,
+          "d": "微信服务器IP地址列表"
+        },
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getapiquota.html",
+      "cat": "api",
+      "title": "查询API调用额度",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/quota/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "cgi_path",
+          "t": "string",
+          "r": true,
+          "d": "api的请求地址，例如\"/cgi-bin/message/custom/send\";不要前缀“https://api.weixin.qq.com” ，也不要漏了\"/\",否则都会76003的报错"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "返回码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "quota",
+          "t": "object",
+          "r": false,
+          "d": "quota详情"
+        },
+        {
+          "n": "rate_limit",
+          "t": "object",
+          "r": false,
+          "d": "普通调用频率限制"
+        },
+        {
+          "n": "component_rate_limit",
+          "t": "object",
+          "r": false,
+          "d": "代调用频率限制"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getcallbackip.html",
+      "cat": "api",
+      "title": "获取微信推送服务器IP",
+      "method": "GET",
+      "path": "/cgi-bin/getcallbackip",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "ip_list",
+          "t": "string",
+          "r": false,
+          "d": "微信服务器IP地址列表"
+        },
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getridinfo.html",
+      "cat": "api",
+      "title": "查询rid信息",
+      "method": "POST",
+      "path": "/cgi-bin/openapi/rid/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、component_access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "rid",
+          "t": "string",
+          "r": true,
+          "d": "调用接口报错返回的rid"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "返回码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "request",
+          "t": "object",
+          "r": false,
+          "d": "该rid对应的请求详情"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/basic/api_getstableaccesstoken.html",
+      "cat": "api",
+      "title": "获取稳定版接口调用凭据",
+      "method": "POST",
+      "path": "/cgi-bin/stable_token",
+      "query": [],
+      "body": [
+        {
+          "n": "grant_type",
+          "t": "string",
+          "r": true,
+          "d": "填写 client_credential"
+        },
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "账号的唯一凭证，即 AppID，点此查看如何获取Appid"
+        },
+        {
+          "n": "secret",
+          "t": "string",
+          "r": true,
+          "d": "唯一凭证密钥，即 AppSecret，点此查看如何获取AppSecret"
+        },
+        {
+          "n": "force_refresh",
+          "t": "boolean",
+          "r": false,
+          "d": "默认使用 false。1. force_refresh = false 时为普通调用模式，access_token 有效期内重复调用该接口不会更新 access_token；2. 当force_ref"
+        }
+      ],
+      "resp": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": false,
+          "d": "获取到的凭证"
+        },
+        {
+          "n": "expires_in",
+          "t": "number",
+          "r": false,
+          "d": "凭证有效时间，单位：秒。目前是7200秒之内的值。"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderoverall.html",
+      "cat": "api",
+      "title": "获取电商概览数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/overall/get",
+      "query": [],
+      "body": [
+        {
+          "n": "ds",
+          "t": "string",
+          "r": true,
+          "d": "日期，格式YYYYMMDD"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "data",
+          "t": "object",
+          "r": false,
+          "d": "data"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderproductdata.html",
+      "cat": "api",
+      "title": "获取带货商品数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/product/data/get",
+      "query": [],
+      "body": [
+        {
+          "n": "ds",
+          "t": "string",
+          "r": true,
+          "d": "日期，格式YYYYMMDD"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "product_info",
+          "t": "object",
+          "r": false,
+          "d": "product_info"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfinderproductlist.html",
+      "cat": "api",
+      "title": "获取带货商品列表",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/product/list/get",
+      "query": [],
+      "body": [
+        {
+          "n": "ds",
+          "t": "string",
+          "r": true,
+          "d": "日期，格式YYYYMMDD"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "product_list",
+          "t": "objarray",
+          "r": false,
+          "d": "product_list"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/compass/api_getfindersaleprofiledata.html",
+      "cat": "api",
+      "title": "获取带货人群数据",
+      "method": "POST",
+      "path": "/channels/ec/compass/finder/sale/profile/data/get",
+      "query": [],
+      "body": [
+        {
+          "n": "ds",
+          "t": "string",
+          "r": true,
+          "d": "日期，格式YYYYMMDD"
+        },
+        {
+          "n": "type",
+          "t": "number",
+          "r": true,
+          "d": "用户类型，详情请参考下文"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "data",
+          "t": "object",
+          "r": false,
+          "d": "data"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadscomponentid.html",
+      "cat": "api",
+      "title": "获取留资组件Id列表详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_component_id",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "item",
+          "t": "objarray",
+          "r": false,
+          "d": "留资组件"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有留资组件Id"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadscomponentpromoterecord.html",
+      "cat": "api",
+      "title": "获取留资组件直播推广记录信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_component_promote_record",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "leads_component_id",
+          "t": "string",
+          "r": true,
+          "d": "用于查询某个留资组件某段时间内的直播推广记录信息"
+        },
+        {
+          "n": "start_time",
+          "t": "number",
+          "r": false,
+          "d": "开始时间"
+        },
+        {
+          "n": "end_time",
+          "t": "number",
+          "r": false,
+          "d": "结束时间"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "record_data",
+          "t": "objarray",
+          "r": false,
+          "d": "留资组件直播推广记录列表"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有直播推广记录信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsinfobycomponentid.html",
+      "cat": "api",
+      "title": "按时间获取留资信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_info_by_component_id",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "leads_component_id",
+          "t": "string",
+          "r": true,
+          "d": "用于查询某个留资组件某段时间内收集的留资信息"
+        },
+        {
+          "n": "start_time",
+          "t": "number",
+          "r": false,
+          "d": "开始时间"
+        },
+        {
+          "n": "end_time",
+          "t": "number",
+          "r": false,
+          "d": "结束时间"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        },
+        {
+          "n": "version",
+          "t": "number",
+          "r": true,
+          "d": "接口版本号"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "user_data",
+          "t": "array",
+          "r": false,
+          "d": "用户留资信息列表"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有留资信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsinfobyrequestid.html",
+      "cat": "api",
+      "title": "按直播场次获取留资信息详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_info_by_request_id",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "request_id",
+          "t": "string",
+          "r": true,
+          "d": "用于查询某个留资组件某场直播收集的留资信息"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        },
+        {
+          "n": "version",
+          "t": "number",
+          "r": true,
+          "d": "接口版本号"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "user_data",
+          "t": "objarray",
+          "r": false,
+          "d": "用户留资信息列表"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有留资信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leads/api_getleadsrequestid.html",
+      "cat": "api",
+      "title": "获取留资request_id列表详情",
+      "method": "POST",
+      "path": "/channels/leads/get_leads_request_id",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "leads_component_id",
+          "t": "string",
+          "r": true,
+          "d": "用于查询某个留资组件的直播列表对应的request_id列表信息"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "item",
+          "t": "objarray",
+          "r": false,
+          "d": "直播功能"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有留资信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderattrbyappid.html",
+      "cat": "api",
+      "title": "获取视频号账号信息",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_attr_by_appid",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "finder_attr",
+          "t": "objarray",
+          "r": false,
+          "d": "视频号信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderlivedatalist.html",
+      "cat": "api",
+      "title": "获取留资直播数据详情",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_live_data_list",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "start_time",
+          "t": "number",
+          "r": false,
+          "d": "查询范围的开始时间（与关播时间对比）"
+        },
+        {
+          "n": "end_time",
+          "t": "number",
+          "r": false,
+          "d": "查询范围的结束时间（与关播时间对比）"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "顺序翻页，传入上次请求返回的last_buffer, 会从上次返回的结果往后翻一页"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "continue_flag",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有直播"
+        },
+        {
+          "n": "item",
+          "t": "objarray",
+          "r": false,
+          "d": "直播信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/leadslive/api_getfinderliveleadsdata.html",
+      "cat": "api",
+      "title": "获取账号收集的留资数量",
+      "method": "POST",
+      "path": "/channels/finderlive/get_finder_live_leads_data",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "start_time",
+          "t": "number",
+          "r": true,
+          "d": "查询范围的开始时间（与用户留资时间对比）"
+        },
+        {
+          "n": "end_time",
+          "t": "number",
+          "r": true,
+          "d": "查询范围的结束时间（与用户留资时间对比）"
+        },
+        {
+          "n": "source_type",
+          "t": "number",
+          "r": false,
+          "d": "来源类型，枚举值详情请参考下文"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "item",
+          "t": "objarray",
+          "r": false,
+          "d": "留资详情"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/live/api_getfinderlivenoticerecordlist.html",
+      "cat": "api",
+      "title": "视频号获取当前的直播预约记录",
+      "method": "POST",
+      "path": "/channels/ec/finderlive/getfinderlivenoticerecordlist",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "live_notice_list",
+          "t": "object",
+          "r": false,
+          "d": "live_notice_list"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/live/api_getfinderliverecordlist.html",
+      "cat": "api",
+      "title": "视频号获取当前的直播记录",
+      "method": "POST",
+      "path": "/channels/ec/finderlive/getfinderliverecordlist",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "live_list",
+          "t": "objarray",
+          "r": false,
+          "d": "live_list"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/livedashboard/api_getlivedata.html",
+      "cat": "api",
+      "title": "获取直播大屏数据",
+      "method": "POST",
+      "path": "/channels/livedashboard/getlivedata",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "export_id",
+          "t": "string",
+          "r": true,
+          "d": "直播唯一ID"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "trace_id",
+          "t": "string",
+          "r": false,
+          "d": "追踪ID，报bug带"
+        },
+        {
+          "n": "live_dashboard_data",
+          "t": "object",
+          "r": false,
+          "d": "直播大屏基础数据json，对应实体 LiveDashboardData"
+        },
+        {
+          "n": "live_comparison_index",
+          "t": "object",
+          "r": false,
+          "d": "内容力数据json，对应实体 LiveComparisonIndex"
+        },
+        {
+          "n": "live_ec_data_summary",
+          "t": "object",
+          "r": false,
+          "d": "电商数据概要数据json，对应实体 LiveEcDataSummary"
+        },
+        {
+          "n": "live_ec_conversion_metric",
+          "t": "object",
+          "r": false,
+          "d": "电商转化力数据json，对应实体 LiveEcConversionMetric"
+        },
+        {
+          "n": "live_ec_profile",
+          "t": "object",
+          "r": false,
+          "d": "电商画像数据json，对应实体 LiveEcProfile"
+        },
+        {
+          "n": "live_distribution_channel",
+          "t": "object",
+          "r": false,
+          "d": "电商渠道分布json，对应实体 LiveDistributionChannel"
+        },
+        {
+          "n": "single_live_ec_spu_data_page_v2",
+          "t": "object",
+          "r": false,
+          "d": "电商商品数据json，对应实体 SingleLiveEcSpuDataPageV2"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/livedashboard/api_getlivelist.html",
+      "cat": "api",
+      "title": "获取直播大屏直播列表",
+      "method": "POST",
+      "path": "/channels/livedashboard/getlivelist",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "ds",
+          "t": "number",
+          "r": true,
+          "d": "日期。目前参数 ds 不得早于 20240101。"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "trace_id",
+          "t": "string",
+          "r": false,
+          "d": "追踪ID，报bug带"
+        },
+        {
+          "n": "live_items",
+          "t": "objarray",
+          "r": false,
+          "d": "直播信息"
+        },
+        {
+          "n": "has_more",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有更多的直播"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_addwindowproduct.html",
+      "cat": "api",
+      "title": "上架商品到橱窗",
+      "method": "POST",
+      "path": "/channels/ec/window/product/add",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "number",
+          "r": true,
+          "d": "橱窗商品ID"
+        },
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "商品来源店铺的appid"
+        },
+        {
+          "n": "is_hide_for_window",
+          "t": "boolean",
+          "r": false,
+          "d": "是否需要在个人橱窗页隐藏 (默认为false)"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_getwindowproduct.html",
+      "cat": "api",
+      "title": "获取橱窗商品详情",
+      "method": "POST",
+      "path": "/channels/ec/window/product/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "橱窗商品ID"
+        },
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "商品来源店铺的appid，need_cps_product为true时可留空, 否则必填"
+        },
+        {
+          "n": "need_cps_product",
+          "t": "bool",
+          "r": false,
+          "d": "是否查询带货商品"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "product",
+          "t": "object",
+          "r": false,
+          "d": "橱窗商品详情，结构体详情请参考Product"
+        },
+        {
+          "n": "cps_products",
+          "t": "objarray",
+          "r": false,
+          "d": "橱窗中的带货商品详情(详见\"关于橱窗中的带货商品\")"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_getwindowproductlist.html",
+      "cat": "api",
+      "title": "获取已添加到橱窗的商品列表",
+      "method": "POST",
+      "path": "/channels/ec/window/product/list/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "appid",
+          "t": "string",
+          "r": false,
+          "d": "用于指定查询某个店铺来源的商品"
+        },
+        {
+          "n": "branch_id",
+          "t": "number",
+          "r": false,
+          "d": "用于指定查询属于某个分店ID下的商品"
+        },
+        {
+          "n": "page_size",
+          "t": "number",
+          "r": true,
+          "d": "单页商品数（不超过200）"
+        },
+        {
+          "n": "page_index",
+          "t": "number",
+          "r": false,
+          "d": "页面下标，下标从1开始，默认为1"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "由上次请求返回，顺序翻页时需要传入, 会从上次返回的结果往后翻一页（填了该值后page_index不生效）"
+        },
+        {
+          "n": "need_total_num",
+          "t": "bool",
+          "r": false,
+          "d": "是否需要返回满足筛选条件的商品总数"
+        },
+        {
+          "n": "query_cps_product",
+          "t": "bool",
+          "r": false,
+          "d": "是否仅查询橱窗中的带货商品"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "products",
+          "t": "object",
+          "r": false,
+          "d": "products"
+        },
+        {
+          "n": "last_buffer",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于顺序翻页请求"
+        },
+        {
+          "n": "total_num",
+          "t": "number",
+          "r": false,
+          "d": "商品总数"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/channels/windowproduct/api_offwindowproduct.html",
+      "cat": "api",
+      "title": "下架橱窗商品",
+      "method": "POST",
+      "path": "/channels/ec/window/product/off",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "橱窗商品ID"
+        },
+        {
+          "n": "appid",
+          "t": "string",
+          "r": true,
+          "d": "商品来源店铺的appid"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/automatically/api_getaftersaleorder.html",
+      "cat": "api",
+      "title": "获取售后单",
+      "method": "POST",
+      "path": "/channels/ec/aftersale/getaftersaleorder",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "after_sale_order_id",
+          "t": "string",
+          "r": true,
+          "d": "售后单号"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "after_sale_order",
+          "t": "object",
+          "r": false,
+          "d": "售后单"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/cancel/api_withdrawconsume.html",
+      "cat": "api",
+      "title": "撤销用户已核销团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/voucher/revoke",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "revoke_request_no",
+          "t": "string",
+          "r": true,
+          "d": "撤销操作幂等串，商户自定义，请保证在小店下唯一"
+        },
+        {
+          "n": "reovke_vouchers",
+          "t": "objarray",
+          "r": true,
+          "d": "待撤回核销的券列表，最多10张，需要属于同一个订单，不能为空。对于次卡类型商品，如果传多个相同的ReovkeVoucher，代表撤销多次。撤销核销多次/多张同时成功或同时失败，不会部分成功。"
+        },
+        {
+          "n": "consume_request_no",
+          "t": "string",
+          "r": false,
+          "d": "撤销核销次卡时必须要传此字段，说明撤销的核销单号"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "voucher_list",
+          "t": "Array",
+          "r": false,
+          "d": "用户券详情"
+        },
+        {
+          "n": "fail_voucher_list",
+          "t": "objarray",
+          "r": false,
+          "d": "无法操作的券，在明确有券无法核销时返回，含无法核销原因"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/funds/api_getfundsflowlist.html",
+      "cat": "api",
+      "title": "获取资金流水列表",
+      "method": "POST",
+      "path": "/channels/ec/funds/getfundsflowlist",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "page",
+          "t": "number",
+          "r": false,
+          "d": "页码，从1开始"
+        },
+        {
+          "n": "page_size",
+          "t": "number",
+          "r": false,
+          "d": "页数，不填默认为10"
+        },
+        {
+          "n": "next_key",
+          "t": "string",
+          "r": false,
+          "d": "分页参数，翻页时写入上一页返回的next_key(page为上一页加一，并且page_size与上一页相同的时候才生效)，page * page_size >= 10000时必填"
+        },
+        {
+          "n": "start_time",
+          "t": "number",
+          "r": false,
+          "d": "流水产生的开始时间，uinx时间戳"
+        },
+        {
+          "n": "end_time",
+          "t": "number",
+          "r": false,
+          "d": "流水产生的结束时间，unix时间戳。当日资金流水出账时间为次日16点后，因此16点前end_time最大值为前1天的0点0分0秒，16点后end_time最大值为当天0点0分0秒。如果end_time"
+        },
+        {
+          "n": "transaction_id",
+          "t": "string",
+          "r": false,
+          "d": "支付单号"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "flow_ids",
+          "t": "array",
+          "r": false,
+          "d": "流水单号列表"
+        },
+        {
+          "n": "has_more",
+          "t": "boolean",
+          "r": false,
+          "d": "是否还有下一页"
+        },
+        {
+          "n": "next_key",
+          "t": "string",
+          "r": false,
+          "d": "分页参数，深翻页时使用"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/funds/api_getvoucherbilllist.html",
+      "cat": "api",
+      "title": "查询券账单",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get_bill_list",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "通过本地生活api创建的商品id"
+        },
+        {
+          "n": "bill_date",
+          "t": "string",
+          "r": true,
+          "d": "账单日期，券发起核销时间"
+        },
+        {
+          "n": "page_size",
+          "t": "number",
+          "r": true,
+          "d": "页大小 值限制: 1 ≤ value ≤ 100"
+        },
+        {
+          "n": "page_ctx",
+          "t": "string",
+          "r": true,
+          "d": "翻页上下文，第一次请求填空，后续请求值为上次请求的返回"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "bill_list",
+          "t": "objarray",
+          "r": false,
+          "d": "用户券账单列表"
+        },
+        {
+          "n": "page_ctx",
+          "t": "string",
+          "r": false,
+          "d": "翻页上下文，如果为空，说明没有下一页"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/purchasing/api_getorder.html",
+      "cat": "api",
+      "title": "获取订单详情",
+      "method": "POST",
+      "path": "/channels/ec/order/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "order_id",
+          "t": "string",
+          "r": true,
+          "d": "订单ID，可从获取订单列表中获得"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "order",
+          "t": "object",
+          "r": false,
+          "d": "订单结构"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_addlocalproduct.html",
+      "cat": "api",
+      "title": "添加团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/add",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "out_product_id",
+          "t": "string",
+          "r": false,
+          "d": "外部系统id，只作为商品字段存储，不用做索引。通常为商家侧的商品id，商家需自动维护好out_product_id和平台侧生成的product_id之间对应关系"
+        },
+        {
+          "n": "product_type",
+          "t": "number",
+          "r": true,
+          "d": "券类型。1. 代金券；2. 兑换券；3. 次卡。创建后不支持修改"
+        },
+        {
+          "n": "product_name",
+          "t": "string",
+          "r": true,
+          "d": "名称（最少3字符，最多60字符），中文文字/英文字母/数字，都各算1个有效字符数，且不得仅为数字或英文，不得含非法字符，允许的特殊字符集为：`·~～!@#$%^&()！@#￥%……&*（）\\-_——="
+        },
+        {
+          "n": "category_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "三级类目id，通过接口[获取所有的类目"
+        },
+        {
+          "n": "brand_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "品牌id，店铺可用接口通过[[获取生效中的品牌资质列表"
+        },
+        {
+          "n": "head_imgs",
+          "t": "array",
+          "r": true,
+          "d": "主图。必使用接口[上传图片"
+        },
+        {
+          "n": "product_qua_infos",
+          "t": "object",
+          "r": false,
+          "d": "商品资质列表，所创建的商品需核验其他资质时填入（如酒店房间含早餐）；资质列表可参考获取类目信息中的字段product_qua_list"
+        },
+        {
+          "n": "verify_page",
+          "t": "WxAppPath",
+          "r": false,
+          "d": "核销跳转出口。订单详情用户可前往小程序核销。 如小程序核销流程无法满足体验规范的商家，将予以断播处罚"
+        },
+        {
+          "n": "verify_at_store",
+          "t": "number",
+          "r": false,
+          "d": "是否支持到店核销。1. 支持；0. 不支持。不填则默认1.支持。当选择0.不支持时，订单页面将不展示核销二维码，且必须填写verify_page参数"
+        },
+        {
+          "n": "code_source_type",
+          "t": "number",
+          "r": true,
+          "d": "1. 平台生成；2. 商家预存code，用户支付成功后平台发放。创建后不支持修改"
+        },
+        {
+          "n": "attr_kv_map",
+          "t": "map",
+          "r": true,
+          "d": "商品属性kv，具体字段参照团购商品结构体定义【代金券属性KV】或者【兑换券属性KV】小节"
+        },
+        {
+          "n": "skus",
+          "t": "array",
+          "r": true,
+          "d": "售卖单元，本接口不支持直接设置库存，请调用修改团购优惠库存的接口设置库存"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "data",
+          "t": "object",
+          "r": false,
+          "d": "data"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_cancelauditproduct.html",
+      "cat": "api",
+      "title": "撤回商品审核",
+      "method": "POST",
+      "path": "/channels/ec/product/audit/cancel",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "平台生成的 id"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_deleteproduct.html",
+      "cat": "api",
+      "title": "删除商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delete",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "平台生成的 id"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_delistingproduct.html",
+      "cat": "api",
+      "title": "下架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/delisting",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "平台生成的 id"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_getlocalproduct.html",
+      "cat": "api",
+      "title": "查询团购优惠详情",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "平台生成的id"
+        },
+        {
+          "n": "data_type",
+          "t": "number",
+          "r": false,
+          "d": "默认取1。1:获取线上数据, 2:获取草稿数据, 3:同时获取线上和草稿数据（注意：上架过的商品才有线上数据）"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "online_data",
+          "t": "object",
+          "r": false,
+          "d": "商品线上数据，入参data_type==2时不返回该字段；入参data_type==3且商品从未上架过，不返回该字段"
+        },
+        {
+          "n": "draft_data",
+          "t": "object",
+          "r": false,
+          "d": "商品草稿数据，入参data_type==1时不返回该字段"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_getlocalproductlist.html",
+      "cat": "api",
+      "title": "查询团购优惠列表",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/list/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "status",
+          "t": "number",
+          "r": false,
+          "d": "商品状态，不填默认拉全部商品（不包含回收站）"
+        },
+        {
+          "n": "page_size",
+          "t": "number",
+          "r": false,
+          "d": "每页数量（默认10，不超过30）"
+        },
+        {
+          "n": "next_key",
+          "t": "string",
+          "r": false,
+          "d": "由上次请求返回，记录翻页的上下文。传入时会从上次返回的结果往后翻一页，不传默认获取第一页数据"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "product_ids",
+          "t": "array",
+          "r": false,
+          "d": "商品id列表"
+        },
+        {
+          "n": "next_key",
+          "t": "string",
+          "r": false,
+          "d": "本次翻页的上下文，用于请求下一页"
+        },
+        {
+          "n": "total_num",
+          "t": "number",
+          "r": false,
+          "d": "商品总数"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_listingproduct.html",
+      "cat": "api",
+      "title": "上架商品",
+      "method": "POST",
+      "path": "/channels/ec/product/listing",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "平台生成的 id"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_updatelocalauditfree.html",
+      "cat": "api",
+      "title": "免审更新团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/auditfree",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "平台生成的id"
+        },
+        {
+          "n": "skus",
+          "t": "object",
+          "r": true,
+          "d": "售卖单元，更新时sku_id为必填项。本接口不支持直接设置库存数量，请调用修改团购优惠库存的接口设置库存数量"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/shop/api_updatelocalproduct.html",
+      "cat": "api",
+      "title": "更新团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/product/locallife/update",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "平台生成的id"
+        },
+        {
+          "n": "product_type",
+          "t": "number",
+          "r": true,
+          "d": "券类型。1. 代金券；2. 兑换券；3. 次卡。创建后不支持修改。"
+        },
+        {
+          "n": "product_name",
+          "t": "string",
+          "r": true,
+          "d": "名称（最少3字符，最多60字符），中文文字/英文字母/数字，都各算1个有效字符数，且不得仅为数字或英文，不得含非法字符，允许的特殊字符集为：·~～!@#$%^&()！@#￥%……&*（）\\-_——=+"
+        },
+        {
+          "n": "category_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "三级类目id，通过接口[获取所有的类目"
+        },
+        {
+          "n": "brand_id",
+          "t": "string(uint64)",
+          "r": true,
+          "d": "品牌id，店铺可用接口通过[获取生效中的品牌资质列表"
+        },
+        {
+          "n": "head_imgs",
+          "t": "array",
+          "r": true,
+          "d": "主图。必使用接口[上传图片"
+        },
+        {
+          "n": "product_qua_infos",
+          "t": "object",
+          "r": false,
+          "d": "商品资质列表，所创建的商品需核验其他资质时填入（如酒店房间含早餐）；资质列表可参考获取类目信息中的参数product_qua_list"
+        },
+        {
+          "n": "verify_page",
+          "t": "WxAppPath",
+          "r": false,
+          "d": "核销跳转出口，订单详情页可跳转至商家小程序核销"
+        },
+        {
+          "n": "verify_at_store",
+          "t": "number",
+          "r": false,
+          "d": "是否支持到店核销。1. 支持，0. 不支持。默认1.支持。当选择0.不支持时，订单页面将不展示核销二维码，且必须填写verify_page参数。"
+        },
+        {
+          "n": "code_source_type",
+          "t": "number",
+          "r": true,
+          "d": "1. 平台生成；2. 商家自定义；3. 发券实时传code （实时发券模式暂不开放） 。创建后不支持修改。"
+        },
+        {
+          "n": "attr_kv_map",
+          "t": "-",
+          "r": true,
+          "d": "商品属性kv，具体字段参照结构体定义【代金券属性KV】或者【兑换券属性KV】小节"
+        },
+        {
+          "n": "skus",
+          "t": "array",
+          "r": true,
+          "d": "售卖单元，更新时sku_id为必填项。本接口不支持直接设置库存数量，请调用修改团购优惠库存的接口设置库存数量。"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_consumevoucher.html",
+      "cat": "api",
+      "title": "核销用户的团购优惠",
+      "method": "POST",
+      "path": "/channels/ec/voucher/consume",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "consume_request_no",
+          "t": "string",
+          "r": true,
+          "d": "核销操作幂等串，商户自定义，请保证在小店下唯一 size最长128字节"
+        },
+        {
+          "n": "encrypted_codes",
+          "t": "Array",
+          "r": false,
+          "d": "用户订单详情页跳转商家上小程序时可以从path上获取。codes + sku_id组合和encrypted_codes二者选其一。对于次卡类型商品，如果传多次相同的encrypted_code，代表核"
+        },
+        {
+          "n": "codes",
+          "t": "Array",
+          "r": false,
+          "d": "用户的券code，用户订单详情页面的二维码扫码后获得，查询用户的团购优惠详情接口返回的code。codes+ sku_id组合和encrypted_codes二者选其一。对于次卡类型商品，如果传多次相"
+        },
+        {
+          "n": "sku_id",
+          "t": "string",
+          "r": false,
+          "d": "如果不是使用encrypted_code核销，sku_id必传"
+        },
+        {
+          "n": "consume_store_name",
+          "t": "string",
+          "r": false,
+          "d": "如果需要在C端展示券的核销门店名称，可以选填（仅作为展示）size最长128字节"
+        },
+        {
+          "n": "consume_channel",
+          "t": "number",
+          "r": true,
+          "d": "核销渠道。仅供商家用于标记用户核销的途径是通过小程序核销/线下识别二维码核销，平台侧无额外校验规则。"
+        },
+        {
+          "n": "out_store_id",
+          "t": "string",
+          "r": false,
+          "d": "核销门店id，商家自定义的门店id（仅作为商家门店标记）"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "voucher_list",
+          "t": "Array",
+          "r": false,
+          "d": "用户券详情"
+        },
+        {
+          "n": "fail_voucher_list",
+          "t": "objarray",
+          "r": false,
+          "d": "无法操作的券，在明确有券无法核销时返回，含无法核销原因,当API返回10027061时返回"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_findvoucher.html",
+      "cat": "api",
+      "title": "查询用户的团购优惠列表",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get_list",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "openid",
+          "t": "string",
+          "r": true,
+          "d": "用户openid"
+        },
+        {
+          "n": "status",
+          "t": "number",
+          "r": false,
+          "d": "不填代表查所有券"
+        },
+        {
+          "n": "page_size",
+          "t": "number",
+          "r": true,
+          "d": "页大小值限制: 1 ≤ value ≤ 50"
+        },
+        {
+          "n": "page_ctx",
+          "t": "string",
+          "r": true,
+          "d": "翻页上下文，第一次请求填空，后续请求值为上次请求的返回"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "openid",
+          "t": "string",
+          "r": false,
+          "d": "用户openid"
+        },
+        {
+          "n": "voucher_list",
+          "t": "Array",
+          "r": false,
+          "d": "用户券列表"
+        },
+        {
+          "n": "page_ctx",
+          "t": "string",
+          "r": false,
+          "d": "翻页上下文，第一次请求填空，后续请求值为上次请求的返回"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/useing/api_getvoucher.html",
+      "cat": "api",
+      "title": "查询用户的团购优惠详情",
+      "method": "POST",
+      "path": "/channels/ec/voucher/get",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "encrypted_code",
+          "t": "string",
+          "r": false,
+          "d": "用户订单详情页展示的二维码，需要进行URL解码。code和encrypted_data二者选其一"
+        },
+        {
+          "n": "code",
+          "t": "string",
+          "r": false,
+          "d": "用户的券code，查询用户的券接口返回的code。code和encrypted_data二者选其一"
+        },
+        {
+          "n": "sku_id",
+          "t": "string",
+          "r": false,
+          "d": "使用encrypted_code查询时，不用传sku_id"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "voucher",
+          "t": "object",
+          "r": false,
+          "d": "用户券详情"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/voucher/api_updatestock.html",
+      "cat": "api",
+      "title": "快速更新库存",
+      "method": "POST",
+      "path": "/channels/ec/product/stock/update",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "内部商品 ID"
+        },
+        {
+          "n": "sku_id",
+          "t": "string",
+          "r": true,
+          "d": "内部 sku_id"
+        },
+        {
+          "n": "diff_type",
+          "t": "number",
+          "r": true,
+          "d": "修改类型。 1=增加，2=减少，3=设置。 建议使用 1 或 2 ，不建议使用 3 ，因为使用 3 在高并发场景可能会出现预期外表现"
+        },
+        {
+          "n": "num",
+          "t": "number",
+          "r": true,
+          "d": "增加、减少或者设置的库存值。"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/api/locallife/voucher/api_uploadvouchercode.html",
+      "cat": "api",
+      "title": "上传团购优惠code",
+      "method": "POST",
+      "path": "/channels/ec/voucher/codes/upload",
+      "query": [
+        {
+          "n": "access_token",
+          "t": "string",
+          "r": true,
+          "d": "接口调用凭证，可使用 access_token、authorizer_access_token"
+        }
+      ],
+      "body": [
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": true,
+          "d": "通过本地生活api或页面创建的商品id"
+        },
+        {
+          "n": "sku_id",
+          "t": "string",
+          "r": true,
+          "d": "创建的商品时返回的sku_id"
+        },
+        {
+          "n": "codes",
+          "t": "Array",
+          "r": true,
+          "d": "商户上传的券code列表 一次最多200个 单个code不超过48位 code仅支持由数字和字母组成"
+        }
+      ],
+      "resp": [
+        {
+          "n": "errcode",
+          "t": "number",
+          "r": false,
+          "d": "错误码"
+        },
+        {
+          "n": "errmsg",
+          "t": "string",
+          "r": false,
+          "d": "错误信息"
+        },
+        {
+          "n": "product_id",
+          "t": "string",
+          "r": false,
+          "d": "通过本地生活api或页面创建的商品id"
+        },
+        {
+          "n": "total_count",
+          "t": "number",
+          "r": false,
+          "d": "本次上传去重后的code总数"
+        },
+        {
+          "n": "success_count",
+          "t": "number",
+          "r": false,
+          "d": "本次上传操作上传成功个数"
+        },
+        {
+          "n": "success_codes",
+          "t": "Array",
+          "r": false,
+          "d": "上传成功的code列表"
+        },
+        {
+          "n": "fail_count",
+          "t": "number",
+          "r": false,
+          "d": "本次上传操作上传失败的code数"
+        },
+        {
+          "n": "fail_codes",
+          "t": "objarray",
+          "r": false,
+          "d": "本次导入失败的code信息，请参照错误信息，修改后重试"
+        }
+      ]
+    },
+    {
+      "url": "/doc/channels/dev_before/base/UnionID.html",
+      "cat": "dev_before",
+      "title": "UnionID 机制说明",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/base/commErrCode.html",
+      "cat": "dev_before",
+      "title": "公共错误码",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/base/ipbaimingdan.html",
+      "cat": "dev_before",
+      "title": "设置 IP 白名单",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/base/message_push.html",
+      "cat": "dev_before",
+      "title": "消息推送",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/Mini_program_writeoff_component_writeoff_users_group_purchase_discounts.html",
+      "cat": "dev_before",
+      "title": "小程序核销组件：核销用户的团购优惠",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/aftersales/CallbackNotification_Must_access_Aftersales_order_update_callback.html",
+      "cat": "dev_before",
+      "title": "售后单更新回调【必须接入】",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/callback_notification.html",
+      "cat": "dev_before",
+      "title": "回调通知地址【必须设置】",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discount_review_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠审核回调",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discount_update_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠更新回调",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/product_related/Group_purchase_discounts_on_and_off_the_shelves_callback.html",
+      "cat": "dev_before",
+      "title": "团购优惠上下架回调",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/purchase/Order_payment_success_notification.html",
+      "cat": "dev_before",
+      "title": "订单支付成功通知",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/purchase/Successful_callback_after_issuing_group_purchase_discount.html",
+      "cat": "dev_before",
+      "title": "发放团购优惠成功回调",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/callback/stock/Low_inventory_callback.html",
+      "cat": "dev_before",
+      "title": "库存不足回调",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/core.html",
+      "cat": "dev_before",
+      "title": "核心业务时序图",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/dev_before/locallife/guide.html",
+      "cat": "dev_before",
+      "title": "本地生活接入指引",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    },
+    {
+      "url": "/doc/channels/migration.html",
+      "cat": "",
+      "title": "迁移说明",
+      "method": "",
+      "path": "",
+      "query": [],
+      "body": [],
+      "resp": []
+    }
+  ]
+}

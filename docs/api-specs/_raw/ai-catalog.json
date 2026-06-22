@@ -1,0 +1,517 @@
+{
+  "count": 73,
+  "withPath": 1,
+  "data": [
+    {
+      "url": "/doc/aispeech/confapi/deprecated/INTERFACEDOCUMENT.html",
+      "cat": "confapi",
+      "title": "开放接口文档",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/batchimportskill.html",
+      "cat": "confapi",
+      "title": "设置批量导入问答-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/batchsetlabel.html",
+      "cat": "confapi",
+      "title": "用户标签批量回传设置-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/publish.html",
+      "cat": "confapi",
+      "title": "机器人发布-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/publish_progress.html",
+      "cat": "confapi",
+      "title": "机器人发布进度查询-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/setautoreply.html",
+      "cat": "confapi",
+      "title": "设置自动回复-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/bot/task_fetch.html",
+      "cat": "confapi",
+      "title": "异步任务查询-开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/dialog/NLUresult.html",
+      "cat": "confapi",
+      "title": "仅使用NLU结果",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/dialog/RICHANSWER.html",
+      "cat": "confapi",
+      "title": "富文本回答说明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/deprecated/dialog/rec_chat.html",
+      "cat": "confapi",
+      "title": "配置信息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/bot/fetch.html",
+      "cat": "confapi",
+      "title": "异步任务查询",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/bot/import.html",
+      "cat": "confapi",
+      "title": "机器人简单问答 Json 导入",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/bot/progress.html",
+      "cat": "confapi",
+      "title": "查询机器人发布进度",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/bot/publish.html",
+      "cat": "confapi",
+      "title": "发布",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/bot/query.html",
+      "cat": "confapi",
+      "title": "调用智能对话",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/dialog/token.html",
+      "cat": "confapi",
+      "title": "接入智能对话",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/openinterface/errorcode.html",
+      "cat": "confapi",
+      "title": "常见错误码说明",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdapi/thirdapi.html",
+      "cat": "confapi",
+      "title": "第三方服务接口",
+      "method": "POST",
+      "path": "/"
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/changestate.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入- 修改用户的客服接入状态",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/flow.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入 - 接入和数据运转流程",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/getstate.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入- 查看用户的客服接入状态",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/h5auth.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入- H5接入鉴权",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/recivemsg.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入 - 接收用户和机器人消息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/confapi/thirdkefu/sendmsg.html",
+      "cat": "confapi",
+      "title": "第三方客服系统接入- 发送客服消息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/mini_program/example.html",
+      "cat": "mini_program",
+      "title": "开源示例",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/mini_program/introduce.html",
+      "cat": "mini_program",
+      "title": "快速接入：",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/mini_program/make_component.html",
+      "cat": "mini_program",
+      "title": "组件复写",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/mini_program/trends_component.html",
+      "cat": "mini_program",
+      "title": "动态设置UI 组件",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/mini_program/uiapi.html",
+      "cat": "mini_program",
+      "title": "插件初始化",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/INTRODUCTION.html",
+      "cat": "platform",
+      "title": "平台简介",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/STATISTICS.html",
+      "cat": "platform",
+      "title": "数据统计",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/customService.html",
+      "cat": "platform",
+      "title": "人工客服",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/hotQuestion.html",
+      "cat": "platform",
+      "title": "对话分析",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/userLabel-ads.html",
+      "cat": "platform",
+      "title": "广告来源发送欢迎语",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/userLabel-send.html",
+      "cat": "platform",
+      "title": "定向群发",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/Operations/userLabel.html",
+      "cat": "platform",
+      "title": "用户标签",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/account/accounts-OperationLog.html",
+      "cat": "platform",
+      "title": "操作日志",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/account/accounts-members.html",
+      "cat": "platform",
+      "title": "成员权限",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/account/accounts.html",
+      "cat": "platform",
+      "title": "机器人信息",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/agreement/PrivacyPolicy.html",
+      "cat": "platform",
+      "title": "微信对话开放平台隐私政策",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/agreement/ServiceAgreement.html",
+      "cat": "platform",
+      "title": "微信对话开放平台服务协议",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/advertisement.html",
+      "cat": "platform",
+      "title": "腾讯广告",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/api.html",
+      "cat": "platform",
+      "title": "开放接口",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/h5.html",
+      "cat": "platform",
+      "title": "H5网页",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/mini_promram.html",
+      "cat": "platform",
+      "title": "微信小程序",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/official_account.html",
+      "cat": "platform",
+      "title": "微信公众号",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/wecom.html",
+      "cat": "platform",
+      "title": "企业微信",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/application/wxkefu.html",
+      "cat": "platform",
+      "title": "微信客服",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/casesharing/festival.html",
+      "cat": "platform",
+      "title": "案例：传统节日查询（点选列表回复不同答案）",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/casesharing/fingerGuessing.html",
+      "cat": "platform",
+      "title": "案例： 猜拳技能",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/casesharing/seniorArtificial.html",
+      "cat": "platform",
+      "title": "案例：自定义技能转人工",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/casesharing/shoePrice.html",
+      "cat": "platform",
+      "title": "案例：球鞋价格查询（任务技能-自定义技能）",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/casesharing/warskill.html",
+      "cat": "platform",
+      "title": "案例：末日生存游戏",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/Dictionary.html",
+      "cat": "platform",
+      "title": "词典",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/doc2faq-document.html",
+      "cat": "platform",
+      "title": "文档管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/doc2faq-model.html",
+      "cat": "platform",
+      "title": "模型管理",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/faq-answer.html",
+      "cat": "platform",
+      "title": "回答配置",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/faq-batch.html",
+      "cat": "platform",
+      "title": "批量操作",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/faq-question.html",
+      "cat": "platform",
+      "title": "问题配置",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/faq-strategy.html",
+      "cat": "platform",
+      "title": "问答策略",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/materials.html",
+      "cat": "platform",
+      "title": "图片素材",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/multiple_rounds.html",
+      "cat": "platform",
+      "title": "对话流",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/multiple_rounds_config.html",
+      "cat": "platform",
+      "title": "对话流配置",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/presetSkill.html",
+      "cat": "platform",
+      "title": "预置技能",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/skill-intent.html",
+      "cat": "platform",
+      "title": "意图设置",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/skill-pattern.html",
+      "cat": "platform",
+      "title": "用户问法",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/skill-reply.html",
+      "cat": "platform",
+      "title": "机器人回复配置",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/dialog/skill-slot.html",
+      "cat": "platform",
+      "title": "语义槽",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/getStart/getStart-allocation.html",
+      "cat": "platform",
+      "title": "对话配置指南",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/getStart/getStart-debug.html",
+      "cat": "platform",
+      "title": "调试和发布",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/strategy/baseReplay.html",
+      "cat": "platform",
+      "title": "兜底回复",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/strategy/custom.html",
+      "cat": "platform",
+      "title": "转人工",
+      "method": "",
+      "path": ""
+    },
+    {
+      "url": "/doc/aispeech/platform/strategy/setwelcome.html",
+      "cat": "platform",
+      "title": "欢迎语设置",
+      "method": "",
+      "path": ""
+    }
+  ]
+}

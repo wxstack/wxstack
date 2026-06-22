@@ -1,0 +1,1465 @@
+[
+  {
+    "url": "/doc/service/api/apimanage/api_clearapiquota.html",
+    "cat": "apimanage",
+    "title": "重置指定API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/clear"
+  },
+  {
+    "url": "/doc/service/api/apimanage/api_clearquota.html",
+    "cat": "apimanage",
+    "title": "重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota"
+  },
+  {
+    "url": "/doc/service/api/apimanage/api_clearquotabyappsecret.html",
+    "cat": "apimanage",
+    "title": "使用AppSecret重置API调用次数",
+    "method": "POST",
+    "path": "/cgi-bin/clear_quota/v2"
+  },
+  {
+    "url": "/doc/service/api/apimanage/api_getapiquota.html",
+    "cat": "apimanage",
+    "title": "查询API调用额度",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/quota/get"
+  },
+  {
+    "url": "/doc/service/api/apimanage/api_getridinfo.html",
+    "cat": "apimanage",
+    "title": "查询rid信息",
+    "method": "POST",
+    "path": "/cgi-bin/openapi/rid/get"
+  },
+  {
+    "url": "/doc/service/api/base/api_callbackcheck.html",
+    "cat": "base",
+    "title": "网络通信检测",
+    "method": "POST",
+    "path": "/cgi-bin/callback/check"
+  },
+  {
+    "url": "/doc/service/api/base/api_getaccesstoken.html",
+    "cat": "base",
+    "title": "获取接口调用凭据",
+    "method": "GET",
+    "path": "/cgi-bin/token"
+  },
+  {
+    "url": "/doc/service/api/base/api_getapidomainip.html",
+    "cat": "base",
+    "title": "获取微信API服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/get_api_domain_ip"
+  },
+  {
+    "url": "/doc/service/api/base/api_getcallbackip.html",
+    "cat": "base",
+    "title": "获取微信推送服务器IP",
+    "method": "GET",
+    "path": "/cgi-bin/getcallbackip"
+  },
+  {
+    "url": "/doc/service/api/base/api_getstableaccesstoken.html",
+    "cat": "base",
+    "title": "获取稳定版接口调用凭据",
+    "method": "POST",
+    "path": "/cgi-bin/stable_token"
+  },
+  {
+    "url": "/doc/service/api/customer/message/api_getmsglist.html",
+    "cat": "customer",
+    "title": "获取聊天记录",
+    "method": "POST",
+    "path": "/customservice/msgrecord/getmsglist"
+  },
+  {
+    "url": "/doc/service/api/customer/message/api_sendcustommessage.html",
+    "cat": "customer",
+    "title": "发送客服消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/send"
+  },
+  {
+    "url": "/doc/service/api/customer/message/api_typing.html",
+    "cat": "customer",
+    "title": "客服输入状态",
+    "method": "POST",
+    "path": "/cgi-bin/message/custom/typing"
+  },
+  {
+    "url": "/doc/service/api/customer/messctrl/api_closesession.html",
+    "cat": "customer",
+    "title": "关闭会话",
+    "method": "POST",
+    "path": "/customservice/kfsession/close"
+  },
+  {
+    "url": "/doc/service/api/customer/messctrl/api_createkfsession.html",
+    "cat": "customer",
+    "title": "创建会话",
+    "method": "POST",
+    "path": "/customservice/kfsession/create"
+  },
+  {
+    "url": "/doc/service/api/customer/messctrl/api_getkfsession.html",
+    "cat": "customer",
+    "title": "获取客户会话状态",
+    "method": "GET",
+    "path": "/customservice/kfsession/getsession"
+  },
+  {
+    "url": "/doc/service/api/customer/messctrl/api_getkfsessionlist.html",
+    "cat": "customer",
+    "title": "获取客服会话列表",
+    "method": "GET",
+    "path": "/customservice/kfsession/getsessionlist"
+  },
+  {
+    "url": "/doc/service/api/customer/messctrl/api_getwaitcase.html",
+    "cat": "customer",
+    "title": "获取未接入会话列表",
+    "method": "GET",
+    "path": "/customservice/kfsession/getwaitcase"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_addkfaccount.html",
+    "cat": "customer",
+    "title": "添加客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/add"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_delkfaccount.html",
+    "cat": "customer",
+    "title": "删除客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/del"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_getkflist.html",
+    "cat": "customer",
+    "title": "获取所有客服账号",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getkflist"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_getonlinekflist.html",
+    "cat": "customer",
+    "title": "获取在线客服列表",
+    "method": "GET",
+    "path": "/cgi-bin/customservice/getonlinekflist"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_invitekfworker.html",
+    "cat": "customer",
+    "title": "邀请绑定客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/inviteworker"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_updatekfaccount.html",
+    "cat": "customer",
+    "title": "修改客服账号",
+    "method": "POST",
+    "path": "/customservice/kfaccount/update"
+  },
+  {
+    "url": "/doc/service/api/customer/servicermanage/api_uploadkfheadimg.html",
+    "cat": "customer",
+    "title": "设置客服头像",
+    "method": "POST",
+    "path": "/customservice/kfaccount/uploadheadimg"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_addconditionalmenu.html",
+    "cat": "custommenu",
+    "title": "创建个性化菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/addconditional"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_createcustommenu.html",
+    "cat": "custommenu",
+    "title": "创建自定义菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/create"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_deleteconditionalmenu.html",
+    "cat": "custommenu",
+    "title": "删除个性化菜单",
+    "method": "POST",
+    "path": "/cgi-bin/menu/delconditional"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_deletemenu.html",
+    "cat": "custommenu",
+    "title": "删除自定义菜单",
+    "method": "GET",
+    "path": "/cgi-bin/menu/delete"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_getcurrentselfmenuinfo.html",
+    "cat": "custommenu",
+    "title": "查询自定义菜单信息",
+    "method": "GET",
+    "path": "/cgi-bin/get_current_selfmenu_info"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_getmenu.html",
+    "cat": "custommenu",
+    "title": "获取自定义菜单配置",
+    "method": "GET",
+    "path": "/cgi-bin/menu/get"
+  },
+  {
+    "url": "/doc/service/api/custommenu/api_trymatchmenu.html",
+    "cat": "custommenu",
+    "title": "测试个性化菜单匹配结果",
+    "method": "POST",
+    "path": "/cgi-bin/menu/trymatch"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_add.html",
+    "cat": "draftbox",
+    "title": "新增草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/add"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_batchget.html",
+    "cat": "draftbox",
+    "title": "获取草稿列表",
+    "method": "POST",
+    "path": "/cgi-bin/draft/batchget"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_count.html",
+    "cat": "draftbox",
+    "title": "获取草稿的总数",
+    "method": "GET",
+    "path": "/cgi-bin/draft/count"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_delete.html",
+    "cat": "draftbox",
+    "title": "删除草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/delete"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_switch.html",
+    "cat": "draftbox",
+    "title": "草稿箱开关设置",
+    "method": "POST",
+    "path": "/cgi-bin/draft/switch"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_draft_update.html",
+    "cat": "draftbox",
+    "title": "更新草稿",
+    "method": "POST",
+    "path": "/cgi-bin/draft/update"
+  },
+  {
+    "url": "/doc/service/api/draftbox/draftmanage/api_getdraft.html",
+    "cat": "draftbox",
+    "title": "获取草稿详情",
+    "method": "POST",
+    "path": "/cgi-bin/draft/get"
+  },
+  {
+    "url": "/doc/service/api/draftbox/shop/api_ecsgetproductcardinfo.html",
+    "cat": "draftbox",
+    "title": "获取商品卡片的DOM结构",
+    "method": "POST",
+    "path": "/channels/ec/service/product/getcardinfo"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_getticket.html",
+    "cat": "invoice",
+    "title": "获取sdk临时票据",
+    "method": "GET",
+    "path": "/cgi-bin/ticket/getticket"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_invoicebizgetauthdata.html",
+    "cat": "invoice",
+    "title": "查询授权信息",
+    "method": "POST",
+    "path": "/card/invoice/getauthdata"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_invoicebizrejectinsert.html",
+    "cat": "invoice",
+    "title": "拒绝开票",
+    "method": "POST",
+    "path": "/card/invoice/rejectinsert"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_invoicekpupdatainvoicestatus.html",
+    "cat": "invoice",
+    "title": "更新发票卡券状态",
+    "method": "POST",
+    "path": "/card/invoice/platform/updatestatus"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_invoiceplatformgetpdf.html",
+    "cat": "invoice",
+    "title": "查询已上传的PDF文件",
+    "method": "POST",
+    "path": "/card/invoice/platform/getpdf"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_invoiceplatformsetpdf.html",
+    "cat": "invoice",
+    "title": "上传发票PDF",
+    "method": "POST",
+    "path": "/card/invoice/platform/setpdf"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_notaxinvoicecreatecard.html",
+    "cat": "invoice",
+    "title": "创建财政电子票据模板",
+    "method": "POST",
+    "path": "/nontax/createbillcard"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_notaxinvoicegetauthurl.html",
+    "cat": "invoice",
+    "title": "获取授权页链接",
+    "method": "POST",
+    "path": "/nontax/getbillauthurl"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_notaxinvoiceinsert.html",
+    "cat": "invoice",
+    "title": "票据插入用户卡包",
+    "method": "POST",
+    "path": "/nontax/insertbill"
+  },
+  {
+    "url": "/doc/service/api/invoice/FiscalReceipt/api_setinvoiceurl.html",
+    "cat": "invoice",
+    "title": "获取开票平台识别码",
+    "method": "POST",
+    "path": "/card/invoice/seturl"
+  },
+  {
+    "url": "/doc/service/api/invoice/auth/api_getticket.html",
+    "cat": "invoice",
+    "title": "获取sdk临时票据",
+    "method": "GET",
+    "path": "/cgi-bin/ticket/getticket"
+  },
+  {
+    "url": "/doc/service/api/invoice/auth/api_invoicebizgetauthdata.html",
+    "cat": "invoice",
+    "title": "查询授权信息",
+    "method": "POST",
+    "path": "/card/invoice/getauthdata"
+  },
+  {
+    "url": "/doc/service/api/invoice/auth/api_invoicebizgetauthurl.html",
+    "cat": "invoice",
+    "title": "获取授权页链接",
+    "method": "POST",
+    "path": "/card/invoice/getauthurl"
+  },
+  {
+    "url": "/doc/service/api/invoice/auth/api_invoicebizrejectinsert.html",
+    "cat": "invoice",
+    "title": "拒绝开票",
+    "method": "POST",
+    "path": "/card/invoice/rejectinsert"
+  },
+  {
+    "url": "/doc/service/api/invoice/auth/api_invoicebizsetattr.html",
+    "cat": "invoice",
+    "title": "查询与设置授权页与商户信息",
+    "method": "POST",
+    "path": "/card/invoice/setbizattr"
+  },
+  {
+    "url": "/doc/service/api/invoice/name/api_invoicebizgetselecttitleurl.html",
+    "cat": "invoice",
+    "title": "获取商户专属抬头链接",
+    "method": "POST",
+    "path": "/card/invoice/biz/getselecttitleurl"
+  },
+  {
+    "url": "/doc/service/api/invoice/name/api_invoicebizgetusertitleurl.html",
+    "cat": "invoice",
+    "title": "录入抬头到用户微信",
+    "method": "POST",
+    "path": "/card/invoice/biz/getusertitleurl"
+  },
+  {
+    "url": "/doc/service/api/invoice/name/api_invoicescantitle.html",
+    "cat": "invoice",
+    "title": "解析扫描的抬头二维码",
+    "method": "POST",
+    "path": "/card/invoice/scantitle"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_insertinvoice.html",
+    "cat": "invoice",
+    "title": "将电子发票卡券插入用户卡包",
+    "method": "POST",
+    "path": "/card/invoice/insert"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_invoicekpupdatainvoicestatus.html",
+    "cat": "invoice",
+    "title": "更新发票卡券状态",
+    "method": "POST",
+    "path": "/card/invoice/platform/updatestatus"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_invoiceplatformcreatecard.html",
+    "cat": "invoice",
+    "title": "创建发票卡券模板",
+    "method": "POST",
+    "path": "/card/invoice/platform/createcard"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_invoiceplatformgetpdf.html",
+    "cat": "invoice",
+    "title": "查询已上传的PDF文件",
+    "method": "POST",
+    "path": "/card/invoice/platform/getpdf"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_invoiceplatformsetpdf.html",
+    "cat": "invoice",
+    "title": "上传发票PDF",
+    "method": "POST",
+    "path": "/card/invoice/platform/setpdf"
+  },
+  {
+    "url": "/doc/service/api/invoice/platform/api_setinvoiceurl.html",
+    "cat": "invoice",
+    "title": "获取开票平台识别码",
+    "method": "POST",
+    "path": "/card/invoice/seturl"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimbursement/api_invoicebxgetinvoice.html",
+    "cat": "invoice",
+    "title": "查询报销发票信息",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/getinvoiceinfo"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimbursement/api_invoicebxupdatainvoicestatus.html",
+    "cat": "invoice",
+    "title": "更新报销发票状态",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/updateinvoicestatus"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimbursement/api_invoicereimbursegetinvoicebatch.html",
+    "cat": "invoice",
+    "title": "批量获取报销发票信息",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/getinvoicebatch"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimbursement/api_invoicereimburseupdatestatusbatch.html",
+    "cat": "invoice",
+    "title": "批量更新报销发票状态",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/updatestatusbatch"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimburser/api_invoicebxgetinvoice.html",
+    "cat": "invoice",
+    "title": "查询报销发票信息",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/getinvoiceinfo"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimburser/api_invoicebxupdatainvoicestatus.html",
+    "cat": "invoice",
+    "title": "更新报销发票状态",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/updateinvoicestatus"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimburser/api_invoicereimbursegetinvoicebatch.html",
+    "cat": "invoice",
+    "title": "批量获取报销发票信息",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/getinvoicebatch"
+  },
+  {
+    "url": "/doc/service/api/invoice/reimburser/api_invoicereimburseupdatestatusbatch.html",
+    "cat": "invoice",
+    "title": "批量更新报销发票状态",
+    "method": "POST",
+    "path": "/card/invoice/reimburse/updatestatusbatch"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_closecomment.html",
+    "cat": "leaving",
+    "title": "关闭已群发文章评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/close"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_delcomment.html",
+    "cat": "leaving",
+    "title": "删除评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/delete"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_delreplycomment.html",
+    "cat": "leaving",
+    "title": "删除回复",
+    "method": "POST",
+    "path": "/cgi-bin/comment/reply/delete"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_electcomment.html",
+    "cat": "leaving",
+    "title": "评论标记精选",
+    "method": "POST",
+    "path": "/cgi-bin/comment/markelect"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_listcomment.html",
+    "cat": "leaving",
+    "title": "查看指定文章的评论数据",
+    "method": "POST",
+    "path": "/cgi-bin/comment/list"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_openarticlecomment.html",
+    "cat": "leaving",
+    "title": "打开已群发文章评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/open"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_replycomment.html",
+    "cat": "leaving",
+    "title": "回复评论",
+    "method": "POST",
+    "path": "/cgi-bin/comment/reply/add"
+  },
+  {
+    "url": "/doc/service/api/leaving/api_unelectcomment.html",
+    "cat": "leaving",
+    "title": "评论取消精选",
+    "method": "POST",
+    "path": "/cgi-bin/comment/unmarkelect"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_addmaterial.html",
+    "cat": "material",
+    "title": "上传永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/add_material"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_batchgetmaterial.html",
+    "cat": "material",
+    "title": "获取永久素材列表",
+    "method": "POST",
+    "path": "/cgi-bin/material/batchget_material"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_delmaterial.html",
+    "cat": "material",
+    "title": "删除永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/del_material"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_getmaterial.html",
+    "cat": "material",
+    "title": "获取永久素材",
+    "method": "POST",
+    "path": "/cgi-bin/material/get_material"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_getmaterialcount.html",
+    "cat": "material",
+    "title": "获取永久素材总数",
+    "method": "GET",
+    "path": "/cgi-bin/material/get_materialcount"
+  },
+  {
+    "url": "/doc/service/api/material/permanent/api_uploadimage.html",
+    "cat": "material",
+    "title": "上传发表内容中的图片",
+    "method": "POST",
+    "path": "/cgi-bin/media/uploadimg"
+  },
+  {
+    "url": "/doc/service/api/material/temporary/api_gethdvoice.html",
+    "cat": "material",
+    "title": "获取高清语音素材",
+    "method": "GET",
+    "path": "/cgi-bin/media/get/jssdk"
+  },
+  {
+    "url": "/doc/service/api/material/temporary/api_getmedia.html",
+    "cat": "material",
+    "title": "获取临时素材",
+    "method": "GET",
+    "path": "/cgi-bin/media/get"
+  },
+  {
+    "url": "/doc/service/api/material/temporary/api_uploadtempmedia.html",
+    "cat": "material",
+    "title": "新增临时素材",
+    "method": "POST",
+    "path": "/cgi-bin/media/upload"
+  },
+  {
+    "url": "/doc/service/api/medicalassistant/api_cityservice_sendchannelmsg.html",
+    "cat": "medicalassistant",
+    "title": "消息推送接口",
+    "method": "POST",
+    "path": "/cityservice/sendchannelmsg"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxdownloadbill.html",
+    "cat": "nontaxpay",
+    "title": "下载缴费对帐单",
+    "method": "POST",
+    "path": "/nontax/downloadbill"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxgetorder.html",
+    "cat": "nontaxpay",
+    "title": "获取缴费订单详情",
+    "method": "POST",
+    "path": "/nontax/getorder"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxgetorderlist.html",
+    "cat": "nontaxpay",
+    "title": "获取缴费订单列表",
+    "method": "POST",
+    "path": "/nontax/getorderlist"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxmicropay.html",
+    "cat": "nontaxpay",
+    "title": "提交刷卡支付",
+    "method": "POST",
+    "path": "/nontax/micropay"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxmocknotification.html",
+    "cat": "nontaxpay",
+    "title": "模拟支付结果通知",
+    "method": "POST",
+    "path": "/nontax/mocknotification"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxmockqueryfee.html",
+    "cat": "nontaxpay",
+    "title": "模拟查询应收信息",
+    "method": "POST",
+    "path": "/nontax/mockqueryfee"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxnotifyinconsistentorder.html",
+    "cat": "nontaxpay",
+    "title": "通知不一致订单",
+    "method": "POST",
+    "path": "/nontax/notifyinconsistentorder"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxqueryfee.html",
+    "cat": "nontaxpay",
+    "title": "查询应收信息",
+    "method": "POST",
+    "path": "/nontax/queryfee"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxrefund.html",
+    "cat": "nontaxpay",
+    "title": "缴费订单退款",
+    "method": "POST",
+    "path": "/nontax/refund"
+  },
+  {
+    "url": "/doc/service/api/nontaxpay/api_nontaxunifiedorder.html",
+    "cat": "nontaxpay",
+    "title": "缴费支付下单",
+    "method": "POST",
+    "path": "/nontax/unifiedorder"
+  },
+  {
+    "url": "/doc/service/api/notify/autoreplies/api_getcurrentautoreplyinfo.html",
+    "cat": "notify",
+    "title": "获取自动回复规则",
+    "method": "GET",
+    "path": "/cgi-bin/get_current_autoreply_info"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_deletemassmsg.html",
+    "cat": "notify",
+    "title": "删除群发消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/delete"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_getspeed.html",
+    "cat": "notify",
+    "title": "获取群发速度",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/speed/get"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_massmsgget.html",
+    "cat": "notify",
+    "title": "查询群发消息发送状态",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/get"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_masssend.html",
+    "cat": "notify",
+    "title": "根据OpenID群发消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/send"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_preview.html",
+    "cat": "notify",
+    "title": "预览消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/preview"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_sendall.html",
+    "cat": "notify",
+    "title": "根据标签群发消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/sendall"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_setspeed.html",
+    "cat": "notify",
+    "title": "设置群发速度",
+    "method": "POST",
+    "path": "/cgi-bin/message/mass/speed/set"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_uploadimage.html",
+    "cat": "notify",
+    "title": "上传发表内容中的图片",
+    "method": "POST",
+    "path": "/cgi-bin/media/uploadimg"
+  },
+  {
+    "url": "/doc/service/api/notify/message/api_uploadnewsmsg.html",
+    "cat": "notify",
+    "title": "上传图文消息素材",
+    "method": "POST",
+    "path": "/cgi-bin/media/uploadnews"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_addwxanewtemplate.html",
+    "cat": "notify",
+    "title": "选用模板",
+    "method": "POST",
+    "path": "/wxaapi/newtmpl/addtemplate"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_delwxanewtemplate.html",
+    "cat": "notify",
+    "title": "删除模板",
+    "method": "POST",
+    "path": "/wxaapi/newtmpl/deltemplate"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_getcategory.html",
+    "cat": "notify",
+    "title": "获取类目",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getcategory"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_getpubnewtemplatekeywords.html",
+    "cat": "notify",
+    "title": "获取模板中的关键词",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getpubtemplatekeywords"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_getpubnewtemplatetitles.html",
+    "cat": "notify",
+    "title": "获取类目下的公共模板",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/getpubtemplatetitles"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_getwxapubnewtemplate.html",
+    "cat": "notify",
+    "title": "获取已有模板列表",
+    "method": "GET",
+    "path": "/wxaapi/newtmpl/gettemplate"
+  },
+  {
+    "url": "/doc/service/api/notify/notify/api_sendnewsubscribemsg.html",
+    "cat": "notify",
+    "title": "发送订阅通知",
+    "method": "POST",
+    "path": "/cgi-bin/message/subscribe/bizsend"
+  },
+  {
+    "url": "/doc/service/api/notify/subscribe/api_templatesubscribe.html",
+    "cat": "notify",
+    "title": "发送一次性订阅消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/template/subscribe"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_addtemplate.html",
+    "cat": "notify",
+    "title": "选用模板",
+    "method": "POST",
+    "path": "/cgi-bin/template/api_add_template"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_deletetemplate.html",
+    "cat": "notify",
+    "title": "删除模板",
+    "method": "POST",
+    "path": "/cgi-bin/template/del_private_template"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_getalltemplates.html",
+    "cat": "notify",
+    "title": "获取已选用模板列表",
+    "method": "GET",
+    "path": "/cgi-bin/template/get_all_private_template"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_getindustry.html",
+    "cat": "notify",
+    "title": "获取行业信息",
+    "method": "GET",
+    "path": "/cgi-bin/template/get_industry"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_queryblocktmplmsg.html",
+    "cat": "notify",
+    "title": "查询拦截的模板消息",
+    "method": "POST",
+    "path": "/wxa/sec/queryblocktmplmsg"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_sendtemplatemessage.html",
+    "cat": "notify",
+    "title": "发送模板消息",
+    "method": "POST",
+    "path": "/cgi-bin/message/template/send"
+  },
+  {
+    "url": "/doc/service/api/notify/template/api_setindustry.html",
+    "cat": "notify",
+    "title": "设置所属行业",
+    "method": "POST",
+    "path": "/cgi-bin/template/api_set_industry"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_applycode.html",
+    "cat": "onecode",
+    "title": "申请二维码接口",
+    "method": "POST",
+    "path": "/intp/marketcode/applycode"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_applycodedownload.html",
+    "cat": "onecode",
+    "title": "下载二维码包接口",
+    "method": "POST",
+    "path": "/intp/marketcode/applycodedownload"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_applycodequery.html",
+    "cat": "onecode",
+    "title": "查询二维码申请单接口",
+    "method": "POST",
+    "path": "/intp/marketcode/applycodequery"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_codeactive.html",
+    "cat": "onecode",
+    "title": "激活二维码接口",
+    "method": "POST",
+    "path": "/intp/marketcode/codeactive"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_codeactivequery.html",
+    "cat": "onecode",
+    "title": "查询二维码激活状态接口",
+    "method": "POST",
+    "path": "/intp/marketcode/codeactivequery"
+  },
+  {
+    "url": "/doc/service/api/onecode/api_intp_marketcode_tickettocode.html",
+    "cat": "onecode",
+    "title": "CODE_TICKET换CODE接口",
+    "method": "POST",
+    "path": "/intp/marketcode/tickettocode"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ai/api_addvoicetorecofortext.html",
+    "cat": "openpoc",
+    "title": "上传语音文件",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/addvoicetorecofortext"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ai/api_queryrecoresultfortext.html",
+    "cat": "openpoc",
+    "title": "获取语音识别结果",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/queryrecoresultfortext"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ai/api_translatecontent.html",
+    "cat": "openpoc",
+    "title": "微信翻译",
+    "method": "POST",
+    "path": "/cgi-bin/media/voice/translatecontent"
+  },
+  {
+    "url": "/doc/service/api/openpoc/image/api_imgaicrop.html",
+    "cat": "openpoc",
+    "title": "图片智能裁剪",
+    "method": "POST",
+    "path": "/cv/img/aicrop"
+  },
+  {
+    "url": "/doc/service/api/openpoc/image/api_imgqrcode.html",
+    "cat": "openpoc",
+    "title": "二维码/条码识别",
+    "method": "POST",
+    "path": "/cv/img/qrcode"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_bankcardocr.html",
+    "cat": "openpoc",
+    "title": "银行卡识别",
+    "method": "POST",
+    "path": "/cv/ocr/bankcard"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_bizlicenseocr.html",
+    "cat": "openpoc",
+    "title": "营业执照识别",
+    "method": "POST",
+    "path": "/cv/ocr/bizlicense"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_commocr.html",
+    "cat": "openpoc",
+    "title": "通用印刷体识别",
+    "method": "POST",
+    "path": "/cv/ocr/comm"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_drivinglicenseocr.html",
+    "cat": "openpoc",
+    "title": "驾驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/drivinglicense"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_drivingocr.html",
+    "cat": "openpoc",
+    "title": "行驶证识别",
+    "method": "POST",
+    "path": "/cv/ocr/driving"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_idcardocr.html",
+    "cat": "openpoc",
+    "title": "身份证识别",
+    "method": "POST",
+    "path": "/cv/ocr/idcard"
+  },
+  {
+    "url": "/doc/service/api/openpoc/ocr/api_menuocr.html",
+    "cat": "openpoc",
+    "title": "菜单识别",
+    "method": "POST",
+    "path": "/cv/ocr/menu"
+  },
+  {
+    "url": "/doc/service/api/public/api_freepublish_batchget.html",
+    "cat": "public",
+    "title": "获取已发布的消息列表",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/batchget"
+  },
+  {
+    "url": "/doc/service/api/public/api_freepublish_get.html",
+    "cat": "public",
+    "title": "发布状态查询",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/get"
+  },
+  {
+    "url": "/doc/service/api/public/api_freepublish_submit.html",
+    "cat": "public",
+    "title": "发布草稿",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/submit"
+  },
+  {
+    "url": "/doc/service/api/public/api_freepublishdelete.html",
+    "cat": "public",
+    "title": "删除发布文章",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/delete"
+  },
+  {
+    "url": "/doc/service/api/public/api_freepublishgetarticle.html",
+    "cat": "public",
+    "title": "获取已发布图文信息",
+    "method": "POST",
+    "path": "/cgi-bin/freepublish/getarticle"
+  },
+  {
+    "url": "/doc/service/api/qrcode/qrcodejump/api_qrcodejumpadd.html",
+    "cat": "qrcode",
+    "title": "增加或修改二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpadd"
+  },
+  {
+    "url": "/doc/service/api/qrcode/qrcodejump/api_qrcodejumpdelete.html",
+    "cat": "qrcode",
+    "title": "删除已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpdelete"
+  },
+  {
+    "url": "/doc/service/api/qrcode/qrcodejump/api_qrcodejumpget.html",
+    "cat": "qrcode",
+    "title": "获取已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumpget"
+  },
+  {
+    "url": "/doc/service/api/qrcode/qrcodejump/api_qrcodejumppublish.html",
+    "cat": "qrcode",
+    "title": "发布已设置的二维码规则",
+    "method": "POST",
+    "path": "/cgi-bin/wxopen/qrcodejumppublish"
+  },
+  {
+    "url": "/doc/service/api/qrcode/qrcodes/api_createqrcode.html",
+    "cat": "qrcode",
+    "title": "生成带参数的二维码",
+    "method": "POST",
+    "path": "/cgi-bin/qrcode/create"
+  },
+  {
+    "url": "/doc/service/api/qrcode/shorten/api_fetchshorten.html",
+    "cat": "qrcode",
+    "title": "短链转长信息",
+    "method": "POST",
+    "path": "/cgi-bin/shorten/fetch"
+  },
+  {
+    "url": "/doc/service/api/qrcode/shorten/api_genshortkey.html",
+    "cat": "qrcode",
+    "title": "长信息转短链",
+    "method": "POST",
+    "path": "/cgi-bin/shorten/gen"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_addentityshop.html",
+    "cat": "stores",
+    "title": "新增门店",
+    "method": "POST",
+    "path": "/wxa/add_store"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_applywxastore.html",
+    "cat": "stores",
+    "title": "创建门店小程序",
+    "method": "POST",
+    "path": "/wxa/apply_merchant"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_createnewpoid.html",
+    "cat": "stores",
+    "title": "在地图中创建门店",
+    "method": "POST",
+    "path": "/wxa/create_map_poi"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_getdistrictlist.html",
+    "cat": "stores",
+    "title": "获取省市区信息",
+    "method": "GET",
+    "path": "/wxa/get_district"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_getwxastoreauditinfo.html",
+    "cat": "stores",
+    "title": "获取门店小程序审核结果",
+    "method": "GET",
+    "path": "/wxa/get_merchant_audit_info"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_getwxastorecatelist.html",
+    "cat": "stores",
+    "title": "拉取门店小程序类目",
+    "method": "GET",
+    "path": "/wxa/get_merchant_category"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_modifywxastore.html",
+    "cat": "stores",
+    "title": "修改门店小程序信息",
+    "method": "POST",
+    "path": "/wxa/modify_merchant"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_newdelpoi.html",
+    "cat": "stores",
+    "title": "删除门店",
+    "method": "POST",
+    "path": "/wxa/del_store"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_newgetpoi.html",
+    "cat": "stores",
+    "title": "获取门店详情",
+    "method": "POST",
+    "path": "/wxa/get_store_info"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_newgetpoilist.html",
+    "cat": "stores",
+    "title": "获取门店列表",
+    "method": "POST",
+    "path": "/wxa/get_store_list"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_newupdatepoi.html",
+    "cat": "stores",
+    "title": "更新门店信息",
+    "method": "POST",
+    "path": "/wxa/update_store"
+  },
+  {
+    "url": "/doc/service/api/stores/miniapp/api_poilistsearch.html",
+    "cat": "stores",
+    "title": "搜索门店地图信息",
+    "method": "POST",
+    "path": "/wxa/search_map_poi"
+  },
+  {
+    "url": "/doc/service/api/usermanage/changeopenid/api_changeopenid.html",
+    "cat": "usermanage",
+    "title": "转换openid",
+    "method": "POST",
+    "path": "/cgi-bin/changeopenid"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_batchtagging.html",
+    "cat": "usermanage",
+    "title": "批量为用户打标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchtagging"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_batchuntagging.html",
+    "cat": "usermanage",
+    "title": "批量为用户取消标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchuntagging"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_createtag.html",
+    "cat": "usermanage",
+    "title": "创建标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/create"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_deletetag.html",
+    "cat": "usermanage",
+    "title": "删除标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/delete"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_gettagfans.html",
+    "cat": "usermanage",
+    "title": "获取标签下粉丝列表",
+    "method": "POST",
+    "path": "/cgi-bin/user/tag/get"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_gettagidlist.html",
+    "cat": "usermanage",
+    "title": "获取用户的标签列表",
+    "method": "POST",
+    "path": "/cgi-bin/tags/getidlist"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_gettags.html",
+    "cat": "usermanage",
+    "title": "获取标签",
+    "method": "GET",
+    "path": "/cgi-bin/tags/get"
+  },
+  {
+    "url": "/doc/service/api/usermanage/tag/api_updatetag.html",
+    "cat": "usermanage",
+    "title": "编辑标签",
+    "method": "POST",
+    "path": "/cgi-bin/tags/update"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_batchblacklist.html",
+    "cat": "usermanage",
+    "title": "拉黑用户",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchblacklist"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_batchunblacklist.html",
+    "cat": "usermanage",
+    "title": "取消拉黑用户",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/batchunblacklist"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_batchuserinfo.html",
+    "cat": "usermanage",
+    "title": "批量获取用户基本信息",
+    "method": "POST",
+    "path": "/cgi-bin/user/info/batchget"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_getblacklist.html",
+    "cat": "usermanage",
+    "title": "获取公众号的黑名单列表",
+    "method": "POST",
+    "path": "/cgi-bin/tags/members/getblacklist"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_getfans.html",
+    "cat": "usermanage",
+    "title": "获取关注用户列表",
+    "method": "GET",
+    "path": "/cgi-bin/user/get"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_updateremark.html",
+    "cat": "usermanage",
+    "title": "设置用户备注名",
+    "method": "POST",
+    "path": "/cgi-bin/user/info/updateremark"
+  },
+  {
+    "url": "/doc/service/api/usermanage/userinfo/api_userinfo.html",
+    "cat": "usermanage",
+    "title": "获取用户基本信息",
+    "method": "GET",
+    "path": "/cgi-bin/user/info"
+  },
+  {
+    "url": "/doc/service/api/webdev/access/api_snsaccesstoken.html",
+    "cat": "webdev",
+    "title": "换取用户授权凭证",
+    "method": "GET",
+    "path": "/sns/oauth2/access_token"
+  },
+  {
+    "url": "/doc/service/api/webdev/access/api_snsauth.html",
+    "cat": "webdev",
+    "title": "检验用户授权凭证",
+    "method": "GET",
+    "path": "/sns/auth"
+  },
+  {
+    "url": "/doc/service/api/webdev/access/api_snsrefreshtoken.html",
+    "cat": "webdev",
+    "title": "刷新用户授权凭证",
+    "method": "GET",
+    "path": "/sns/oauth2/refresh_token"
+  },
+  {
+    "url": "/doc/service/api/webdev/access/api_snsuserinfo.html",
+    "cat": "webdev",
+    "title": "获取授权用户信息",
+    "method": "GET",
+    "path": "/sns/userinfo"
+  },
+  {
+    "url": "/doc/service/api/webdev/jssdk/api_getticket.html",
+    "cat": "webdev",
+    "title": "获取sdk临时票据",
+    "method": "GET",
+    "path": "/cgi-bin/ticket/getticket"
+  },
+  {
+    "url": "/doc/service/api/wedata/api/api_getinterfacesummary.html",
+    "cat": "wedata",
+    "title": "获取被动回复概要数据",
+    "method": "POST",
+    "path": "/datacube/getinterfacesummary"
+  },
+  {
+    "url": "/doc/service/api/wedata/api/api_getinterfacesummaryhour.html",
+    "cat": "wedata",
+    "title": "获取被动回复分布数据",
+    "method": "POST",
+    "path": "/datacube/getinterfacesummaryhour"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsg.html",
+    "cat": "wedata",
+    "title": "获取消息发送概况数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsg"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsgdist.html",
+    "cat": "wedata",
+    "title": "获取消息发送分布数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdist"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsgdistmonth.html",
+    "cat": "wedata",
+    "title": "获取消息发送分布月数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdistmonth"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsgdistweek.html",
+    "cat": "wedata",
+    "title": "获取消息发送分布周数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgdistweek"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsghour.html",
+    "cat": "wedata",
+    "title": "获取消息发送分时数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsghour"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsgmonth.html",
+    "cat": "wedata",
+    "title": "获取消息发送月数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgmonth"
+  },
+  {
+    "url": "/doc/service/api/wedata/mess/api_getupstreammsgweek.html",
+    "cat": "wedata",
+    "title": "获取消息发送周数据",
+    "method": "POST",
+    "path": "/datacube/getupstreammsgweek"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getarticleread.html",
+    "cat": "wedata",
+    "title": "获取发表内容每日阅读数据",
+    "method": "POST",
+    "path": "/datacube/getarticleread"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getarticleshare.html",
+    "cat": "wedata",
+    "title": "获取发表内容每日分享数据",
+    "method": "POST",
+    "path": "/datacube/getarticleshare"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getarticlesummary.html",
+    "cat": "wedata",
+    "title": "获取图文群发每日数据",
+    "method": "POST",
+    "path": "/datacube/getarticlesummary"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getarticletotal.html",
+    "cat": "wedata",
+    "title": "获取图文群发总数据",
+    "method": "POST",
+    "path": "/datacube/getarticletotal"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getarticletotaldetail.html",
+    "cat": "wedata",
+    "title": "获取发表内容发表详细数据",
+    "method": "POST",
+    "path": "/datacube/getarticletotaldetail"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getbizsummary.html",
+    "cat": "wedata",
+    "title": "获取发表内容概况总数据",
+    "method": "POST",
+    "path": "/datacube/getbizsummary"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getuserread.html",
+    "cat": "wedata",
+    "title": "获取图文阅读概况数据",
+    "method": "POST",
+    "path": "/datacube/getuserread"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getuserreadhour.html",
+    "cat": "wedata",
+    "title": "获取图文阅读分时数据",
+    "method": "POST",
+    "path": "/datacube/getuserreadhour"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getusershare.html",
+    "cat": "wedata",
+    "title": "获取图文转发概况数据",
+    "method": "POST",
+    "path": "/datacube/getusershare"
+  },
+  {
+    "url": "/doc/service/api/wedata/news/api_getusersharehour.html",
+    "cat": "wedata",
+    "title": "获取图文转发分时数据",
+    "method": "POST",
+    "path": "/datacube/getusersharehour"
+  },
+  {
+    "url": "/doc/service/api/wedata/user/api_getusercumulate.html",
+    "cat": "wedata",
+    "title": "获取累计用户数据",
+    "method": "POST",
+    "path": "/datacube/getusercumulate"
+  },
+  {
+    "url": "/doc/service/api/wedata/user/api_getusersummary.html",
+    "cat": "wedata",
+    "title": "获取用户增减数据",
+    "method": "POST",
+    "path": "/datacube/getusersummary"
+  }
+]

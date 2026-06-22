@@ -1,7 +1,21 @@
 /.idea
+node_modules/
 /node_modules
-/packages/oa/node_modules
+
+# 构建产物
+dist/
+.turbo/
+*.tsbuildinfo
+
+# 文档站点
 /docs/.vitepress/dist
 /docs/.vitepress/cache
 /docs/.wrangler
 /docs/node_modules
+
+# 杂项
+*.log
+.DS_Store
+
+# Playwright MCP 输出
+.playwright-mcp/
